@@ -108,8 +108,7 @@ jobs:
         # Check if we have at least 8GB free
         AVAILABLE_GB=$(df / | awk 'NR==2{print int($4/1024/1024)}')
         echo "Available space: ${AVAILABLE_GB}GB"
-        
-        # Note: BATCH_SIZE_GB is not used by the new downloader script directly in this workflow
+          # Note: BATCH_SIZE_GB is not used by the new downloader script directly in this workflow
         # The new downloader has its own internal logic for handling downloads.
         # This is kept for now in case it's used by other parts or for manual triggers.
         if [ $AVAILABLE_GB -lt 12 ]; then
@@ -117,7 +116,9 @@ jobs:
           echo "BATCH_SIZE_GB=5" >> $GITHUB_ENV
         else
           echo "BATCH_SIZE_GB=${{ github.event.inputs.batch_size_gb || '10' }}" >> $GITHUB_ENV
-        fi    - name: Create Content directory
+        fi
+
+    - name: Create Content directory
       run: mkdir -p Content
 
     - name: Fetch random proxies
