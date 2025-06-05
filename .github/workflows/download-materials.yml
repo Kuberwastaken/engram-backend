@@ -76,7 +76,9 @@ jobs:
         mkdir -p material
         echo "0" > /tmp/batch_counter
         echo "0" > /tmp/total_commits
-        echo "$(date -u +'%Y%m%d_%H%M%S')" > /tmp/session_id    - name: Configure Git (early setup)
+        echo "$(date -u +'%Y%m%d_%H%M%S')" > /tmp/session_id
+
+    - name: Configure Git (early setup)
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -210,7 +212,9 @@ jobs:
                 this.pausedForRateLimit = false;
                 return false;
               }
-            }            return false;
+            }
+
+            return false;
           }
 
           getDirectorySize(dirPath) {
@@ -370,7 +374,9 @@ jobs:
             console.log(`🚀 Starting smart download with ${this.batchSizeGB}GB batch size`);
             console.log(`📊 Session ID: ${this.sessionId}`);
             console.log(`📊 Starting from batch #${this.batchCounter + 1}`);
-            console.log(`🚫 Rate limit detection: Files exactly ${(this.rateLimitSize / 1024).toFixed(2)}KB will trigger 1-hour pause`);            const downloaderProcess = spawn('node', ['engram-backend-scraper.js'], {
+            console.log(`🚫 Rate limit detection: Files exactly ${(this.rateLimitSize / 1024).toFixed(2)}KB will trigger 1-hour pause`);
+
+            const downloaderProcess = spawn('node', ['engram-backend-scraper.js'], {
               stdio: 'inherit',
               env: { ...process.env, NODE_ENV: 'production' }
             });
