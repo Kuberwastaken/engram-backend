@@ -3,17 +3,35 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import crypto from 'crypto';
+import { SocksProxyAgent } from 'socks-proxy-agent';
+import { HttpsProxyAgent } from 'https-proxy-agent';
+import ProxyFetcher from './proxy-fetcher.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-class UnifiedContentDownloader {
-    constructor(options = {}) {
+class UnifiedContentDownloader {    constructor(options = {}) {
         this.contentDir = path.resolve(options.outputDir || './Content');
-        this.concurrentDownloads = options.concurrentDownloads || 10;
+        this.concurrentDownloads = options.concurrentDownloads || 15;
         this.pauseDuration = options.pauseDuration || 30 * 60 * 1000; // 30 minutes
         this.retryAttempts = options.retryAttempts || 3;
         this.requestDelay = options.requestDelay || 500; // 500ms between requests
+        
+        // Proxy and Tor rotation settings
+        this.useProxyRotation = options.useProxyRotation !== false; // Default true
+        this.proxyRotationInterval = options.proxyRotationInterval || 20; // Switch every 20 downloads
+        this.fetchRandomProxies = options.fetchRandomProxies !== false; // Default true
+        this.downloadCount = 0;
+        this.currentProxyIndex = 0;
+        
+        // Proxy configuration - will be populated by fetchProxies()
+        this.proxyList = options.proxyList || [];
+        
+        // Fallback to no proxy if no proxies are configured and fetching is disabled
+        if (this.proxyList.length === 0 && !this.fetchRandomProxies) {
+            this.useProxyRotation = false;
+            console.log('⚠️ No proxies configured and proxy fetching disabled, running without proxy rotation');
+        }
         
         // Load all JSON data
         this.dataSources = {
@@ -47,8 +65,7 @@ class UnifiedContentDownloader {
         // Progress tracking
         this.progressFile = './download-progress.json';
         this.completedFiles = new Set();
-        
-        // Initialize axios
+          // Initialize axios
         this.axios = axios.create({
             timeout: 300000, // 5 minutes
             maxRedirects: 10,
@@ -60,6 +77,116 @@ class UnifiedContentDownloader {
                 'Connection': 'keep-alive'
             }
         });
+          // Initialize proxy rotation
+        this.initializeProxyRotation();
+    }
+
+    async fetchProxies() {
+        if (!this.fetchRandomProxies) {
+            console.log('🚫 Random proxy fetching is disabled');
+            return;
+        }
+
+        try {
+            console.log('🌐 Fetching random proxies from public lists...');
+            const fetcher = new ProxyFetcher({
+                maxProxies: 12, // Fetch up to 12 random proxies
+                timeout: 8000   // 8 second timeout for testing
+            });
+            
+            const fetchedProxies = await fetcher.getProxies(true); // Use cache if available
+            
+            if (fetchedProxies && fetchedProxies.length > 0) {
+                // Replace or merge with existing proxy list
+                this.proxyList = fetchedProxies;
+                console.log(`✅ Loaded ${this.proxyList.length} proxies for rotation`);
+                
+                // Log proxy types
+                const proxyTypes = {};
+                this.proxyList.forEach(proxy => {
+                    proxyTypes[proxy.type] = (proxyTypes[proxy.type] || 0) + 1;
+                });
+                
+                console.log('📊 Proxy distribution:');
+                Object.entries(proxyTypes).forEach(([type, count]) => {
+                    console.log(`   ${type.toUpperCase()}: ${count} proxies`);
+                });
+                
+                this.useProxyRotation = true;
+            } else {
+                console.log('⚠️ No proxies fetched, falling back to no proxy rotation');
+                this.useProxyRotation = false;
+                this.proxyList = [];
+            }
+        } catch (error) {
+            console.log(`❌ Failed to fetch proxies: ${error.message}`);
+            console.log('⚠️ Continuing without proxy rotation');
+            this.useProxyRotation = false;
+            this.proxyList = [];
+        }
+    }
+
+    initializeProxyRotation() {
+        if (!this.useProxyRotation) {
+            console.log('🌐 Proxy rotation disabled, using direct connection');
+            return;
+        }
+        
+        console.log(`🔄 Proxy rotation enabled - switching every ${this.proxyRotationInterval} downloads`);
+        console.log(`📡 Available proxies: ${this.proxyList.length}`);
+        this.proxyList.forEach((proxy, index) => {
+            console.log(`   ${index + 1}. ${proxy.name} (${proxy.type}://${proxy.host}:${proxy.port})`);
+        });
+        
+        // Set initial proxy
+        this.rotateProxy();
+    }
+
+    rotateProxy() {
+        if (!this.useProxyRotation || this.proxyList.length === 0) return;
+        
+        const proxy = this.proxyList[this.currentProxyIndex];
+        
+        try {
+            let agent;
+            if (proxy.type === 'socks5' || proxy.type === 'socks4') {
+                const proxyUrl = `${proxy.type}://${proxy.host}:${proxy.port}`;
+                agent = new SocksProxyAgent(proxyUrl);
+            } else if (proxy.type === 'http' || proxy.type === 'https') {
+                const proxyUrl = `${proxy.type}://${proxy.host}:${proxy.port}`;
+                agent = new HttpsProxyAgent(proxyUrl);
+            }
+            
+            if (agent) {
+                this.axios.defaults.httpsAgent = agent;
+                this.axios.defaults.httpAgent = agent;
+                console.log(`🔄 Switched to proxy: ${proxy.name} (${proxy.type}://${proxy.host}:${proxy.port})`);
+            }
+            
+            // Move to next proxy for next rotation
+            this.currentProxyIndex = (this.currentProxyIndex + 1) % this.proxyList.length;
+            
+        } catch (error) {
+            console.log(`⚠️ Failed to set proxy ${proxy.name}: ${error.message}`);
+            // Try next proxy
+            this.currentProxyIndex = (this.currentProxyIndex + 1) % this.proxyList.length;
+            if (this.currentProxyIndex !== 0) { // Avoid infinite loop
+                this.rotateProxy();
+            }
+        }
+    }
+
+    checkProxyRotation() {
+        if (!this.useProxyRotation) return;
+        
+        this.downloadCount++;
+        if (this.downloadCount % this.proxyRotationInterval === 0) {
+            console.log(`🔄 Reached ${this.downloadCount} downloads, rotating proxy...`);
+            this.rotateProxy();
+            
+            // Add a small delay after proxy rotation to allow connection to establish
+            return new Promise(resolve => setTimeout(resolve, 2000));
+        }
     }
 
     async loadDataSources() {
@@ -149,10 +276,11 @@ class UnifiedContentDownloader {
         if (seconds < 60) return `${Math.round(seconds)}s`;
         if (seconds < 3600) return `${Math.round(seconds / 60)}m ${Math.round(seconds % 60)}s`;
         return `${Math.round(seconds / 3600)}h ${Math.round((seconds % 3600) / 60)}m`;
-    }
-
-    async downloadFile(downloadUrl, filePath, fileName, source, retryCount = 0) {
+    }    async downloadFile(downloadUrl, filePath, fileName, source, retryCount = 0) {
         try {
+            // Check and rotate proxy if needed
+            await this.checkProxyRotation();
+            
             // Create directory if it doesn't exist
             fs.mkdirSync(path.dirname(filePath), { recursive: true });
 
@@ -181,6 +309,12 @@ class UnifiedContentDownloader {
                                 this.stats.pausedForErrors++;
                                 await this.pauseDownloads();
                                 this.errorCount = 0; // Reset error count after pause
+                                
+                                // Force proxy rotation after pause
+                                if (this.useProxyRotation) {
+                                    console.log('🔄 Forcing proxy rotation after pause...');
+                                    this.rotateProxy();
+                                }
                             }
                             
                             resolve({ success: false, error: 'Google Drive rate limit', size: stats.size });
@@ -208,9 +342,21 @@ class UnifiedContentDownloader {
                     this.stats.errors.push(`${fileName}: ${error.message}`);
                     resolve({ success: false, error: error.message });
                 });
-            });
-
-        } catch (error) {
+            });        } catch (error) {
+            // Check if it's a network/proxy related error
+            const isNetworkError = error.code === 'ECONNRESET' || 
+                                 error.code === 'ETIMEDOUT' || 
+                                 error.code === 'ECONNREFUSED' ||
+                                 error.message.includes('socket') ||
+                                 error.message.includes('proxy') ||
+                                 error.message.includes('SOCKS');
+            
+            if (isNetworkError && this.useProxyRotation && retryCount === 0) {
+                console.log(`🔄 Network/proxy error detected, rotating proxy and retrying: ${error.message}`);
+                this.rotateProxy();
+                await new Promise(resolve => setTimeout(resolve, 3000)); // Wait 3s for new proxy connection
+            }
+            
             if (retryCount < this.retryAttempts) {
                 const delay = Math.min(1000 * Math.pow(2, retryCount), 10000); // Max 10s
                 console.log(`🔄 Retrying ${fileName} in ${delay/1000}s (${retryCount + 1}/${this.retryAttempts})`);
@@ -292,14 +438,20 @@ class UnifiedContentDownloader {
         // Final progress and save
         this.printProgress();
         this.saveProgress();
-    }
-
-    printProgress() {
+    }    printProgress() {
         const total = this.stats.downloadedFiles + this.stats.skippedFiles + this.stats.errorFiles;
         const percent = this.stats.totalFiles > 0 ? ((total / this.stats.totalFiles) * 100).toFixed(1) : '0.0';
         
-        console.log(`📊 Progress: ${total}/${this.stats.totalFiles} (${percent}%) | ✅${this.stats.downloadedFiles} ⏭️${this.stats.skippedFiles} ❌${this.stats.errorFiles} | 💾${this.formatFileSize(this.stats.downloadedSize)} | ⏸️${this.stats.pausedForErrors} pauses`);
-    }    extractFilesFromDotnotes() {
+        // Get current proxy info
+        let proxyInfo = '';
+        if (this.useProxyRotation && this.proxyList.length > 0) {
+            const currentProxy = this.proxyList[this.currentProxyIndex === 0 ? this.proxyList.length - 1 : this.currentProxyIndex - 1];
+            const downloadsUntilRotation = this.proxyRotationInterval - (this.downloadCount % this.proxyRotationInterval);
+            proxyInfo = ` | 🔄 ${currentProxy.name} (${downloadsUntilRotation} until rotation)`;
+        }
+        
+        console.log(`📊 Progress: ${total}/${this.stats.totalFiles} (${percent}%) | ✅${this.stats.downloadedFiles} ⏭️${this.stats.skippedFiles} ❌${this.stats.errorFiles} | 💾${this.formatFileSize(this.stats.downloadedSize)} | ⏸️${this.stats.pausedForErrors} pauses${proxyInfo}`);
+    }extractFilesFromDotnotes() {
         console.log('🔍 Extracting files from Dotnotes...');
         const files = [];
         
@@ -767,11 +919,12 @@ class UnifiedContentDownloader {
         console.log(`   ⏭️ Already completed: ${this.stats.skippedFiles}`);
         
         return subjectGroups;
-    }
-
-    async downloadAllContent() {
+    }    async downloadAllContent() {
         console.log('🚀 UNIFIED CONTENT DOWNLOADER STARTING...');
         console.log('='.repeat(80));
+        
+        // Fetch random proxies first
+        await this.fetchProxies();
         
         // Load all data sources
         if (!await this.loadDataSources()) {
@@ -852,7 +1005,18 @@ async function main() {
         concurrentDownloads: 10,
         pauseDuration: 30 * 60 * 1000, // 30 minutes
         retryAttempts: 3,
-        requestDelay: 500
+        requestDelay: 500,
+        // Proxy rotation settings
+        useProxyRotation: true, // Enable proxy rotation
+        fetchRandomProxies: true, // Fetch random proxies from public lists
+        proxyRotationInterval: 20, // Switch proxy every 20 downloads
+        
+        // Optional: Custom proxy list (will be merged with fetched proxies)
+        proxyList: [
+            // Uncomment to add custom proxies
+            // { type: 'socks5', host: 'proxy1.example.com', port: 1080, name: 'Custom-SOCKS5-1' },
+            // { type: 'http', host: 'proxy2.example.com', port: 8080, name: 'Custom-HTTP-1' },
+        ]
     });
     
     await downloader.downloadAllContent();

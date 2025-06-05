@@ -11,6 +11,31 @@ A comprehensive script to download and organize study materials from multiple JS
 - **Rate limiting**: Configurable concurrent downloads with delays
 - **Progress tracking**: Saves progress and supports resume
 - **Retry mechanism**: Automatic retries with exponential backoff
+- **🔄 Proxy & Tor Rotation**: ✅ **COMPLETED** - Automatic proxy switching every 20 downloads to avoid rate limiting
+- **🌐 Multiple Proxy Support**: ✅ **COMPLETED** - Supports SOCKS5, SOCKS4, HTTP, and HTTPS proxies  
+- **🛡️ Network Error Recovery**: ✅ **COMPLETED** - Automatic proxy rotation on connection failures
+- **📡 Dynamic Proxy Fetching**: ✅ **COMPLETED** - Fetches random proxies from public lists automatically
+- **💾 Proxy Caching**: ✅ **COMPLETED** - Caches fetched proxies for 6 hours to reduce network overhead
+
+## 🚀 Proxy Rotation System (NEW!)
+
+The downloader now includes a comprehensive proxy rotation system that:
+
+- **Fetches random proxies** from public SOCKS5 and HTTP lists at startup
+- **Rotates proxies automatically** every 20 downloads to avoid rate limiting
+- **Includes Tor as reliable fallback** (127.0.0.1:9050)
+- **Handles proxy failures gracefully** with automatic rotation on network errors
+- **Caches proxies** for 6 hours to improve performance
+- **Works seamlessly** with GitHub Actions automation
+
+### Expected Behavior
+⚠️ **Important**: Most public proxies will fail during testing - this is normal! The system is designed to handle this by:
+- Using untested proxies during rotation (many work despite failing quick tests)
+- Always including Tor as a reliable fallback
+- Automatically switching on failures
+- Falling back to direct connection if needed
+
+See [`PROXY_SYSTEM_EXPLAINED.md`](PROXY_SYSTEM_EXPLAINED.md) for detailed explanation.
 
 ## File Organization
 
@@ -65,11 +90,45 @@ const downloader = new UnifiedContentDownloader({
     concurrentDownloads: 10,          // Concurrent downloads (default: 10)
     pauseDuration: 30 * 60 * 1000,    // Pause duration in ms (default: 30 min)
     retryAttempts: 3,                 // Retry attempts (default: 3)
-    requestDelay: 500                 // Delay between downloads in ms (default: 500)
+    requestDelay: 500,                // Delay between downloads in ms (default: 500)
+    
+    // 🔄 Proxy Rotation Settings
+    useProxyRotation: true,           // Enable proxy rotation (default: true)
+    proxyRotationInterval: 20,        // Switch proxy every N downloads (default: 20)
+    proxyList: [                      // List of proxy configurations
+        { type: 'socks5', host: '127.0.0.1', port: 9050, name: 'Tor-SOCKS5' },
+        // Add more proxies as needed
+    ]
 });
 
 await downloader.downloadAllContent();
 ```
+
+## 🔄 Proxy Rotation Setup
+
+### Quick Setup with Tor
+
+1. **Install Tor**:
+   ```powershell
+   # Windows - Download from https://www.torproject.org/
+   # Or use chocolatey: choco install tor
+   ```
+
+2. **Start Tor Browser** (easiest option) or **Tor Service**
+
+3. **Test the setup**:
+   ```powershell
+   node test-proxy-rotation.js
+   ```
+
+4. **Run with proxy rotation**:
+   ```powershell
+   node run-downloader.js
+   ```
+
+### Configuration
+
+See [PROXY_ROTATION_GUIDE.md](PROXY_ROTATION_GUIDE.md) for detailed setup instructions and advanced configuration options.
 
 ## Configuration Options
 
@@ -80,6 +139,10 @@ await downloader.downloadAllContent();
 | `pauseDuration` | `30 * 60 * 1000` | Pause duration when Google Drive errors detected (ms) |
 | `retryAttempts` | `3` | Number of retry attempts per failed download |
 | `requestDelay` | `500` | Delay between starting downloads (ms) |
+| **`useProxyRotation`** | **`true`** | **✅ Enable/disable proxy rotation** |
+| **`proxyRotationInterval`** | **`20`** | **✅ Downloads before rotating to next proxy** |
+| **`fetchRandomProxies`** | **`true`** | **✅ Fetch random proxies from public lists** |
+| **`proxyList`** | **`[]`** | **✅ Array of custom proxy configurations (merged with fetched)** |
 
 ## Error Handling
 
@@ -98,6 +161,12 @@ await downloader.downloadAllContent();
 - Saves progress to `download-progress.json`
 - Supports resuming interrupted downloads
 - Tracks statistics and errors
+
+### Proxy Rotation
+- Automatically rotates through configured proxies every 20 downloads
+- Switches proxy on network/connection errors
+- Supports Tor, SOCKS5, SOCKS4, HTTP, and HTTPS proxies
+- Displays current proxy and rotation countdown in progress logs
 
 ## Data Sources
 

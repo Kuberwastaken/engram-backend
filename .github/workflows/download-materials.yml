@@ -37,6 +37,51 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Install and configure Tor
+      run: |
+        echo "🔧 Installing Tor and tools for proxy rotation..."
+        
+        # Install Tor and jq
+        sudo apt-get update
+        sudo apt-get install -y tor jq
+        
+        # Configure Tor for SOCKS proxy
+        sudo tee /etc/tor/torrc << EOF
+        SocksPort 9050
+        SocksPolicy accept *
+        RunAsDaemon 1
+        DataDirectory /var/lib/tor
+        
+        # Enable control port for potential circuit management
+        ControlPort 9051
+        CookieAuthentication 1
+        
+        # Optimize for downloads
+        CircuitBuildTimeout 30
+        LearnCircuitBuildTimeout 0
+        MaxCircuitDirtiness 600
+        NewCircuitPeriod 30
+        
+        # Reduce logging
+        Log notice syslog
+        EOF
+        
+        # Start Tor service
+        sudo systemctl start tor
+        sudo systemctl enable tor
+        
+        # Wait for Tor to be ready
+        echo "⏳ Waiting for Tor to initialize..."
+        sleep 10
+        
+        # Test Tor connection
+        if curl --socks5-hostname 127.0.0.1:9050 -s https://check.torproject.org/ | grep -q "Congratulations"; then
+          echo "✅ Tor is running and accessible"
+        else
+          echo "⚠️ Tor may not be fully ready, but continuing..."
+        fi
+          echo "🌐 Tor proxy available at 127.0.0.1:9050"
+
     - name: Free up disk space
       run: |
         echo "🧹 Freeing up disk space on runner..."
@@ -72,10 +117,30 @@ jobs:
           echo "BATCH_SIZE_GB=5" >> $GITHUB_ENV
         else
           echo "BATCH_SIZE_GB=${{ github.event.inputs.batch_size_gb || '10' }}" >> $GITHUB_ENV
-        fi
-
-    - name: Create Content directory
+        fi    - name: Create Content directory
       run: mkdir -p Content
+
+    - name: Fetch random proxies
+      run: |
+        echo "🌐 Fetching random proxies for rotation..."
+        echo "Node version: $(node --version)"
+        
+        # Run the proxy fetcher to get random proxies
+        if timeout 60s node proxy-fetcher.js --no-cache; then
+          echo "✅ Proxy fetching completed successfully"
+          
+          # Check if proxies were saved
+          if [ -f "fetched-proxies.json" ]; then
+            PROXY_COUNT=$(cat fetched-proxies.json | jq '.totalCount' 2>/dev/null || echo "0")
+            echo "📊 Fetched $PROXY_COUNT proxies for rotation"
+            echo "📄 First 5 proxies:"
+            cat fetched-proxies.json | jq '.proxies[:5][] | "\(.name) (\(.type)://\(.host):\(.port))"' 2>/dev/null || echo "Could not display proxy details"
+          else
+            echo "⚠️ No proxy file created, will use fallback options"
+          fi
+        else
+          echo "⚠️ Proxy fetching timed out or failed, continuing with Tor only"
+        fi
 
     - name: Configure Git (early setup)
       run: |

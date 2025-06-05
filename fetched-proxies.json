@@ -1,0 +1,69 @@
+{
+  "fetchedAt": "2025-06-05T20:28:59.140Z",
+  "totalCount": 9,
+  "proxies": [
+    {
+      "type": "socks5",
+      "host": "8.221.139.222",
+      "port": 31433,
+      "name": "SOCKS5-8.221.139.222:31433",
+      "source": "SOCKS5-List"
+    },
+    {
+      "type": "http",
+      "host": "8.211.42.167",
+      "port": 104,
+      "name": "HTTP-8.211.42.167:104",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "58.64.12.11",
+      "port": 8081,
+      "name": "HTTP-58.64.12.11:8081",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "63.35.64.177",
+      "port": 3128,
+      "name": "HTTP-63.35.64.177:3128",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "104.207.63.251",
+      "port": 3128,
+      "name": "HTTP-104.207.63.251:3128",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "222.68.36.25",
+      "port": 1080,
+      "name": "HTTP-222.68.36.25:1080",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "64.49.67.164",
+      "port": 5678,
+      "name": "HTTP-64.49.67.164:5678",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "60.187.175.175",
+      "port": 8085,
+      "name": "HTTP-60.187.175.175:8085",
+      "source": "HTTP-List"
+    },
+    {
+      "type": "http",
+      "host": "103.162.54.203",
+      "port": 8080,
+      "name": "HTTP-103.162.54.203:8080",
+      "source": "HTTP-List"
+    }
+  ]
+}
