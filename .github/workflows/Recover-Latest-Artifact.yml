@@ -1,0 +1,302 @@
+name: Recover Latest Artifact
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_workflow:
+        description: 'Source workflow name (default: Download Materials)'
+        required: false
+        default: 'Download Materials'
+        type: string
+      max_runs_to_check:
+        description: 'Maximum number of recent runs to check (default: 10)'
+        required: false
+        default: '10'
+        type: string
+      force_commit:
+        description: 'Force commit even if no changes detected'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action (Artifact Recovery)"
+
+    - name: Find and download latest artifact
+      id: download_artifact
+      run: |
+        echo "🔍 Searching for latest artifact from '${{ github.event.inputs.source_workflow || 'Download Materials' }}'..."
+        
+        MAX_RUNS=${{ github.event.inputs.max_runs_to_check || '10' }}
+        SOURCE_WORKFLOW="${{ github.event.inputs.source_workflow || 'Download Materials' }}"
+        
+        # Get recent workflow runs (both completed and failed)
+        echo "Fetching last $MAX_RUNS runs for workflow: $SOURCE_WORKFLOW"
+        RUNS_JSON=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/actions/runs?per_page=$MAX_RUNS")
+        
+        if [ $? -ne 0 ]; then
+          echo "❌ Failed to fetch workflow runs"
+          exit 1
+        fi
+        
+        # Debug: Show available runs
+        echo "Available recent runs:"
+        echo "$RUNS_JSON" | jq -r '.workflow_runs[] | "\(.id) | \(.name) | \(.status) | \(.conclusion) | \(.created_at)"' | head -5
+        
+        # Find runs from our target workflow and get their IDs
+        WORKFLOW_RUN_IDS=$(echo "$RUNS_JSON" | jq -r --arg workflow "$SOURCE_WORKFLOW" \
+          '.workflow_runs[] | select(.name == $workflow) | .id')
+        
+        if [ -z "$WORKFLOW_RUN_IDS" ]; then
+          echo "❌ No runs found for workflow: $SOURCE_WORKFLOW"
+          echo "Available workflows:"
+          echo "$RUNS_JSON" | jq -r '.workflow_runs[].name' | sort | uniq
+          exit 1
+        fi
+        
+        echo "Found workflow run IDs: $WORKFLOW_RUN_IDS"
+        
+        # Check each run for artifacts (most recent first)
+        FOUND_ARTIFACT="false"
+        for RUN_ID in $WORKFLOW_RUN_IDS; do
+          echo "Checking run $RUN_ID for artifacts..."
+          
+          ARTIFACTS_JSON=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID/artifacts")
+          
+          if [ $? -ne 0 ]; then
+            echo "⚠️ Failed to fetch artifacts for run $RUN_ID, skipping..."
+            continue
+          fi
+          
+          # Look for downloaded-content artifacts
+          ARTIFACT_INFO=$(echo "$ARTIFACTS_JSON" | jq -r \
+            '.artifacts[] | select(.name | startswith("downloaded-content")) | "\(.id)|\(.name)|\(.size_in_bytes)|\(.created_at)"' | head -1)
+          
+          if [ -n "$ARTIFACT_INFO" ] && [ "$ARTIFACT_INFO" != "" ]; then
+            IFS='|' read -r ARTIFACT_ID ARTIFACT_NAME ARTIFACT_SIZE CREATED_AT <<< "$ARTIFACT_INFO"
+            ARTIFACT_SIZE_MB=$((ARTIFACT_SIZE / 1024 / 1024))
+            
+            echo "✅ Found artifact in run $RUN_ID:"
+            echo "  - Name: $ARTIFACT_NAME"
+            echo "  - Size: ${ARTIFACT_SIZE_MB}MB"
+            echo "  - Created: $CREATED_AT"
+            
+            # Download the artifact
+            echo "📥 Downloading artifact..."
+            if curl -L -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/artifacts/$ARTIFACT_ID/zip" \
+              -o "recovered-artifact.zip"; then
+              
+              echo "✅ Downloaded artifact successfully"
+              
+              # Extract the artifact
+              echo "📂 Extracting artifact..."
+              if unzip -q recovered-artifact.zip; then
+                echo "✅ Extracted artifact successfully"
+                
+                # Check what we got
+                if [ -d "Content" ]; then
+                  CONTENT_FILES=$(find Content -type f 2>/dev/null | wc -l || echo "0")
+                  CONTENT_SIZE=$(du -sh Content 2>/dev/null | cut -f1 || echo "0B")
+                  echo "📊 Recovered Content: $CONTENT_FILES files ($CONTENT_SIZE)"
+                  echo "content_files=$CONTENT_FILES" >> $GITHUB_OUTPUT
+                  echo "content_size=$CONTENT_SIZE" >> $GITHUB_OUTPUT
+                else
+                  echo "⚠️ No Content directory found in artifact"
+                  echo "content_files=0" >> $GITHUB_OUTPUT
+                  echo "content_size=0B" >> $GITHUB_OUTPUT
+                fi
+                
+                if [ -f "download-progress.json" ]; then
+                  echo "📄 Found download-progress.json"
+                  echo "progress_file=true" >> $GITHUB_OUTPUT
+                else
+                  echo "📄 No download-progress.json found"
+                  echo "progress_file=false" >> $GITHUB_OUTPUT
+                fi
+                
+                # Set success outputs
+                echo "artifact_recovered=true" >> $GITHUB_OUTPUT
+                echo "artifact_name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+                echo "source_run_id=$RUN_ID" >> $GITHUB_OUTPUT
+                
+                FOUND_ARTIFACT="true"
+                break
+              else
+                echo "❌ Failed to extract artifact"
+                rm -f recovered-artifact.zip
+              fi
+            else
+              echo "❌ Failed to download artifact"
+            fi
+          fi
+        done
+        
+        if [ "$FOUND_ARTIFACT" = "false" ]; then
+          echo "❌ No artifacts found in any of the recent runs"
+          echo "artifact_recovered=false" >> $GITHUB_OUTPUT
+          exit 1
+        fi
+        
+        # Cleanup
+        rm -f recovered-artifact.zip
+
+    - name: Commit recovered content
+      if: steps.download_artifact.outputs.artifact_recovered == 'true'
+      run: |
+        echo "💾 Committing recovered content to repository..."
+        
+        CONTENT_FILES="${{ steps.download_artifact.outputs.content_files || '0' }}"
+        CONTENT_SIZE="${{ steps.download_artifact.outputs.content_size || '0B' }}"
+        ARTIFACT_NAME="${{ steps.download_artifact.outputs.artifact_name }}"
+        SOURCE_RUN_ID="${{ steps.download_artifact.outputs.source_run_id }}"
+        
+        if [ "$CONTENT_FILES" -gt "0" ]; then
+          # Add all content
+          git add Content/
+          
+          # Add progress file if it exists
+          if [ -f "download-progress.json" ]; then
+            git add download-progress.json
+          fi
+          
+          # Force add in case of gitignore issues
+          git add -f Content/
+          
+          TIMESTAMP=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          COMMIT_MSG="🔄 Recover: $CONTENT_FILES files ($CONTENT_SIZE) from $ARTIFACT_NAME (run #$SOURCE_RUN_ID) - $TIMESTAMP"
+          
+          # Commit with force flag if requested
+          COMMIT_ARGS="-m '$COMMIT_MSG'"
+          if [ "${{ github.event.inputs.force_commit }}" = "true" ]; then
+            COMMIT_ARGS="$COMMIT_ARGS --allow-empty"
+          fi
+          
+          if eval "git commit $COMMIT_ARGS"; then
+            echo "✅ Commit successful"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Push successful on attempt $i"
+                echo "commit_success=true" >> $GITHUB_OUTPUT
+                break
+              else
+                echo "❌ Push failed on attempt $i"
+                if [ $i -eq 3 ]; then
+                  echo "❌ Push failed after 3 attempts"
+                  echo "commit_success=false" >> $GITHUB_OUTPUT
+                  exit 1
+                fi
+                sleep 5
+              fi
+            done
+          else
+            echo "❌ Commit failed or no changes to commit"
+            echo "commit_success=false" >> $GITHUB_OUTPUT
+            
+            # Show git status for debugging
+            echo "Git status:"
+            git status
+          fi
+        else
+          echo "❌ No content files to commit"
+          echo "commit_success=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Verify recovery
+      if: always()
+      run: |
+        echo "🔍 Verifying recovery results..."
+        
+        # Check repository state
+        if [ -d "Content" ]; then
+          REPO_CONTENT_FILES=$(find Content -type f 2>/dev/null | wc -l || echo "0")
+          REPO_CONTENT_SIZE=$(du -sh Content 2>/dev/null | cut -f1 || echo "0B")
+          
+          echo "📊 Repository Content Directory:"
+          echo "  - Files: $REPO_CONTENT_FILES"
+          echo "  - Size: $REPO_CONTENT_SIZE"
+          
+          # Check if files are tracked by git
+          GIT_TRACKED_FILES=$(git ls-files Content/ 2>/dev/null | wc -l || echo "0")
+          echo "  - Git tracked files: $GIT_TRACKED_FILES"
+          
+          if [ "$GIT_TRACKED_FILES" = "0" ] && [ "$REPO_CONTENT_FILES" -gt "0" ]; then
+            echo "⚠️ WARNING: Files exist but are not tracked by git!"
+          fi
+        else
+          echo "❌ No Content directory found in repository"
+        fi
+        
+        # Check progress file
+        if [ -f "download-progress.json" ]; then
+          echo "📄 Progress file status: EXISTS"
+          if git ls-files download-progress.json | grep -q download-progress.json; then
+            echo "📄 Progress file git status: TRACKED"
+          else
+            echo "📄 Progress file git status: NOT TRACKED"
+          fi
+        else
+          echo "📄 Progress file status: NOT FOUND"
+        fi
+
+    - name: Create summary
+      if: always()
+      run: |
+        echo "## 🔄 Artifact Recovery Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Recovery Date**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Source Workflow**: ${{ github.event.inputs.source_workflow || 'Download Materials' }}" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.download_artifact.outputs.artifact_recovered }}" = "true" ]; then
+          echo "- **✅ Artifact Found**: YES" >> $GITHUB_STEP_SUMMARY
+          echo "- **Artifact Name**: ${{ steps.download_artifact.outputs.artifact_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Source Run ID**: ${{ steps.download_artifact.outputs.source_run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Content Files**: ${{ steps.download_artifact.outputs.content_files }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Content Size**: ${{ steps.download_artifact.outputs.content_size }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Progress File**: ${{ steps.download_artifact.outputs.progress_file }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.download_artifact.outputs.commit_success || 'false' }}" = "true" ]; then
+            echo "- **✅ Commit Status**: SUCCESS" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **❌ Commit Status**: FAILED" >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "- **❌ Artifact Found**: NO" >> $GITHUB_STEP_SUMMARY
+          echo "- **Issue**: No artifacts found in recent runs" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "---" >> $GITHUB_STEP_SUMMARY
+        echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.download_artifact.outputs.artifact_recovered }}" = "true" ]; then
+          if [ "${{ steps.download_artifact.outputs.commit_success || 'false' }}" = "true" ]; then
+            echo "✅ **Success!** Your content has been recovered and committed to the repository." >> $GITHUB_STEP_SUMMARY
+            echo "You can now run your download workflow again and it should continue from where it left off." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **Partial Success**: Content was recovered but commit failed." >> $GITHUB_STEP_SUMMARY
+            echo "Check the logs above for commit issues. You may need to commit manually." >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "❌ **Failed**: No artifacts could be recovered." >> $GITHUB_STEP_SUMMARY
+          echo "Make sure you have run the download workflow at least once and it produced artifacts." >> $GITHUB_STEP_SUMMARY
+        fi
