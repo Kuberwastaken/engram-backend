@@ -76,12 +76,12 @@ jobs:
         mkdir -p material
         echo "0" > /tmp/batch_counter
         echo "0" > /tmp/total_commits
-        echo "$(date -u +'%Y%m%d_%H%M%S')" > /tmp/session_id
-
-    - name: Configure Git (early setup)
+        echo "$(date -u +'%Y%m%d_%H%M%S')" > /tmp/session_id    - name: Configure Git (early setup)
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"    - name: Create smart download wrapper script
+        git config --local user.name "GitHub Action"
+
+    - name: Create smart download wrapper script
       run: |
         cat > smart-download-wrapper.js << 'EOF'
         import { spawn } from 'child_process';
