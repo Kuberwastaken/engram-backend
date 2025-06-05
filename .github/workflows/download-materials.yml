@@ -81,15 +81,13 @@ jobs:
     - name: Configure Git (early setup)
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-
-    - name: Create smart download wrapper script
+        git config --local user.name "GitHub Action"    - name: Create smart download wrapper script
       run: |
         cat > smart-download-wrapper.js << 'EOF'
-        const { spawn } = require('child_process');
-        const fs = require('fs');
-        const path = require('path');
-        const { execSync } = require('child_process');
+        import { spawn } from 'child_process';
+        import fs from 'fs';
+        import path from 'path';
+        import { execSync } from 'child_process';
 
         class SmartDownloader {
           constructor() {
