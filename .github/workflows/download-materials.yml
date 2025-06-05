@@ -1,0 +1,663 @@
+name: Download Materials
+
+on:
+  workflow_dispatch: 
+    inputs:
+      force_continue:
+        description: 'Force continue from previous run'
+        required: false
+        default: false
+        type: boolean
+      batch_size_gb:
+        description: 'Batch size in GB before committing (default: 10)'
+        required: false
+        default: '10'
+        type: string
+  schedule:
+    - cron: '0 2 * * 0'
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 320  # 5 hours and 20 minutes total (includes 20 min buffer for commit/push)
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Free up disk space
+      run: |
+        echo "🧹 Freeing up disk space on runner..."
+        
+        # Remove unnecessary packages and cache
+        sudo apt-get autoremove -y
+        sudo apt-get autoclean
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+        sudo rm -rf /usr/local/share/boost
+        sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+        
+        echo "📊 Disk space after cleanup:"
+        df -h /
+
+    - name: Check initial disk space
+      run: |
+        echo "📊 Initial disk space status:"
+        df -h /
+        echo "💾 Available space: $(df -h / | awk 'NR==2{print $4}')"
+        
+        # Check if we have at least 8GB free
+        AVAILABLE_GB=$(df / | awk 'NR==2{print int($4/1024/1024)}')
+        echo "Available space: ${AVAILABLE_GB}GB"
+        
+        if [ $AVAILABLE_GB -lt 12 ]; then
+          echo "⚠️ Warning: Only ${AVAILABLE_GB}GB available. Reducing batch size for safety."
+          echo "BATCH_SIZE_GB=5" >> $GITHUB_ENV
+        else
+          echo "BATCH_SIZE_GB=${{ github.event.inputs.batch_size_gb || '10' }}" >> $GITHUB_ENV
+        fi
+
+    - name: Create material directory and initialize tracking
+      run: |
+        mkdir -p material
+        echo "0" > /tmp/batch_counter
+        echo "0" > /tmp/total_commits
+        echo "$(date -u +'%Y%m%d_%H%M%S')" > /tmp/session_id
+
+    - name: Configure Git (early setup)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Create smart download wrapper script
+      run: |
+        cat > smart-download-wrapper.js << 'EOF'
+        const { spawn } = require('child_process');
+        const fs = require('fs');
+        const path = require('path');
+        const { execSync } = require('child_process');
+
+        class SmartDownloader {
+          constructor() {
+            this.batchSizeGB = parseFloat(process.env.BATCH_SIZE_GB || '10');
+            this.batchSizeBytes = this.batchSizeGB * 1024 * 1024 * 1024;
+            this.batchCounter = parseInt(fs.readFileSync('/tmp/batch_counter', 'utf8') || '0');
+            this.totalCommits = parseInt(fs.readFileSync('/tmp/total_commits', 'utf8') || '0');
+            this.sessionId = fs.readFileSync('/tmp/session_id', 'utf8').trim();
+            this.lastBatchSize = 0;
+            this.currentBatchSize = 0;
+            this.checkInterval = 30000; // Check every 30 seconds
+            this.lastCommitTime = Date.now();
+            this.maxTimeBetweenCommits = 30 * 60 * 1000; // 30 minutes max
+            this.rateLimitSize = 1.96 * 1024; // 1.96KB in bytes (Google Drive rate limit indicator)
+            this.pausedForRateLimit = false;
+            this.rateLimitPauseTime = 60 * 60 * 1000; // 1 hour pause
+            this.rateLimitFiles = [];
+          }
+
+          checkForRateLimitFiles() {
+            try {
+              const materialDir = 'material';
+              if (!fs.existsSync(materialDir)) return [];
+
+              const rateLimitFiles = [];
+              
+              // Find all files that are exactly 1.96KB (rate limit indicator)
+              const findRateLimitFiles = (dir) => {
+                const files = fs.readdirSync(dir);
+                for (const file of files) {
+                  const fullPath = path.join(dir, file);
+                  const stat = fs.statSync(fullPath);
+                  
+                  if (stat.isDirectory()) {
+                    findRateLimitFiles(fullPath);
+                  } else if (Math.abs(stat.size - this.rateLimitSize) < 10) { // Allow 10 bytes tolerance
+                    rateLimitFiles.push({
+                      path: fullPath,
+                      size: stat.size,
+                      mtime: stat.mtime
+                    });
+                  }
+                }
+              };
+
+              findRateLimitFiles(materialDir);
+              return rateLimitFiles;
+            } catch (error) {
+              console.warn(`⚠️ Error checking for rate limit files: ${error.message}`);
+              return [];
+            }
+          }
+
+          async handleRateLimit() {
+            const rateLimitFiles = this.checkForRateLimitFiles();
+            
+            if (rateLimitFiles.length === 0) {
+              if (this.pausedForRateLimit) {
+                console.log('✅ No rate limit files detected - resuming normal operation');
+                this.pausedForRateLimit = false;
+              }
+              return false;
+            }
+
+            // New rate limit files detected
+            const newRateLimitFiles = rateLimitFiles.filter(file => 
+              !this.rateLimitFiles.some(existing => existing.path === file.path)
+            );
+
+            if (newRateLimitFiles.length > 0) {
+              console.log(`\n🚫 GOOGLE DRIVE RATE LIMIT DETECTED!`);
+              console.log(`📊 Found ${rateLimitFiles.length} files exactly 1.96KB (${newRateLimitFiles.length} new)`);
+              
+              // Log the rate limit files
+              newRateLimitFiles.forEach((file, index) => {
+                console.log(`   ${index + 1}. ${file.path} (${file.size} bytes, ${file.mtime.toISOString()})`);
+              });
+
+              // Remove rate limit files
+              console.log('🗑️ Removing rate limit files...');
+              let removedCount = 0;
+              for (const file of rateLimitFiles) {
+                try {
+                  fs.unlinkSync(file.path);
+                  removedCount++;
+                  console.log(`   ✅ Removed: ${file.path}`);
+                } catch (error) {
+                  console.warn(`   ⚠️ Failed to remove ${file.path}: ${error.message}`);
+                }
+              }
+              console.log(`🗑️ Removed ${removedCount}/${rateLimitFiles.length} rate limit files`);
+
+              // Commit current progress before pausing
+              console.log('💾 Committing progress before rate limit pause...');
+              await this.commitBatch('rate limit detected');
+
+              // Set pause state
+              this.pausedForRateLimit = true;
+              this.rateLimitStartTime = Date.now();
+              this.rateLimitFiles = rateLimitFiles;
+
+              console.log(`⏸️ PAUSING DOWNLOADER FOR 1 HOUR DUE TO GOOGLE DRIVE RATE LIMIT`);
+              console.log(`⏰ Pause started at: ${new Date().toISOString()}`);
+              console.log(`⏰ Resume scheduled for: ${new Date(Date.now() + this.rateLimitPauseTime).toISOString()}`);
+              
+              return true;
+            }
+
+            // Check if we're still in pause period
+            if (this.pausedForRateLimit) {
+              const pauseTimeElapsed = Date.now() - this.rateLimitStartTime;
+              const remainingPause = this.rateLimitPauseTime - pauseTimeElapsed;
+              
+              if (remainingPause > 0) {
+                const remainingMinutes = Math.ceil(remainingPause / (60 * 1000));
+                console.log(`⏸️ Still paused for rate limit - ${remainingMinutes} minutes remaining`);
+                return true;
+              } else {
+                console.log('⏰ Rate limit pause period completed - resuming downloads');
+                this.pausedForRateLimit = false;
+                return false;
+              }
+            }            return false;
+          }
+
+          getDirectorySize(dirPath) {
+            try {
+              const result = execSync(`du -sb "${dirPath}" 2>/dev/null | cut -f1`, { encoding: 'utf8' });
+              return parseInt(result.trim()) || 0;
+            } catch (error) {
+              console.warn(`⚠️ Could not get directory size: ${error.message}`);
+              return 0;
+            }
+          }
+
+          async commitBatch(reason = 'size limit') {
+            const currentSize = this.getDirectorySize('material');
+            const sizeDiff = currentSize - this.lastBatchSize;
+            
+            if (sizeDiff < 100 * 1024 * 1024) { // Less than 100MB new data
+              console.log(`📊 Skipping commit - only ${(sizeDiff / 1024 / 1024).toFixed(1)}MB new data`);
+              return false;
+            }
+
+            console.log(`\n🔄 Committing batch #${this.batchCounter + 1} (${reason})`);
+            console.log(`📊 Current batch size: ${(sizeDiff / 1024 / 1024 / 1024).toFixed(2)}GB`);
+            console.log(`📊 Total directory size: ${(currentSize / 1024 / 1024 / 1024).toFixed(2)}GB`);
+
+            try {
+              // Check git status
+              execSync('git status --porcelain', { stdio: 'pipe' });
+              const hasChanges = execSync('git status --porcelain', { encoding: 'utf8' }).trim().length > 0;
+              
+              if (!hasChanges) {
+                console.log('ℹ️ No changes to commit');
+                return false;
+              }
+
+              // Add files
+              console.log('📁 Adding files to git...');
+              execSync('git add material/', { stdio: 'inherit' });
+              execSync('git add -A', { stdio: 'inherit' });
+
+              // Create commit
+              const fileCount = this.getFileCount();
+              const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+              const commitMsg = `📚 🔄 BATCH #${this.batchCounter + 1}: Auto-download materials - ${fileCount.total} files (${(currentSize / 1024 / 1024 / 1024).toFixed(2)}GB) - PDF/JSON: ${fileCount.pdfJson} - ${timestamp} - Session: ${this.sessionId} - Reason: ${reason}`;
+              
+              execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
+              console.log('✅ Commit created successfully');
+
+              // Push changes
+              console.log('📤 Pushing changes...');
+              execSync('git push', { stdio: 'inherit' });
+              console.log('✅ Changes pushed successfully');
+
+              // Update counters
+              this.batchCounter++;
+              this.totalCommits++;
+              this.lastBatchSize = currentSize;
+              this.lastCommitTime = Date.now();
+              
+              fs.writeFileSync('/tmp/batch_counter', this.batchCounter.toString());
+              fs.writeFileSync('/tmp/total_commits', this.totalCommits.toString());
+
+              // Free up some memory and clean temp files
+              if (global.gc) {
+                global.gc();
+              }
+
+              return true;
+            } catch (error) {
+              console.error(`❌ Error during commit: ${error.message}`);
+              return false;
+            }
+          }
+
+          getFileCount() {
+            try {
+              const totalFiles = execSync('find material -type f | wc -l', { encoding: 'utf8' }).trim();
+              const pdfJsonFiles = execSync('find material -type f \\( -name "*.pdf" -o -name "*.json" \\) | wc -l', { encoding: 'utf8' }).trim();
+              return {
+                total: parseInt(totalFiles) || 0,
+                pdfJson: parseInt(pdfJsonFiles) || 0
+              };
+            } catch (error) {
+              return { total: 0, pdfJson: 0 };
+            }
+          }
+
+          async monitorAndCommit(downloaderProcess) {
+            const monitor = setInterval(async () => {
+              try {
+                // First check for rate limiting
+                const isRateLimited = await this.handleRateLimit();
+                
+                if (isRateLimited) {
+                  // If rate limited, pause the downloader process
+                  if (downloaderProcess && !downloaderProcess.killed) {
+                    console.log('⏸️ Pausing downloader process due to rate limit...');
+                    downloaderProcess.kill('SIGSTOP'); // Pause the process
+                  }
+                  return; // Skip other monitoring while paused
+                } else {
+                  // Resume process if it was paused
+                  if (downloaderProcess && !downloaderProcess.killed && this.pausedForRateLimit === false) {
+                    try {
+                      downloaderProcess.kill('SIGCONT'); // Resume the process
+                    } catch (error) {
+                      // Process might not be paused, ignore error
+                    }
+                  }
+                }
+
+                const currentSize = this.getDirectorySize('material');
+                const batchGrowth = currentSize - this.lastBatchSize;
+                const timeSinceLastCommit = Date.now() - this.lastCommitTime;
+
+                console.log(`📊 Monitor: Current size: ${(currentSize / 1024 / 1024 / 1024).toFixed(2)}GB, Batch growth: ${(batchGrowth / 1024 / 1024 / 1024).toFixed(2)}GB`);
+
+                // Commit if we've reached the batch size limit
+                if (batchGrowth >= this.batchSizeBytes) {
+                  console.log(`🎯 Batch size limit reached (${this.batchSizeGB}GB)`);
+                  await this.commitBatch('batch size limit');
+                }
+                // Or if too much time has passed since last commit (with substantial data)
+                else if (timeSinceLastCommit >= this.maxTimeBetweenCommits && batchGrowth > 500 * 1024 * 1024) {
+                  console.log(`⏰ Time limit reached (30 minutes) with ${(batchGrowth / 1024 / 1024).toFixed(0)}MB new data`);
+                  await this.commitBatch('time limit');
+                }
+
+                // Check available disk space
+                const availableBytes = parseInt(execSync("df / | awk 'NR==2{print $4}'", { encoding: 'utf8' }).trim()) * 1024;
+                const availableGB = availableBytes / (1024 * 1024 * 1024);
+                
+                if (availableGB < 2) {
+                  console.log(`🚨 Low disk space: ${availableGB.toFixed(1)}GB remaining`);
+                  await this.commitBatch('low disk space');
+                }
+
+              } catch (error) {
+                console.warn(`⚠️ Monitor error: ${error.message}`);
+              }
+            }, this.checkInterval);
+
+            // Clean up monitor when process exits
+            const cleanup = () => {
+              clearInterval(monitor);
+            };
+
+            downloaderProcess.on('exit', cleanup);
+            downloaderProcess.on('error', cleanup);
+            process.on('SIGTERM', cleanup);
+            process.on('SIGINT', cleanup);
+
+            return monitor;
+          }
+
+          async run() {
+            console.log(`🚀 Starting smart download with ${this.batchSizeGB}GB batch size`);
+            console.log(`📊 Session ID: ${this.sessionId}`);
+            console.log(`📊 Starting from batch #${this.batchCounter + 1}`);
+            console.log(`🚫 Rate limit detection: Files exactly ${(this.rateLimitSize / 1024).toFixed(2)}KB will trigger 1-hour pause`);            const downloaderProcess = spawn('node', ['engram-backend-scraper.js'], {
+              stdio: 'inherit',
+              env: { ...process.env, NODE_ENV: 'production' }
+            });
+
+            // Start monitoring
+            const monitorInterval = await this.monitorAndCommit(downloaderProcess);
+
+            return new Promise((resolve, reject) => {
+              downloaderProcess.on('exit', async (code) => {
+                clearInterval(monitorInterval);
+                
+                console.log(`\n📋 Download process finished with code: ${code}`);
+                
+                // Final check for rate limit files before committing
+                const finalRateLimitFiles = this.checkForRateLimitFiles();
+                if (finalRateLimitFiles.length > 0) {
+                  console.log(`🗑️ Final cleanup: Removing ${finalRateLimitFiles.length} rate limit files`);
+                  for (const file of finalRateLimitFiles) {
+                    try {
+                      fs.unlinkSync(file.path);
+                      console.log(`   ✅ Removed: ${file.path}`);
+                    } catch (error) {
+                      console.warn(`   ⚠️ Failed to remove ${file.path}: ${error.message}`);
+                    }
+                  }
+                }
+                
+                // Final commit of any remaining data
+                const finalCommitted = await this.commitBatch('final commit');
+                
+                const stats = {
+                  exitCode: code,
+                  totalCommits: this.totalCommits,
+                  finalSize: this.getDirectorySize('material'),
+                  finalCommitted,
+                  rateLimitPauses: this.rateLimitFiles.length > 0 ? 1 : 0,
+                  rateLimitFilesFound: this.rateLimitFiles.length
+                };
+
+                console.log(`\n📊 Final Stats:`);
+                console.log(`   - Total commits: ${stats.totalCommits}`);
+                console.log(`   - Final size: ${(stats.finalSize / 1024 / 1024 / 1024).toFixed(2)}GB`);
+                console.log(`   - Rate limit pauses: ${stats.rateLimitPauses}`);
+                console.log(`   - Rate limit files found: ${stats.rateLimitFilesFound}`);
+                console.log(`   - Session: ${this.sessionId}`);
+
+                resolve(stats);
+              });
+
+              downloaderProcess.on('error', (error) => {
+                clearInterval(monitorInterval);
+                reject(error);
+              });
+            });
+          }
+        }
+
+        // Run the smart downloader
+        (async () => {
+          try {
+            const downloader = new SmartDownloader();
+            const stats = await downloader.run();
+            
+            // Set GitHub outputs
+            const exitCode = stats.exitCode || 0;
+            const success = exitCode === 0 ? 'true' : (exitCode === 124 ? 'partial' : 'error');
+            const completed = exitCode === 0 ? 'true' : 'false';
+            
+            console.log(`\n📤 Setting GitHub outputs:`);
+            console.log(`   download_success=${success}`);
+            console.log(`   download_completed=${completed}`);
+            console.log(`   total_commits=${stats.totalCommits}`);
+            console.log(`   rate_limit_pauses=${stats.rateLimitPauses || 0}`);
+            
+            // Write to GitHub outputs file
+            const outputFile = process.env.GITHUB_OUTPUT;
+            if (outputFile) {
+              fs.appendFileSync(outputFile, `download_success=${success}\n`);
+              fs.appendFileSync(outputFile, `download_completed=${completed}\n`);
+              fs.appendFileSync(outputFile, `total_commits=${stats.totalCommits}\n`);
+              fs.appendFileSync(outputFile, `rate_limit_pauses=${stats.rateLimitPauses || 0}\n`);
+            }
+            
+            process.exit(exitCode);
+          } catch (error) {
+            console.error(`❌ Smart downloader error: ${error.message}`);
+            process.exit(1);
+          }
+        })();
+        EOF
+
+    - name: Debug - Check files before download
+      run: |
+        echo "Current directory contents:"
+        ls -la
+        echo "Package.json exists: $([ -f package.json ] && echo 'YES' || echo 'NO')"
+        echo "engram-backend-scraper.js exists: $([ -f engram-backend-scraper.js ] && echo 'YES' || echo 'NO')"
+        echo "smart-download-wrapper.js exists: $([ -f smart-download-wrapper.js ] && echo 'YES' || echo 'NO')"
+        echo "Material directory exists: $([ -d material ] && echo 'YES' || echo 'NO')"
+        echo "Batch size: ${BATCH_SIZE_GB}GB"
+
+    - name: Run smart material scraper with incremental commits
+      id: download_step
+      run: |
+        echo "🚀 Starting smart download process with incremental commits every ${BATCH_SIZE_GB}GB..."
+        echo "Node version: $(node --version)"
+        echo "NPM version: $(npm --version)"
+        echo "Start time: $(date -u)"
+        
+        # Start the smart download process with timeout
+        if timeout 300m node smart-download-wrapper.js; then
+          echo "✅ Download completed successfully within time limit"
+        else
+          EXIT_CODE=$?
+          if [ $EXIT_CODE -eq 124 ]; then
+            echo "⏰ Download timed out after 5 hours - progress was saved incrementally"
+          else
+            echo "❌ Download failed with exit code: $EXIT_CODE"
+          fi
+        fi
+        
+        echo "End time: $(date -u)"
+      env:
+        NODE_ENV: production
+        BATCH_SIZE_GB: ${{ env.BATCH_SIZE_GB }}
+
+    - name: Debug - Check final state
+      if: always()
+      run: |
+        echo "📊 Final state check:"
+        if [ -d "material" ]; then
+          TOTAL_FILES=$(find material -type f | wc -l || echo "0")
+          PDF_JSON_FILES=$(find material -type f -name "*.pdf" -o -name "*.json" | wc -l || echo "0")
+          TOTAL_SIZE=$(du -sh material 2>/dev/null | cut -f1 || echo "0B")
+          
+          echo "Material directory exists with $TOTAL_FILES files"
+          echo "PDF/JSON files: $PDF_JSON_FILES"
+          echo "Total size: $TOTAL_SIZE"
+          echo "First 10 files found:"
+          find material -type f | head -10 || echo "No files found"
+        else
+          echo "❌ Material directory does not exist"
+        fi
+        
+        BATCH_COUNT=$(cat /tmp/batch_counter 2>/dev/null || echo "0")
+        TOTAL_COMMITS=$(cat /tmp/total_commits 2>/dev/null || echo "0")
+        SESSION_ID=$(cat /tmp/session_id 2>/dev/null || echo "unknown")
+        RATE_LIMIT_PAUSES=$(echo "${{ steps.download_step.outputs.rate_limit_pauses || '0' }}")
+        
+        echo "Batch counter: $BATCH_COUNT"
+        echo "Total commits made: $TOTAL_COMMITS"
+        echo "Rate limit pauses: $RATE_LIMIT_PAUSES"
+        echo "Session ID: $SESSION_ID"
+        
+        # Check for any remaining 1.96KB files
+        if [ -d "material" ]; then
+          RATE_LIMIT_FILES=$(find material -type f -size 1966c -o -size 1967c -o -size 1968c 2>/dev/null | wc -l || echo "0")
+          echo "Remaining 1.96KB files: $RATE_LIMIT_FILES"
+          if [ "$RATE_LIMIT_FILES" -gt "0" ]; then
+            echo "⚠️ Warning: Found $RATE_LIMIT_FILES potential rate limit files"
+            find material -type f -size 1966c -o -size 1967c -o -size 1968c 2>/dev/null | head -5
+          fi
+        fi
+
+    - name: Final commit check
+      id: final_check
+      if: always()
+      run: |
+        echo "🔍 Checking for any uncommitted changes..."
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "final_changes=true" >> $GITHUB_OUTPUT
+          echo "📝 Uncommitted changes detected"
+          git status --short
+        else
+          echo "final_changes=false" >> $GITHUB_OUTPUT
+          echo "✅ All changes have been committed"
+        fi
+
+    - name: Final cleanup commit
+      if: steps.final_check.outputs.final_changes == 'true'
+      run: |
+        echo "🧹 Making final cleanup commit..."
+        
+        TOTAL_FILES=$(find material -type f | wc -l || echo "0")
+        PDF_JSON_FILES=$(find material -type f -name "*.pdf" -o -name "*.json" | wc -l || echo "0")
+        TOTAL_SIZE=$(du -sh material 2>/dev/null | cut -f1 || echo "0B")
+        TIMESTAMP=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+        SESSION_ID=$(cat /tmp/session_id 2>/dev/null || echo "unknown")
+        
+        git add material/
+        git add -A
+        
+        COMMIT_MSG="📚 🏁 FINAL: Smart download cleanup - Total: $TOTAL_FILES files ($TOTAL_SIZE) - PDF/JSON: $PDF_JSON_FILES - $TIMESTAMP - Session: $SESSION_ID - Run #${{ github.run_number }}"
+        
+        git commit -m "$COMMIT_MSG" || echo "No final changes to commit"
+        git push || echo "Nothing to push"
+
+    - name: Trigger continuation workflow if needed
+      if: steps.download_step.outputs.download_completed == 'false'
+      run: |
+        echo "⏭️ Download was not completed - triggering continuation..."
+        curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          https://api.github.com/repos/${{ github.repository }}/actions/workflows/download-materials.yml/dispatches \
+          -d '{"ref":"${{ github.ref_name }}","inputs":{"force_continue":"true","batch_size_gb":"${{ env.BATCH_SIZE_GB }}"}}'
+        echo "✅ Continuation workflow triggered with batch size ${{ env.BATCH_SIZE_GB }}GB"
+
+    - name: Upload materials as artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: downloaded-materials-${{ github.run_number }}
+        path: material/
+        retention-days: 30
+        if-no-files-found: ignore
+
+    - name: Print enhanced summary
+      if: always()
+      run: |
+        BATCH_COUNT=$(cat /tmp/batch_counter 2>/dev/null || echo "0")
+        TOTAL_COMMITS=$(cat /tmp/total_commits 2>/dev/null || echo "0")
+        SESSION_ID=$(cat /tmp/session_id 2>/dev/null || echo "unknown")
+        RATE_LIMIT_PAUSES=$(echo "${{ steps.download_step.outputs.rate_limit_pauses || '0' }}")
+        
+        echo "## 🚀 Smart Download Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Action Run**: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Session ID**: $SESSION_ID" >> $GITHUB_STEP_SUMMARY
+        echo "- **Timestamp**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Batch Size**: ${{ env.BATCH_SIZE_GB }}GB per commit" >> $GITHUB_STEP_SUMMARY
+        echo "- **Download Status**: ${{ steps.download_step.outputs.download_success || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Completed**: ${{ steps.download_step.outputs.download_completed || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Incremental Commits Made**: $TOTAL_COMMITS" >> $GITHUB_STEP_SUMMARY
+        echo "- **Batches Processed**: $BATCH_COUNT" >> $GITHUB_STEP_SUMMARY
+        echo "- **🚫 Rate Limit Pauses**: $RATE_LIMIT_PAUSES" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -d "material" ]; then
+          FILE_COUNT=$(find material -type f | wc -l || echo "0")
+          PDF_JSON_COUNT=$(find material -type f -name "*.pdf" -o -name "*.json" | wc -l || echo "0")
+          TOTAL_SIZE=$(du -sh material 2>/dev/null | cut -f1 || echo "0B")
+          echo "- **Total Files**: $FILE_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **PDF/JSON Files**: $PDF_JSON_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Size**: $TOTAL_SIZE" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "- **Status**: ❌ No material directory found" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📊 Smart Features" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **Incremental Commits**: Automatically commits every ${{ env.BATCH_SIZE_GB }}GB" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **Progress Preservation**: No data loss even if workflow times out" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **Smart Monitoring**: Monitors disk space and time limits" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **Auto-continuation**: Triggers next run if incomplete" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **Resume Safe**: Built-in deduplication prevents re-downloads" >> $GITHUB_STEP_SUMMARY
+        echo "- 🚫 **Rate Limit Detection**: Detects Google Drive limits (1.96KB files) and pauses for 1 hour" >> $GITHUB_STEP_SUMMARY
+        echo "- 🗑️ **Rate Limit Cleanup**: Automatically removes rate limit files" >> $GITHUB_STEP_SUMMARY
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🎯 Next Steps" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.download_step.outputs.download_completed }}" = "true" ]; then
+          echo "🎉 **COMPLETE**: Download finished successfully with $TOTAL_COMMITS incremental commits!" >> $GITHUB_STEP_SUMMARY
+        elif [ "${{ steps.download_step.outputs.download_success }}" = "partial" ]; then
+          echo "⏰ **CONTINUING**: Download timed out after 5 hours. Made $TOTAL_COMMITS commits and triggered continuation!" >> $GITHUB_STEP_SUMMARY
+          echo "📋 Next run will resume automatically with all progress preserved." >> $GITHUB_STEP_SUMMARY
+        elif [ "$TOTAL_COMMITS" -gt "0" ]; then
+          echo "🔄 **PROGRESS SAVED**: Made $TOTAL_COMMITS commits before stopping. Safe to retry!" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ **ERROR**: Download encountered errors - check the logs above for details" >> $GITHUB_STEP_SUMMARY
+          echo "💡 **RETRY**: The workflow can be run again manually" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔧 Configuration" >> $GITHUB_STEP_SUMMARY
+        echo "- **Batch Size**: ${{ env.BATCH_SIZE_GB }}GB (adjustable via workflow input)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Auto-adjustment**: Reduces to 5GB if disk space < 12GB" >> $GITHUB_STEP_SUMMARY
+        echo "- **Time Commits**: Also commits every 30 minutes with substantial data" >> $GITHUB_STEP_SUMMARY
+        echo "- **Safety Commits**: Commits when disk space drops below 2GB" >> $GITHUB_STEP_SUMMARY
+        echo "- **Rate Limit Pause**: 1 hour pause when 1.96KB files detected" >> $GITHUB_STEP_SUMMARY
+        echo "- **Rate Limit Tolerance**: ±10 bytes around 1.96KB for detection accuracy" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "$RATE_LIMIT_PAUSES" -gt "0" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🚫 Rate Limiting Activity" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Pauses**: $RATE_LIMIT_PAUSES pause(s) occurred during this session" >> $GITHUB_STEP_SUMMARY
+          echo "- **Action Taken**: Rate limit files automatically removed and progress committed" >> $GITHUB_STEP_SUMMARY
+          echo "- **Recovery**: Downloader paused for 1 hour then resumed automatically" >> $GITHUB_STEP_SUMMARY
+        fi
