@@ -190,6 +190,24 @@ jobs:
           echo "✅ All relevant changes appear to have been committed or no changes made."
         fi
 
+    - name: Setup Git LFS for large files
+      if: steps.final_check.outputs.final_changes == 'true'
+      run: |
+        echo "🔧 Setting up Git LFS for large files..."
+        git lfs install
+        
+        # Track large file types with LFS
+        git lfs track "*.pdf"
+        git lfs track "*.zip"
+        git lfs track "*.rar"
+        git lfs track "*.mp4"
+        git lfs track "*.avi"
+        git lfs track "*.mkv"
+          # Add .gitattributes
+        git add .gitattributes
+        
+        echo "✅ Git LFS configured for large files"
+
     - name: Final cleanup commit
       if: steps.final_check.outputs.final_changes == 'true'
       run: |
@@ -221,7 +239,7 @@ jobs:
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \\
           -H "Content-Type: application/json" \\
           https://api.github.com/repos/${{ github.repository }}/actions/workflows/download-materials.yml/dispatches \\
-          -d '{"ref":"${{ github.ref_name }}","inputs":{"force_continue":"true","batch_size_gb":"${{ github.event.inputs.batch_size_gb || env.BATCH_SIZE_GB || '10' }}"}}'
+          -d '{"ref":"${{ github.ref_name }}","inputs":{"force_continue":"true","batch_size_gb":"${{ github.event.inputs.batch_size_gb || '10' }}"}}'
         echo "✅ Continuation workflow triggered."
         # Note: The 'batch_size_gb' is passed as the workflow defines it, though the new script doesn't use it for its own batching.
         # 'force_continue' is also passed as defined. The new script relies on 'download-progress.json' to resume.
@@ -252,8 +270,7 @@ jobs:
         echo "- **Action Run**: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
         # echo "- **Session ID**: $SESSION_ID" # Old concept
         echo "- **Timestamp**: $(date -u)" >> $GITHUB_STEP_SUMMARY
-        # echo "- **Batch Size Info**: ${{ env.BATCH_SIZE_GB }}GB (Note: not directly used by new downloader for batching)" >> $GITHUB_STEP_SUMMARY
-        echo "- **Download Status**: $DOWNLOAD_SUCCESS" >> $GITHUB_STEP_SUMMARY
+        # echo "- **Batch Size Info**: ${{ env.BATCH_SIZE_GB }}GB (Note: not directly used by new downloader for batching)" >> $GITHUB_STEP_SUMMARY        echo "- **Download Status**: $DOWNLOAD_SUCCESS" >> $GITHUB_STEP_SUMMARY
         echo "- **Completed**: $DOWNLOAD_COMPLETED" >> $GITHUB_STEP_SUMMARY
         # echo "- **Incremental Commits Made**: $TOTAL_COMMITS" # Old concept
         
@@ -265,4 +282,4 @@ jobs:
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
         fi
         
-        if [ "$DOWNLOAD_SUCCESS" != "true" ]; then
+        echo "📊 Summary generation completed."

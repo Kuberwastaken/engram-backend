@@ -1,4 +1,4 @@
-name: Cleanup Corrupted Files (1.96kb)
+name: Cleanup Target Files (1.91-1.98kb, 2.37kb)
 
 on:
   workflow_dispatch:
@@ -9,9 +9,9 @@ on:
         default: true
         type: boolean
       target_directory:
-        description: 'Directory to scan (default: material/)'
+        description: 'Directory to scan (default: ./)'
         required: false
-        default: 'material/'
+        default: './'
         type: string
   schedule:
     # Run weekly on Sundays at 3 AM UTC
@@ -31,64 +31,87 @@ jobs:
 
     - name: Setup environment variables
       run: |
-        echo "TARGET_SIZE=2008" >> $GITHUB_ENV
-        echo "TARGET_SIZE_KB=1.96" >> $GITHUB_ENV
-        echo "TARGET_DIR=${{ github.event.inputs.target_directory || 'material/' }}" >> $GITHUB_ENV
+        echo "TARGET_DIR=${{ github.event.inputs.target_directory || './' }}" >> $GITHUB_ENV # Scan entire repo by default
         echo "DRY_RUN=${{ github.event.inputs.dry_run || 'true' }}" >> $GITHUB_ENV
+        # Define size ranges and specific sizes in bytes
+        # 1.91 KB = 1955.84 bytes, 1.98 KB = 2027.52 bytes
+        # 2.37 KB = 2426.88 bytes
+        echo "SIZE_RANGE_1_MIN=1955" >> $GITHUB_ENV
+        echo "SIZE_RANGE_1_MAX=2028" >> $GITHUB_ENV
+        echo "SPECIFIC_SIZE_2=2427" >> $GITHUB_ENV
 
-    - name: Scan for corrupted files
+    - name: Scan for target files
       id: scan_files
       run: |
-        echo "🔍 Scanning for files exactly $TARGET_SIZE_KB KB ($TARGET_SIZE bytes) in size..."
-        echo "📁 Target directory: $TARGET_DIR"
+        echo "🔍 Scanning for files in specified size ranges..."
+        echo "📁 Target directory (or repo root): $TARGET_DIR"
         echo "🧪 Dry run mode: $DRY_RUN"
+        echo "📏 Size Range 1: $SIZE_RANGE_1_MIN - $SIZE_RANGE_1_MAX bytes (approx 1.91KB - 1.98KB)"
+        echo "📏 Specific Size 2: $SPECIFIC_SIZE_2 bytes (approx 2.37KB)"
         echo ""
         
         # Check if target directory exists
-        if [ ! -d "$TARGET_DIR" ]; then
-          echo "❌ Target directory '$TARGET_DIR' does not exist!"
+        if [ ! -d "$TARGET_DIR" ]; then # This check might be less relevant if TARGET_DIR is always ./
+          echo "❌ Target directory '$TARGET_DIR' does not exist! This shouldn't happen if scanning from repo root."
           echo "files_found=0" >> $GITHUB_OUTPUT
-          echo "total_size=0" >> $GITHUB_OUTPUT
+          echo "total_size_bytes=0" >> $GITHUB_OUTPUT
           exit 0
         fi
         
-        # Find all files exactly 2008 bytes (1.96kb)
-        echo "Finding files exactly $TARGET_SIZE bytes in size..."
-        CORRUPTED_FILES=$(find "$TARGET_DIR" -type f -size "${TARGET_SIZE}c" 2>/dev/null || true)
+        echo "Finding files in size range $SIZE_RANGE_1_MIN - $SIZE_RANGE_1_MAX bytes..."
+        # Exclude .git directory and common build/dependency directories
+        # Also exclude the .github/workflows directory itself to prevent self-modification issues if sizes match
+        FILES_IN_RANGE_1=$(find "$TARGET_DIR" -type f \( -size +${SIZE_RANGE_1_MIN}c -a -size -${SIZE_RANGE_1_MAX}c \) \
+          -not -path "./.git/*" -not -path "./node_modules/*" -not -path "./.github/workflows/*" 2>/dev/null || true)
         
-        if [ -z "$CORRUPTED_FILES" ]; then
-          echo "✅ No corrupted files found (exactly $TARGET_SIZE_KB KB)!"
+        echo "Finding files of size $SPECIFIC_SIZE_2 bytes..."
+        FILES_OF_SPECIFIC_SIZE_2=$(find "$TARGET_DIR" -type f -size ${SPECIFIC_SIZE_2}c \
+          -not -path "./.git/*" -not -path "./node_modules/*" -not -path "./.github/workflows/*" 2>/dev/null || true)
+        
+        # Combine the lists, ensuring no duplicates if a file somehow matched both (unlikely with these specific sizes)
+        ALL_TARGET_FILES=$(echo -e "$FILES_IN_RANGE_1\n$FILES_OF_SPECIFIC_SIZE_2" | awk '!seen[$0]++' | grep .)
+        
+        if [ -z "$ALL_TARGET_FILES" ]; then
+          echo "✅ No files found in the specified size ranges!"
           echo "files_found=0" >> $GITHUB_OUTPUT
-          echo "total_size=0" >> $GITHUB_OUTPUT
+          echo "total_size_bytes=0" >> $GITHUB_OUTPUT
         else
           # Count files and calculate total size
-          FILE_COUNT=$(echo "$CORRUPTED_FILES" | wc -l)
-          TOTAL_SIZE=$((FILE_COUNT * TARGET_SIZE))
-          TOTAL_SIZE_MB=$((TOTAL_SIZE / 1024 / 1024))
+          FILE_COUNT=$(echo "$ALL_TARGET_FILES" | wc -l)
+          
+          TOTAL_SIZE_BYTES=0
+          while IFS= read -r file; do
+            if [ -n "$file" ]; then
+              FILE_SIZE_BYTES=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
+              TOTAL_SIZE_BYTES=$((TOTAL_SIZE_BYTES + FILE_SIZE_BYTES))
+            fi
+          done <<< "$ALL_TARGET_FILES"
+          
+          TOTAL_SIZE_MB=$(awk -v bytes="$TOTAL_SIZE_BYTES" 'BEGIN {printf "%.2f", bytes / 1024 / 1024}')
           
           echo "files_found=$FILE_COUNT" >> $GITHUB_OUTPUT
-          echo "total_size=$TOTAL_SIZE" >> $GITHUB_OUTPUT
+          echo "total_size_bytes=$TOTAL_SIZE_BYTES" >> $GITHUB_OUTPUT
           
-          echo "⚠️ Found $FILE_COUNT corrupted files (exactly $TARGET_SIZE_KB KB each)"
-          echo "💾 Total size to be freed: ${TOTAL_SIZE_MB} MB"
+          echo "⚠️ Found $FILE_COUNT files in the target size ranges/specific size."
+          echo "💾 Total size to be freed: $TOTAL_SIZE_MB MB"
           echo ""
-          echo "📋 List of corrupted files:"
-          echo "$CORRUPTED_FILES" | while read -r file; do
+          echo "📋 List of target files:"
+          echo "$ALL_TARGET_FILES" | while read -r file; do
             if [ -n "$file" ]; then
-              FILE_SIZE=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "unknown")
-              echo "  🗑️  $file (${FILE_SIZE} bytes)"
+              FILE_SIZE_BYTES_DISPLAY=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "unknown")
+              echo "  🎯  $file (${FILE_SIZE_BYTES_DISPLAY} bytes)"
             fi
           done
           
           # Save file list for deletion step
-          echo "$CORRUPTED_FILES" > /tmp/corrupted_files_list.txt
+          echo "$ALL_TARGET_FILES" > /tmp/target_files_list.txt
         fi
 
-    - name: Delete corrupted files
+    - name: Delete target files
       id: delete_files
       if: steps.scan_files.outputs.files_found != '0'
       run: |
-        FILES_TO_DELETE=$(cat /tmp/corrupted_files_list.txt)
+        FILES_TO_DELETE=$(cat /tmp/target_files_list.txt)
         FILE_COUNT=${{ steps.scan_files.outputs.files_found }}
         
         if [ "$DRY_RUN" = "true" ]; then
@@ -103,7 +126,7 @@ jobs:
           echo "💡 To actually delete files, run this workflow with 'Dry run' set to false."
           echo "files_deleted=0" >> $GITHUB_OUTPUT
         else
-          echo "🗑️ DELETING $FILE_COUNT corrupted files..."
+          echo "🗑️ DELETING $FILE_COUNT target files..."
           DELETED_COUNT=0
           FAILED_COUNT=0
           
@@ -156,11 +179,12 @@ jobs:
         echo "Committing file deletions..."
         
         DELETED_COUNT=${{ steps.delete_files.outputs.files_deleted || '0' }}
-        FREED_SIZE_MB=$(( ${{ steps.scan_files.outputs.total_size || '0' }} / 1024 / 1024 ))
+        FREED_SIZE_BYTES=${{ steps.scan_files.outputs.total_size_bytes || '0' }}
+        FREED_SIZE_MB=$(awk -v bytes="$FREED_SIZE_BYTES" 'BEGIN {printf "%.2f", bytes / 1024 / 1024}')
         TIMESTAMP=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
         
         git add -A
-        git commit -m "🧹 Auto-cleanup: Deleted $DELETED_COUNT corrupted files (1.96KB each) - Freed ${FREED_SIZE_MB}MB - $TIMESTAMP - Run #${{ github.run_number }}"
+        git commit -m "🧹 Auto-cleanup: Deleted $DELETED_COUNT files (sizes 1.91-1.98KB, 2.37KB) - Freed ${FREED_SIZE_MB}MB - $TIMESTAMP - Run #${{ github.run_number }}"
 
     - name: Push changes
       if: steps.check_changes.outputs.changes == 'true'
@@ -172,23 +196,23 @@ jobs:
     - name: Create cleanup summary
       if: always()
       run: |
-        echo "## Corrupted Files Cleanup Summary" >> $GITHUB_STEP_SUMMARY
+        echo "## Target Files Cleanup Summary" >> $GITHUB_STEP_SUMMARY
         echo "- **Action Run**: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
         echo "- **Timestamp**: $(date -u)" >> $GITHUB_STEP_SUMMARY
-        echo "- **Target Directory**: $TARGET_DIR" >> $GITHUB_STEP_SUMMARY
-        echo "- **Target File Size**: $TARGET_SIZE_KB KB ($TARGET_SIZE bytes)" >> $GITHUB_STEP_SUMMARY
-        echo "- **Mode**: $([ \"$DRY_RUN\" = \"true\" ] && echo \"🧪 Dry Run\" || echo \"🗑️ Live Deletion\")" >> $GITHUB_STEP_SUMMARY
+        echo "- **Target Directory**: $TARGET_DIR (entire repo if default)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Target File Sizes**: ~1.91KB-1.98KB (specifically $SIZE_RANGE_1_MIN-$SIZE_RANGE_1_MAX bytes) AND ~2.37KB (specifically $SPECIFIC_SIZE_2 bytes)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Mode**: $([ "$DRY_RUN" = "true" ] && echo "🧪 Dry Run" || echo "🗑️ Live Deletion")" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         
         FILES_FOUND=${{ steps.scan_files.outputs.files_found || '0' }}
         FILES_DELETED=${{ steps.delete_files.outputs.files_deleted || '0' }}
-        TOTAL_SIZE=${{ steps.scan_files.outputs.total_size || '0' }}
+        TOTAL_SIZE_BYTES=${{ steps.scan_files.outputs.total_size_bytes || '0' }}
         
         echo "### Results" >> $GITHUB_STEP_SUMMARY
         echo "- **Files Found**: $FILES_FOUND" >> $GITHUB_STEP_SUMMARY
         
         if [ "$FILES_FOUND" -gt 0 ]; then
-          TOTAL_SIZE_MB=$((TOTAL_SIZE / 1024 / 1024))
+          TOTAL_SIZE_MB=$(awk -v bytes="$TOTAL_SIZE_BYTES" 'BEGIN {printf "%.2f", bytes / 1024 / 1024}')
           echo "- **Total Size**: $TOTAL_SIZE_MB MB" >> $GITHUB_STEP_SUMMARY
           
           if [ "$DRY_RUN" = "true" ]; then
@@ -196,31 +220,30 @@ jobs:
             echo "- **Status**: 🧪 **DRY RUN** - No files were actually deleted" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
-            echo "To actually delete the corrupted files:" >> $GITHUB_STEP_SUMMARY
-            echo "1. Go to **Actions** → **Cleanup Corrupted Files (1.96kb)**" >> $GITHUB_STEP_SUMMARY
+            echo "To actually delete the target files:" >> $GITHUB_STEP_SUMMARY
+            echo "1. Go to **Actions** → **Cleanup Target Files (1.91-1.98kb, 2.37kb)**" >> $GITHUB_STEP_SUMMARY
             echo "2. Click **Run workflow**" >> $GITHUB_STEP_SUMMARY
             echo "3. Set **Dry run** to **false**" >> $GITHUB_STEP_SUMMARY
             echo "4. Click **Run workflow** button" >> $GITHUB_STEP_SUMMARY
           else
             echo "- **Files Deleted**: $FILES_DELETED" >> $GITHUB_STEP_SUMMARY
             echo "- **Space Freed**: $TOTAL_SIZE_MB MB" >> $GITHUB_STEP_SUMMARY
-            echo "- **Status**: ✅ **COMPLETED** - Corrupted files successfully removed" >> $GITHUB_STEP_SUMMARY
+            echo "- **Status**: ✅ **COMPLETED** - Target files successfully removed" >> $GITHUB_STEP_SUMMARY
             
             if [ "${{ steps.check_changes.outputs.changes }}" = "true" ]; then
               echo "- **Repository**: 📝 Changes committed and pushed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
         else
-          echo "- **Status**: ✅ **CLEAN** - No corrupted files found" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: ✅ **CLEAN** - No target files found" >> $GITHUB_STEP_SUMMARY
         fi
         
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "### About This Cleanup" >> $GITHUB_STEP_SUMMARY
-        echo "This workflow identifies and removes files that are exactly 1.96KB (2008 bytes) in size." >> $GITHUB_STEP_SUMMARY
-        echo "These files are typically:" >> $GITHUB_STEP_SUMMARY
-        echo "- 🚫 Incomplete downloads that were interrupted" >> $GITHUB_STEP_SUMMARY
-        echo "- 🚫 Error pages saved as files instead of actual content" >> $GITHUB_STEP_SUMMARY
-        echo "- 🚫 Corrupted files that didn't download properly" >> $GITHUB_STEP_SUMMARY
+        echo "This workflow identifies and removes files within specified size ranges:" >> $GITHUB_STEP_SUMMARY
+        echo "- Approximately 1.91KB to 1.98KB (specifically $SIZE_RANGE_1_MIN - $SIZE_RANGE_1_MAX bytes)" >> $GITHUB_STEP_SUMMARY
+        echo "- Exactly 2.37KB (specifically $SPECIFIC_SIZE_2 bytes)" >> $GITHUB_STEP_SUMMARY
+        echo "These files might be incomplete downloads, error pages, or other unwanted artifacts." >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**Safety**: Always run in dry-run mode first to preview what will be deleted!" >> $GITHUB_STEP_SUMMARY
 
@@ -228,7 +251,7 @@ jobs:
       if: steps.scan_files.outputs.files_found != '0'
       uses: actions/upload-artifact@v4
       with:
-        name: corrupted-files-scan-${{ github.run_number }}
-        path: /tmp/corrupted_files_list.txt
+        name: target-files-scan-${{ github.run_number }}
+        path: /tmp/target_files_list.txt
         retention-days: 7
         if-no-files-found: ignore
