@@ -1,0 +1,575 @@
+name: Download Materials
+
+
+
+on:
+
+  workflow_dispatch: 
+
+    inputs:
+
+      force_continue:
+
+        description: 'Force continue from previous run'
+
+        required: false
+
+        default: false
+
+        type: boolean
+
+      batch_size_gb:
+
+        description: 'Batch size in GB before committing (default: 10)'
+
+        required: false
+
+        default: '10'
+
+        type: string
+
+  schedule:
+
+    - cron: '0 2 * * 0'
+
+
+
+jobs:
+
+  download:
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 320  # 5 hours and 20 minutes total (includes 20 min buffer for commit/push)
+
+    
+
+    steps:
+
+    - name: Checkout repository
+
+      uses: actions/checkout@v4
+
+      with:
+
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+        fetch-depth: 1
+
+
+
+    - name: Setup Node.js
+
+      uses: actions/setup-node@v4
+
+      with:
+
+        node-version: '18'
+
+        cache: 'npm'
+
+
+
+    - name: Install dependencies
+
+      run: npm install
+
+
+
+    - name: Free up disk space
+
+      run: |
+
+        echo "🧹 Freeing up disk space on runner..."
+
+        
+
+        # Remove unnecessary packages and cache
+
+        sudo apt-get autoremove -y
+
+        sudo apt-get autoclean
+
+        sudo rm -rf /usr/share/dotnet
+
+        sudo rm -rf /usr/local/lib/android
+
+        sudo rm -rf /opt/ghc
+
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+
+        sudo rm -rf /usr/local/share/boost
+
+        sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+
+        
+
+        echo "📊 Disk space after cleanup:"
+
+        df -h /
+
+
+
+    - name: Check initial disk space
+
+      run: |
+
+        echo "📊 Initial disk space status:"
+
+        df -h /
+
+        echo "💾 Available space: $(df -h / | awk 'NR==2{print $4}')"
+
+        
+
+        # Check if we have at least 8GB free
+
+        AVAILABLE_GB=$(df / | awk 'NR==2{print int($4/1024/1024)}')
+
+        echo "Available space: ${AVAILABLE_GB}GB"
+
+        
+
+        # Note: BATCH_SIZE_GB is not used by the new downloader script directly in this workflow
+
+        # The new downloader has its own internal logic for handling downloads.
+
+        # This is kept for now in case it's used by other parts or for manual triggers.
+
+        if [ $AVAILABLE_GB -lt 12 ]; then
+
+          echo "⚠️ Warning: Only ${AVAILABLE_GB}GB available. Defaulting to a potentially smaller effective batch via script logic."
+
+          echo "BATCH_SIZE_GB=5" >> $GITHUB_ENV
+
+        else
+
+          echo "BATCH_SIZE_GB=${{ github.event.inputs.batch_size_gb || '10' }}" >> $GITHUB_ENV
+
+        fi
+
+
+
+    - name: Create Content directory
+
+      run: mkdir -p Content
+
+
+
+    - name: Configure Git (early setup)
+
+      run: |
+
+        git config --local user.email "action@github.com"
+
+        git config --local user.name "GitHub Action"
+
+
+
+    - name: Debug - Check files before download
+
+      run: |
+
+        echo "Current directory contents:"
+
+        ls -la
+
+        echo "Package.json exists: $([ -f package.json ] && echo 'YES' || echo 'NO')"
+
+        echo "run-downloader.js exists: $([ -f run-downloader.js ] && echo 'YES' || echo 'NO')"
+
+        echo "unified-content-downloader.js exists: $([ -f unified-content-downloader.js ] && echo 'YES' || echo 'NO')"
+
+        echo "Content directory exists: $([ -d Content ] && echo 'YES' || echo 'NO')"
+
+        # echo "Batch size (info only): ${BATCH_SIZE_GB}GB" # BATCH_SIZE_GB is not directly used by new script
+
+
+
+    - name: Run unified content downloader
+
+      id: download_step
+
+      run: |
+
+        echo "🚀 Starting unified content download process..."
+
+        echo "Node version: $(node --version)"
+
+        echo "NPM version: $(npm --version)"
+
+        echo "Start time: $(date -u)"
+
+        
+
+        # Execute the new downloader script with a 5-hour (300 minutes) timeout
+
+        # The GitHub Actions job timeout (320m) remains as an overall safety net.
+
+        if timeout 300m node run-downloader.js; then
+
+          echo "✅ Download process completed successfully within time limit."
+
+          echo "download_success=true" >> $GITHUB_OUTPUT
+
+          echo "download_completed=true" >> $GITHUB_OUTPUT
+
+        else
+
+          EXIT_CODE=$?
+
+          if [ $EXIT_CODE -eq 124 ]; then
+
+            echo "⏰ Download process timed out after 5 hours. Will attempt to commit progress and continue."
+
+            echo "download_success=true" >> $GITHUB_OUTPUT # Partial success, data downloaded
+
+            echo "download_completed=false" >> $GITHUB_OUTPUT # Did not complete fully
+
+          else
+
+            echo "❌ Download process failed or was interrupted with exit code: $EXIT_CODE"
+
+            echo "download_success=false" >> $GITHUB_OUTPUT
+
+            echo "download_completed=false" >> $GITHUB_OUTPUT
+
+          fi
+
+        fi
+
+        
+
+        echo "End time: $(date -u)"
+
+      env:
+
+        NODE_ENV: production
+
+        # BATCH_SIZE_GB: ${{ env.BATCH_SIZE_GB }} # Not directly used by the new script for its internal batching
+
+
+
+    - name: Debug - Check final state
+
+      if: always()
+
+      run: |
+
+        echo "📊 Final state check:"
+
+        if [ -d "Content" ]; then
+
+          TOTAL_FILES=$(find Content -type f | wc -l || echo "0")
+
+          # Adjust file type checks if needed for the new structure
+
+          PDF_JSON_FILES=$(find Content -type f \( -name "*.pdf" -o -name "*.json" \) | wc -l || echo "0")
+
+          TOTAL_SIZE=$(du -sh Content 2>/dev/null | cut -f1 || echo "0B")
+
+          
+
+          echo "Content directory exists with $TOTAL_FILES files"
+
+          echo "PDF/JSON files (example): $PDF_JSON_FILES"
+
+          echo "Total size: $TOTAL_SIZE"
+
+          echo "First 10 files found in Content:"
+
+          find Content -type f | head -10 || echo "No files found"
+
+        else
+
+          echo "❌ Content directory does not exist"
+
+        fi
+
+        
+
+        # The new script uses download-progress.json, not /tmp files for batch/commit counts
+
+        # These old checks are removed or would need to be adapted if similar metrics are exposed by the new script
+
+        # BATCH_COUNT=$(cat /tmp/batch_counter 2>/dev/null || echo "0")
+
+        # TOTAL_COMMITS=$(cat /tmp/total_commits 2>/dev/null || echo "0")
+
+        # SESSION_ID=$(cat /tmp/session_id 2>/dev/null || echo "unknown")
+
+        # RATE_LIMIT_PAUSES=$(echo "${{ steps.download_step.outputs.rate_limit_pauses || '0' }}") # New script has internal pause logic
+
+
+
+        # echo "Batch counter (old): $BATCH_COUNT"
+
+        # echo "Total commits made (old): $TOTAL_COMMITS"
+
+        # echo "Rate limit pauses (old): $RATE_LIMIT_PAUSES"
+
+        # echo "Session ID (old): $SESSION_ID"
+
+
+
+        # Check for Google Drive error files (1.96KB) as the new script also handles this
+
+        if [ -d "Content" ]; then
+
+          # The new script's error file size is 1960 bytes.
+
+          # Adjusting find command slightly for a small range around this.
+
+          RATE_LIMIT_FILES=$(find Content -type f -size +1950c -size -1970c 2>/dev/null | wc -l || echo "0")
+
+          echo "Potential Google Drive error files (approx 1.96KB): $RATE_LIMIT_FILES"
+
+          if [ "$RATE_LIMIT_FILES" -gt "0" ]; then
+
+            echo "⚠️ Warning: Found $RATE_LIMIT_FILES potential error files (around 1.96KB)"
+
+            find Content -type f -size +1950c -size -1970c 2>/dev/null | head -5
+
+          fi
+
+        fi
+
+        
+
+        # Check for download-progress.json
+
+        if [ -f "download-progress.json" ]; then
+
+          echo "📄 download-progress.json found."
+
+          cat download-progress.json
+
+        else
+
+          echo "📄 download-progress.json not found."
+
+        fi
+
+
+
+    - name: Final commit check
+
+      id: final_check
+
+      if: always()
+
+      run: |
+
+        echo "🔍 Checking for any uncommitted changes in Content/ or download-progress.json..."
+
+        # Check for changes in the Content directory and the progress file
+
+        if [ -n "$(git status --porcelain Content/ download-progress.json 2>/dev/null)" ]; then
+
+          echo "final_changes=true" >> $GITHUB_OUTPUT
+
+          echo "📝 Uncommitted changes detected in Content/ or download-progress.json"
+
+          git status --short Content/ download-progress.json
+
+        else
+
+          echo "final_changes=false" >> $GITHUB_OUTPUT
+
+          echo "✅ All relevant changes appear to have been committed or no changes made."
+
+        fi
+
+
+
+    - name: Final cleanup commit
+
+      if: steps.final_check.outputs.final_changes == 'true'
+
+      run: |
+
+        echo "🧹 Making final cleanup commit for Content/ and progress..."
+
+        
+
+        TOTAL_FILES=$(find Content -type f 2>/dev/null | wc -l || echo "0")
+
+        TOTAL_SIZE=$(du -sh Content 2>/dev/null | cut -f1 || echo "0B")
+
+        TIMESTAMP=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+
+        
+
+        git add Content/
+
+        git add download-progress.json # Add the progress file
+
+        git add -A # Stage any other potential changes
+
+        
+
+        COMMIT_MSG="📚 💾 Sync: Unified download progress - Files: $TOTAL_FILES ($TOTAL_SIZE) - $TIMESTAMP - Run #${{ github.run_number }}"
+
+        
+
+        # Configure Git user for this commit
+
+        git config --local user.email "action@github.com"
+
+        git config --local user.name "GitHub Action (Progress Sync)"
+
+        
+
+        git commit -m "$COMMIT_MSG" || echo "No changes to commit for progress sync."
+
+        git push || echo "Nothing to push for progress sync."
+
+
+
+    - name: Trigger continuation workflow if needed
+
+      if: steps.download_step.outputs.download_completed == 'false'
+
+      run: |
+
+        echo "⏭️ Download was not completed fully (timed out or failed before completion but after saving progress). Triggering continuation..."
+
+        curl -X POST \
+
+          -H "Accept: application/vnd.github.v3+json" \
+
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+
+          -H "Content-Type: application/json" \
+
+          https://api.github.com/repos/${{ github.repository }}/actions/workflows/download-materials.yml/dispatches \
+
+          -d '{"ref":"${{ github.ref_name }}","inputs":{"force_continue":"true","batch_size_gb":"${{ github.event.inputs.batch_size_gb || env.BATCH_SIZE_GB || '10' }}"}}'
+
+        echo "✅ Continuation workflow triggered."
+
+        # Note: The 'batch_size_gb' is passed as the workflow defines it, though the new script doesn't use it for its own batching.
+
+        # 'force_continue' is also passed as defined. The new script relies on 'download-progress.json' to resume.
+
+
+
+    - name: Upload Content as artifact
+
+      if: always()
+
+      uses: actions/upload-artifact@v4
+
+      with:
+
+        name: downloaded-content-${{ github.run_number }}
+
+        path: |
+
+          Content/
+
+          download-progress.json
+
+        retention-days: 30
+
+        if-no-files-found: ignore
+
+
+
+    - name: Print enhanced summary
+
+      if: always()
+
+      run: |
+
+        # TOTAL_COMMITS and BATCH_COUNT are from the old script.
+
+        # The new script manages progress differently.
+
+        # SESSION_ID was also from the old script.
+
+        # RATE_LIMIT_PAUSES is an internal metric of the new script, can be read from download-progress.json if needed.
+
+        
+
+        DOWNLOAD_SUCCESS="${{ steps.download_step.outputs.download_success || 'unknown' }}"
+
+        DOWNLOAD_COMPLETED="${{ steps.download_step.outputs.download_completed || 'unknown' }}"
+
+        
+
+        echo "## 🚀 Unified Download Summary" >> $GITHUB_STEP_SUMMARY
+
+        echo "- **Action Run**: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+
+        # echo "- **Session ID**: $SESSION_ID" # Old concept
+
+        echo "- **Timestamp**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+
+        # echo "- **Batch Size Info**: ${{ env.BATCH_SIZE_GB }}GB (Note: not directly used by new downloader for batching)" >> $GITHUB_STEP_SUMMARY
+
+        echo "- **Download Status**: $DOWNLOAD_SUCCESS" >> $GITHUB_STEP_SUMMARY
+
+        echo "- **Completed**: $DOWNLOAD_COMPLETED" >> $GITHUB_STEP_SUMMARY
+
+        # echo "- **Incremental Commits Made**: $TOTAL_COMMITS" # Old concept
+
+        
+
+        if [ -f "download-progress.json" ]; then
+
+          echo "---" >> $GITHUB_STEP_SUMMARY
+
+          echo "### Download Progress Details (from download-progress.json):" >> $GITHUB_STEP_SUMMARY
+
+          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+
+          cat download-progress.json >> $GITHUB_STEP_SUMMARY
+
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+        fi
+
+        
+
+        if [ "$DOWNLOAD_SUCCESS" != "true" ]; then
+
+          echo "---" >> $GITHUB_STEP_SUMMARY
+
+          echo "### ⚠️ Download Issues Detected" >> $GITHUB_STEP_SUMMARY
+
+          echo "The download process encountered issues. Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+
+        fi
+
+        
+
+        # Add content statistics if available
+
+        if [ -d "Content" ]; then
+
+          CONTENT_FILES=$(find Content -type f 2>/dev/null | wc -l || echo "0")
+
+          CONTENT_SIZE=$(du -sh Content 2>/dev/null | cut -f1 || echo "0B")
+
+          echo "---" >> $GITHUB_STEP_SUMMARY
+
+          echo "### 📊 Content Statistics" >> $GITHUB_STEP_SUMMARY
+
+          echo "- **Total Files**: $CONTENT_FILES" >> $GITHUB_STEP_SUMMARY
+
+          echo "- **Total Size**: $CONTENT_SIZE" >> $GITHUB_STEP_SUMMARY
+
+        fi
+
+        
+
+        echo "---" >> $GITHUB_STEP_SUMMARY
+
+        echo "### 🔗 Artifact Information" >> $GITHUB_STEP_SUMMARY
+
+        echo "Downloaded content has been uploaded as artifact: \`downloaded-content-${{ github.run_number }}\`" >> $GITHUB_STEP_SUMMARY
+
+        
+
+        echo "✅ Summary generation completed successfully."
