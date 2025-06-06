@@ -580,19 +580,30 @@
     "Dotnotes_Experiment_4.pdf",
     "Dotnotes_Experiment_7.pdf",
     "Dotnotes_Experiment_6.pdf",
-    "Dotnotes_Experiment_5.pdf"
+    "Dotnotes_Experiment_5.pdf",
+    "Dotnotes_Experiment_8.pdf",
+    "Dotnotes_Experiment_9.pdf",
+    "Dotnotes_DN_DLCD-3.json",
+    "Dotnotes_DLCD_IPU_complete.pdf",
+    "Dotnotes_combinational_logic.pdf",
+    "Dotnotes_DN_C_S_Chp10.pdf",
+    "Dotnotes_dlcd_akash_sem3.pdf",
+    "Dotnotes_DN_C_S_Chp9.pdf",
+    "Dotnotes_DN_C_S_Chp4_8.pdf",
+    "Dotnotes_DN_C_S_Notes.pdf",
+    "Dotnotes_DN_AC_Circuits__Unit_-_3__Handwritten.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5104,
+    "downloadedFiles": 5143,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 48056347584,
+    "downloadedSize": 48320979364,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:18:51.915Z"
+  "lastSaved": "2025-06-06T22:19:21.432Z"
 }
