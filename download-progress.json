@@ -1727,19 +1727,38 @@
     "StudyX_Sankalp_Batr.pdf",
     "StudyX_Morris_Complete.pdf",
     "StudyX_Arun_Kumar_SIngh.pdf",
-    "StudyX_SCHAUM_Digital_Electronics.pdf"
+    "StudyX_SCHAUM_Digital_Electronics.pdf",
+    "StudyX_SX_usict_end_sem_2023.pdf",
+    "StudyX_SX_Mid_Term_-_DLCD.pdf",
+    "StudyX_Dlcd_Morris.pdf",
+    "StudyX_DLCD_LAB_PRACTICAL_FILE.pdf",
+    "StudyX_DLCD-File_-_Yash_Pandey.pdf",
+    "StudyX_SX_dlcd_akash_sem3.pdf",
+    "StudyX_SX_GTN.pdf",
+    "StudyX_DLCD_LAB_-_Anuj_Sinha.pdf",
+    "StudyX_SX_dm_2_.pdf",
+    "StudyX_SX_dm_dec_22.pdf",
+    "StudyX_SX_recurrence_relation_.pdf",
+    "StudyX_SX_DM_1_.pdf",
+    "StudyX_SX_DM_sets.pdf",
+    "StudyX_SX_DM.pdf",
+    "StudyX_SX_set_theory_1__.pdf",
+    "StudyX_SX_group_theory_and_sub_group.pdf",
+    "StudyX_SX_permutations__2_.pdf",
+    "StudyX_SX_set.pdf",
+    "StudyX_SX_Sets_Logic_Relation_Notes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7896,
+    "downloadedFiles": 7946,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203034844,
+    "downloadedSize": 53203136307,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:47:41.109Z"
+  "lastSaved": "2025-06-06T22:48:06.711Z"
 }
