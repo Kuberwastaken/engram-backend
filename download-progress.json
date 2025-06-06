@@ -332,19 +332,47 @@
     "Dotnotes_DN_Assignment_3.pdf",
     "Dotnotes_DN_Adobe_Scan_07-May-2023.pdf",
     "Dotnotes_DN_APP2-2.json",
-    "Dotnotes_Physics_Unit_1_and_2.pdf"
+    "Dotnotes_Physics_Unit_1_and_2.pdf",
+    "Dotnotes_DN_Application_of_analytic_function.pdf",
+    "Dotnotes_DN_Applications_of_L_T.pdf",
+    "Dotnotes_DN_Analytic_Function.pdf",
+    "Dotnotes_DN_Convolution_theorem.pdf",
+    "Dotnotes_DN_Fourier_Series.pdf",
+    "Dotnotes_DN_L_T_of_Some_special_function.pdf",
+    "Dotnotes_DN_Fourier_transform.pdf",
+    "Dotnotes_DN_Complex_Integration.pdf",
+    "Dotnotes_DN_MAL_Unit_II_Part_I.pdf",
+    "Dotnotes_DN_MAL_II_Unit_iii_part_3_Half_range_series.pdf",
+    "Dotnotes_DN_MAL_Unit_II_Part_2.pdf",
+    "Dotnotes_DN_MAL_II_Unit_I_Part_2.pdf",
+    "Dotnotes_DN_Laplace_Trns_1.pdf",
+    "Dotnotes_DN_Maths_Examples.pdf",
+    "Dotnotes_DN_MAL_II_Unit_IV_Complete.pdf",
+    "Dotnotes_DN_MALII_Unit_III_Part_1.pdf",
+    "Dotnotes_DN_MALII_Unit_I_Part_I_Analysis_and_Demoivre.pdf",
+    "Dotnotes_DN_Real_Integrals.pdf",
+    "Dotnotes_DN_Series_of_Complex_Terms_1.pdf",
+    "Dotnotes_DN_Residue_of_a_Complex_Function.pdf",
+    "Dotnotes_DN_Taylor_s_and_Laurent_s_series.pdf",
+    "Dotnotes_DN_Unit_1_-_Notes.pdf",
+    "Dotnotes_DN_Unit_4__Separation_of_variable__One_D_wave__One_D_Heat.pdf",
+    "Dotnotes_DN_variable_Coefficient_.pdf",
+    "Dotnotes_DN_Wave_Equation.pdf",
+    "Dotnotes_DN_Unit_iii_MALii_Part2.pdf",
+    "Dotnotes_DN_Unit_2_-_Complex_Analysis_2_--_Notes_.pdf",
+    "Dotnotes_DN_Unit_1-_Questions.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4046,
+    "downloadedFiles": 4099,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 38797781016,
+    "downloadedSize": 39123630384,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:04:52.929Z"
+  "lastSaved": "2025-06-06T22:05:35.436Z"
 }
