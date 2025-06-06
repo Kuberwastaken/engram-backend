@@ -2028,19 +2028,27 @@
     "StudyX_SX_Mid_Sem_Complete.pdf",
     "StudyX_SX_cn-1.pdf",
     "StudyX_SX_802.11_and_802.3.pdf",
-    "StudyX_SX_networking_devices.pdf"
+    "StudyX_SX_networking_devices.pdf",
+    "StudyX_SX_cn_notes_part_2.pdf",
+    "StudyX_SX_End_Sem_CN.pdf",
+    "StudyX_SX_unit_1_part_3.pdf",
+    "StudyX_SX_msg_switching___unit_2_part_1.pdf",
+    "StudyX_SX_data_link_layer_protocols.pdf",
+    "StudyX_SX_computer-network-notes__1_.pdf",
+    "StudyX_SX_CN_Notes_Shivangi.pdf",
+    "StudyX_SX_Abhishek_Jha_CN_Notes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9196,
+    "downloadedFiles": 9251,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205643011,
+    "downloadedSize": 53205753231,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:58:47.387Z"
+  "lastSaved": "2025-06-06T22:59:12.990Z"
 }
