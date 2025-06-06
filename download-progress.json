@@ -370,19 +370,49 @@
     "Dotnotes_DN_UNIT_1_NOTES.pdf",
     "Dotnotes_DN_Unit_1.pdf",
     "Dotnotes_DN_CRST_unit-2.pdf",
-    "Dotnotes_DN_Unit_2.pdf"
+    "Dotnotes_DN_Unit_2.pdf",
+    "Dotnotes_DN_UHV_notes.pdf",
+    "Dotnotes_DN_UHV_notes-2.pdf",
+    "Dotnotes_DN_unit_1_crst.pdf",
+    "Dotnotes_DN_UHV_Midsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_UHV_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_UHV_Unit_-_2.pdf",
+    "Dotnotes_DN_UHV-6.json",
+    "Dotnotes_a-foundation-course-in-human-values-and-professional-ethics-firstnbsped.pdf",
+    "Dotnotes_DN_PSLA_Unit_1_-_HW_-_Dhruv_Goyal.pdf",
+    "Dotnotes_DN_Midsem-NOV2023-1.jpg",
+    "Dotnotes_DN_Midsem-NOV2023-2.jpg",
+    "Dotnotes_DN_UHV_Unit_-_1.pdf",
+    "Dotnotes_DN_PSLA-3.json",
+    "Dotnotes_DN_maths_unit_1_and_2_class_notes_sem_3_psla_.pdf",
+    "Dotnotes_Schaum_s_Outline_of_Statistic.pdf",
+    "Dotnotes_DN_Sparse_Matrix.pdf",
+    "Dotnotes_DN_Linked_List.pdf",
+    "Dotnotes_DN_Notes_on_Binary_Tree__BST.pdf",
+    "Dotnotes_DN_Unit_1_DS_-_01.pdf",
+    "Dotnotes_DN_Unit_1_DS_-_02.pdf",
+    "Dotnotes_DN_Unit_2_DS_-_02.pdf",
+    "Dotnotes_DN_Unit_4_DS_Graphs.pdf",
+    "Dotnotes_DN_Unit_3_DS_-_01.pdf",
+    "Dotnotes_DN_DS_Complete.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_2.pdf",
+    "Dotnotes_DN_Unit_2_DS_-_01.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_1.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_Overview.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_Algorithms.pdf",
+    "Dotnotes_Advanced_Engineering_Mathematics__Erwin_Sir_.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4349,
+    "downloadedFiles": 4397,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 41008848748,
+    "downloadedSize": 41643466241,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:08:17.809Z"
+  "lastSaved": "2025-06-06T22:09:01.361Z"
 }
