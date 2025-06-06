@@ -226,19 +226,22 @@
     "Dotnotes_DN_kinetics_of_rigid_bodies_notes.pdf",
     "Dotnotes_DN_kinetics_notes.pdf",
     "Dotnotes_DN_Mechanics_full_notes_MdE_116.pdf",
-    "Dotnotes_DN_kinematics_notes.pdf"
+    "Dotnotes_DN_kinematics_notes.pdf",
+    "Dotnotes_DN_EM_End_Term_Exams.pdf",
+    "Dotnotes_DN_Paper.pdf",
+    "Dotnotes_DN_Mechanics_end_sem.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2549,
+    "downloadedFiles": 2600,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 25173806454,
+    "downloadedSize": 25475951631,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:49:30.525Z"
+  "lastSaved": "2025-06-06T21:49:56.436Z"
 }
