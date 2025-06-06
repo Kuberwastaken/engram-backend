@@ -846,19 +846,34 @@
     "Dotnotes_DN_Spiral_Model.pdf",
     "Dotnotes_DN_SE-UNIT-1__B__NOTES.pdf",
     "Dotnotes_DN_Testing.pdf",
-    "Dotnotes_DN_Unit_1___2_III.pdf"
+    "Dotnotes_DN_Unit_1___2_III.pdf",
+    "Dotnotes_DN_Unit_2_SE.pdf",
+    "Dotnotes_DN_Unit_1___2_II.pdf",
+    "Dotnotes_DN_Unit_2_printed_2.pdf",
+    "Dotnotes_DN_Unit_1___2_I.pdf",
+    "Dotnotes_DN_Unit_2_printed.pdf",
+    "Dotnotes_DN_SE_End_Term_Papers.pdf",
+    "Dotnotes_DN_SE_Sessional.pdf",
+    "Dotnotes_DN_Software_Engineering_Feb2023.pdf",
+    "Dotnotes_DN_Syllx_Akash_SE.pdf",
+    "Dotnotes_DN_Software_Engineering_Jan2024.pdf",
+    "Dotnotes_SE_practicals.pdf",
+    "Dotnotes_se-akash.pdf",
+    "Dotnotes_DN_SE-5.json",
+    "Dotnotes_SOFTWARE_ENGINEERING.pdf",
+    "Dotnotes_IITKGP_SE.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5748,
+    "downloadedFiles": 5801,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52403207780,
+    "downloadedSize": 52408051331,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:28:12.757Z"
+  "lastSaved": "2025-06-06T22:28:38.406Z"
 }

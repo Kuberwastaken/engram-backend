@@ -1,0 +1,37 @@
+[
+    {
+        "title": "SE Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/tZreaH_FyMs?si=ypvuUMGkIblPRI_c",
+        "playlistUrl": "https://www.youtube.com/watch?v=tZreaH_FyMs&list=PLmTfHZlm2zKiBmcQcghCT8F3ypiO9thrc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tZreaH_FyMs/hqdefault.jpg?"
+    },
+    {
+        "title": "SE Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/rB34sFhKvAE?si=gRA4dOvu26-UA1fF",
+        "playlistUrl": "https://www.youtube.com/watch?v=rB34sFhKvAE&list=PLmTfHZlm2zKgwc2BBLKccAoN7jR8wh8ez",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rB34sFhKvAE/hqdefault.jpg?"
+    },
+    {
+        "title": "SE Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/PMC8M4cZSrc?si=3RXixNuQVZNfYhct",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKgGLv3yvVMbUeGpY-NVY_TQ&si=SnC-HTGPSbDJrKnp",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PMC8M4cZSrc/hqdefault.jpg?"
+    },
+    {
+        "title": "SE Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=2RkJkR24xFxyDFrH&amp;list=PLmTfHZlm2zKgmDUn40DmBnUB7P5FWTRkg",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKgmDUn40DmBnUB7P5FWTRkg&si=CqdQ65FklUcxFa2t",
+        "thumbnailUrl": "https://i.ytimg.com/vi/T0TynxN77oY/hqdefault.jpg?"
+    },
+    {
+        "title": "Complete Software Engineering in one shot",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/NlLM3sVF8wY?si=vm3F4taDN1o2LNim",
+        "playlistUrl": "https://www.youtube.com/watch?v=NlLM3sVF8wY&list=PLmTfHZlm2zKj2tULznRAo542tLk4xMngs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/NlLM3sVF8wY/hqdefault.jpg?"
+    }
+]
