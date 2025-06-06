@@ -1746,19 +1746,43 @@
     "StudyX_SX_group_theory_and_sub_group.pdf",
     "StudyX_SX_permutations__2_.pdf",
     "StudyX_SX_set.pdf",
-    "StudyX_SX_Sets_Logic_Relation_Notes.pdf"
+    "StudyX_SX_Sets_Logic_Relation_Notes.pdf",
+    "StudyX_SX_set_theory_.pdf",
+    "StudyX_SX_Induction_Recursion_brief.pdf",
+    "StudyX_SX_DM_notes.pdf",
+    "StudyX_SX_non_homogeneous_linear_recurrence_relation_.pdf",
+    "StudyX_SX_L1-L4_Notes.pdf",
+    "StudyX_SX_methods_of_proof_PMI_recurrence.pdf",
+    "StudyX_SX_Recurrence_2_.pdf",
+    "StudyX_SX_UNIT_2_notes.pdf",
+    "StudyX_SX_Recurrence.pdf",
+    "StudyX_SX_PigeonHole.pdf",
+    "StudyX_SX_Induction.pdf",
+    "StudyX_SX_Discrete_Structures_notes.pdf",
+    "StudyX_SX_Formal_Logic_ppt.pdf",
+    "StudyX_SX_GraphColor.pdf",
+    "StudyX_SX_EulerCycle.pdf",
+    "StudyX_SX_Formal_Logic.pdf",
+    "StudyX_SX_GraphTheory.pdf",
+    "StudyX_SX_DiscreteMathStruct.pdf",
+    "StudyX_SX_PascalTriangle.pdf",
+    "StudyX_SX_Logic.pdf",
+    "StudyX_SX_Algebra_and_Group_Theory.pdf",
+    "StudyX_SX__R18A0506__Discrete_Mathematics.pdf",
+    "StudyX_SX_Relations_.pdf",
+    "StudyX_SX_Principle_of_Mathematical_Induction.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7946,
+    "downloadedFiles": 8003,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203136307,
+    "downloadedSize": 53203250535,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:48:06.711Z"
+  "lastSaved": "2025-06-06T22:48:32.303Z"
 }
