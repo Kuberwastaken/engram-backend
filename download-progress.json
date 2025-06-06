@@ -1844,19 +1844,25 @@
     "StudyX_SX_constructor_part_1_signed.pdf",
     "StudyX_SX_constructor_part_2_signed.pdf",
     "StudyX_SX_classes_objects_notes_1_signed.pdf",
-    "StudyX_SX_OOPs_Notes_in_C___By_Arpit_Singh_.pdf"
+    "StudyX_SX_OOPs_Notes_in_C___By_Arpit_Singh_.pdf",
+    "StudyX_C___Primer.pdf",
+    "StudyX_Modern_C___OOP.pdf",
+    "StudyX_C___-_The_Complete_Reference_4e.pdf",
+    "StudyX_Multithreading_and_applet.pdf",
+    "StudyX_OOPS-Balaguruswamy__7th_edition_.pdf",
+    "StudyX_Object_Oriented_Programming_in_C_by_Robert_Lafore.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8350,
+    "downloadedFiles": 8398,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203945923,
+    "downloadedSize": 53204042115,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:51:31.666Z"
+  "lastSaved": "2025-06-06T22:51:57.359Z"
 }
