@@ -1938,19 +1938,27 @@
     "StudyX_SX_C_S_Chp10.pdf",
     "StudyX_SX_LR_2_C_S.pdf",
     "StudyX_SX_Two-port_Network.pdf",
-    "StudyX_SX_CS_All_Units.pdf"
+    "StudyX_SX_CS_All_Units.pdf",
+    "StudyX_SX_C__S_unit_1_.pdf",
+    "StudyX_SX_Endterm_CnS.pdf",
+    "StudyX_SX_CNS_Akash.pdf",
+    "StudyX_CNS_pdf.pdf",
+    "StudyX_SX_DBMS_notes.pdf",
+    "StudyX_SX_Oracle_Functions.pdf",
+    "StudyX_C_S-File_YashPandey122_-_Yash_Pandey.pdf",
+    "StudyX_SX_ch15_TRANS.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8746,
+    "downloadedFiles": 8791,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53204739507,
+    "downloadedSize": 53204829687,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:54:56.793Z"
+  "lastSaved": "2025-06-06T22:55:22.379Z"
 }
