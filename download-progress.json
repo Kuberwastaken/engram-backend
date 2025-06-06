@@ -2172,19 +2172,29 @@
     "StudyX_SX_PYTHON_PROGRAMMING_NOTES.pdf",
     "StudyX_SX_digital_notes.pdf",
     "StudyX_SX_Python_Unit_1_Notes.pdf",
-    "StudyX_SX_Handwritten.pdf"
+    "StudyX_SX_Handwritten.pdf",
+    "StudyX_SX_python_unit_1_conditional_statement_notes.pdf",
+    "StudyX_Automate_the_Boring_Stuff_with_Python-1-168.pdf",
+    "StudyX_SX_PYTHON_AAKASH_SEM6.pdf",
+    "StudyX_SX_Intro_to_WSN.pdf",
+    "StudyX_SX_Unit-II_Transceiver_Design_consideration.pdf",
+    "StudyX_SX_WSN_Unit_1___2_complete_Notes.pdf",
+    "StudyX_SX_Architecture_of_WSN.pdf",
+    "StudyX_SX_WSN_Unit_4_handwritten_Notes_____.pdf",
+    "StudyX_SX_WSN_Unit_3_handwritten_notes_______1_.pdf",
+    "StudyX_SX_UNIT2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9894,
+    "downloadedFiles": 9952,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53207048687,
+    "downloadedSize": 53207164919,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:04:46.171Z"
+  "lastSaved": "2025-06-06T23:05:11.848Z"
 }
