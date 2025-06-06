@@ -2197,19 +2197,29 @@
     "StudyX_SX_2._Gradient_Descent_based_Learners.pdf",
     "StudyX_SX_ML_Unit_1.pdf",
     "StudyX_SX_ML_Unit_2.pdf",
-    "StudyX_SX_ML_7th_Sem_AIML_ITE_Notes_Complete_LONG.pdf"
+    "StudyX_SX_ML_7th_Sem_AIML_ITE_Notes_Complete_LONG.pdf",
+    "StudyX_SX_PME_AAKASH_SEM6.pdf",
+    "StudyX_SX_Complete_AI_Notes.pdf",
+    "StudyX_SX_PPL_Notes_Unit_1.pdf",
+    "StudyX_SX_unit2_ppl.pdf",
+    "StudyX_SX_unit2_part2.pdf",
+    "StudyX_SX_storage_allocation.pdf",
+    "StudyX_SX_ppl_notes_unit_2.pdf",
+    "StudyX_SX_unit1_ppl.pdf",
+    "StudyX_SX_web_dev_unit_2.pdf",
+    "StudyX_SX_Web_dev_unit_1.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 10046,
+    "downloadedFiles": 10088,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53207353295,
+    "downloadedSize": 53207437463,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:06:03.186Z"
+  "lastSaved": "2025-06-06T23:06:28.863Z"
 }
