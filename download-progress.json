@@ -2163,19 +2163,28 @@
     "StudyX_SX_STATS_PROBABILITY.pdf",
     "StudyX_SX_Regression_analysis_and_least_square_method.pdf",
     "StudyX_SX_Statistical-Methods_Testing_Hypothesis.pdf",
-    "StudyX_SX_SSMDA_UNIT-1.pdf"
+    "StudyX_SX_SSMDA_UNIT-1.pdf",
+    "StudyX_SSADA-File__YashPandey122_.pdf",
+    "StudyX_SX_SSMDA_Akash.pdf",
+    "StudyX_SX_Complete_4_units_AI_NOTES.pdf",
+    "StudyX_SX_unit-2_human_values.pdf",
+    "StudyX_SX_Unit-1__Manish_Sir_.pdf",
+    "StudyX_SX_PYTHON_PROGRAMMING_NOTES.pdf",
+    "StudyX_SX_digital_notes.pdf",
+    "StudyX_SX_Python_Unit_1_Notes.pdf",
+    "StudyX_SX_Handwritten.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9850,
+    "downloadedFiles": 9894,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53206960511,
+    "downloadedSize": 53207048687,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:04:20.526Z"
+  "lastSaved": "2025-06-06T23:04:46.171Z"
 }
