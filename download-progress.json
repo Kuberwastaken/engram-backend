@@ -400,19 +400,23 @@
     "Dotnotes_DN_Unit_4_Graphs_-_1.pdf",
     "Dotnotes_DN_Unit_4_Graphs_-_Overview.pdf",
     "Dotnotes_DN_Unit_4_Graphs_-_Algorithms.pdf",
-    "Dotnotes_Advanced_Engineering_Mathematics__Erwin_Sir_.pdf"
+    "Dotnotes_Advanced_Engineering_Mathematics__Erwin_Sir_.pdf",
+    "Dotnotes_DN_DS_Full__TopperWorld_.pdf",
+    "Dotnotes_DN_Unit_II_DS_Shivesh.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_0.pdf",
+    "Dotnotes_DN_Unit_I_DS_Shivesh.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4397,
+    "downloadedFiles": 4450,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 41643466241,
+    "downloadedSize": 42297696341,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:09:01.361Z"
+  "lastSaved": "2025-06-06T22:10:09.018Z"
 }
