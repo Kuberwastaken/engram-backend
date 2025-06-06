@@ -253,19 +253,20 @@
     "Dotnotes_DN_HVE_notes.pdf",
     "Dotnotes_DN_UNIT-1_II___HV_E__NEW_SYLLABUS_-_2023.pdf",
     "Dotnotes_DN_midterm.pdf",
-    "Dotnotes_DN_supp-midterm.pdf"
+    "Dotnotes_DN_supp-midterm.pdf",
+    "Dotnotes_Professional_Ethics_and_Human_Values_by_R.S_NAAGARAZAN.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3002,
+    "downloadedFiles": 3044,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 29448022484,
+    "downloadedSize": 29545479620,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:54:05.100Z"
+  "lastSaved": "2025-06-06T21:54:31.607Z"
 }
