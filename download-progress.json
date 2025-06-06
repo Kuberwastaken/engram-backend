@@ -1042,19 +1042,44 @@
     "Dotnotes_DN_Till_first_order.pdf",
     "Dotnotes_DN_Theorems_Transient_Two-Port.pdf",
     "Dotnotes_DN_laplace_transform.pdf",
-    "Dotnotes_DN_intro_n_signal_n_system__1_.pdf"
+    "Dotnotes_DN_intro_n_signal_n_system__1_.pdf",
+    "Dotnotes_DN_nodal_n_loop_analysis.pdf",
+    "Dotnotes_DN_signal_n_wavefrm_synthesis.pdf",
+    "Dotnotes_DN_DC_Akash.pdf",
+    "Dotnotes_DN_unit_1_nas_notes.pdf",
+    "Dotnotes_DN_unit_3_nas_notes.pdf",
+    "Dotnotes_DN_unit_4_nas_notes.pdf",
+    "Dotnotes_DN_unit_2_nas_notes.pdf",
+    "Dotnotes_DN_NAS_07-Jul-2023_13-40-20.pdf",
+    "Dotnotes_DN_NAS_Question_Paper_June2024_08-Jun-2024.pdf",
+    "Dotnotes_DN_EE_Important_Topics.pdf",
+    "Dotnotes_DN_EMFT_Important_Topics.pdf",
+    "Dotnotes_DN_EMFT_Magnetostatics.pdf",
+    "Dotnotes_DN_EMFT_Youtube_Playlists.pdf",
+    "Dotnotes_NAS_Akash.pdf",
+    "Dotnotes_DN_EMFT_UNIT_2.pdf",
+    "Dotnotes_DN_UNIT__.pdf",
+    "Dotnotes_DN_EMFT_unit_3.pdf",
+    "Dotnotes_DN_Unit_1_Coordinate_System.pdf",
+    "Dotnotes_DN_EMFT_Unit-2.pdf",
+    "Dotnotes_DN_EMFT_unit_4_part_1.pdf",
+    "Dotnotes_DN_Unit_3_Electromagnetic_Waves.pdf",
+    "Dotnotes_DN_EMFT_UNIT_1.pdf",
+    "Dotnotes_DN_emft_unit_1_complete_notes.pdf",
+    "Dotnotes_DN_Vector_Emft_part1.pdf",
+    "Dotnotes_DN_transmission_lines_.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6150,
+    "downloadedFiles": 6198,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52570617870,
+    "downloadedSize": 52579117222,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:31:49.590Z"
+  "lastSaved": "2025-06-06T22:32:16.971Z"
 }
