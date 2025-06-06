@@ -1771,19 +1771,25 @@
     "StudyX_SX__R18A0506__Discrete_Mathematics.pdf",
     "StudyX_SX_Relations_.pdf",
     "StudyX_SX_Principle_of_Mathematical_Induction.pdf",
-    "StudyX_SX_discrete_unit_1_and_2_notes.pdf"
+    "StudyX_SX_discrete_unit_1_and_2_notes.pdf",
+    "StudyX_Discrete_Mathematics_Third_Edition_by_Seymour_Lipschutz_and_Marc_Lipson.pdf",
+    "StudyX_Discrete_Mathematics_by_Oscar_Levin.pdf",
+    "StudyX_Kolman__Busby_Ross___Discrete_Mathematical_Structures_.pdf",
+    "StudyX_Liu-Discrete_Math.pdf",
+    "StudyX_Discrete_Mathematics_Liu_Mohapatra_3rd_edition.pdf",
+    "StudyX_Discrete_Mathematics_and_Its_Applications_-_7th_Edition_by_Kenneth_H_Rosen.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8048,
+    "downloadedFiles": 8096,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203340715,
+    "downloadedSize": 53203436907,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:48:57.932Z"
+  "lastSaved": "2025-06-06T22:49:23.551Z"
 }
