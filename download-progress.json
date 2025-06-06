@@ -1960,19 +1960,30 @@
     "StudyX_SX_DBMS_1.pdf",
     "StudyX_SX_DBMS_2.pdf",
     "StudyX_SX_Typed_notes.pdf",
-    "StudyX_SX_DBMS_COMPLETE_NOTES.pdf"
+    "StudyX_SX_DBMS_COMPLETE_NOTES.pdf",
+    "StudyX_Raghu_Ramakrishnan.pdf",
+    "StudyX_SX_DBMS_AIDS___AIML.pdf",
+    "StudyX_Database_system_concepts_by_Korth.pdf",
+    "StudyX_SX_DBMS_Akash.pdf",
+    "StudyX_DBMS-File_YashPandey122_-_Yash_Pandey.pdf",
+    "StudyX_SX_Java_Complete_Notes_Typed.pdf",
+    "StudyX_SX_JAVA_Notes_UNIT-1.pdf",
+    "StudyX_SX_Java_Unit_1-3.pdf",
+    "StudyX_SX_Java_All_Unit.pdf",
+    "StudyX_SX_JAVA_NOTES_TILL_THREADING.pdf",
+    "StudyX_SX_unit_3_java.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8849,
+    "downloadedFiles": 8894,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53204945919,
+    "downloadedSize": 53205036099,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:55:47.992Z"
+  "lastSaved": "2025-06-06T22:56:13.589Z"
 }
