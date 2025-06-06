@@ -716,19 +716,37 @@
     "Dotnotes_DN_Java_Unit_1-3.pdf",
     "Dotnotes_Java_Akash.pdf",
     "Dotnotes_JAVA_Akash.pdf",
-    "Dotnotes_DN_PIJ-4.json"
+    "Dotnotes_DN_PIJ-4.json",
+    "Dotnotes_programming-with-java-by-ebalaguruswami.pdf",
+    "Dotnotes_Complete_Reference.pdf",
+    "Dotnotes_DN_Introduction.pdf",
+    "Dotnotes_DN_Dialogue_writing.pdf",
+    "Dotnotes_DN_PLAGIARISM.pdf",
+    "Dotnotes_DN_Types_of_writing.pdf",
+    "Dotnotes_DN_Unit_2-1.pdf",
+    "Dotnotes_DN_Unit-1_II.pdf",
+    "Dotnotes_DN_Unit-1.pdf",
+    "Dotnotes_DN_TW-4.json",
+    "Dotnotes_DN_DBMS_3.pdf",
+    "Dotnotes_DN_DBMS_1.pdf",
+    "Dotnotes_DN_ANKIT_SIR_ALL_UNITS_DBMS.pdf",
+    "Dotnotes_DN_DBMS_2.pdf",
+    "Dotnotes_DN_DBMS_Notes_Unit-2.pdf",
+    "Dotnotes_DN_DBMS_Unit-4.pdf",
+    "Dotnotes_DN_DBMS_notes_2.pdf",
+    "Dotnotes_DN_DBMS-Normalization.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5447,
+    "downloadedFiles": 5500,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52296290579,
+    "downloadedSize": 52402720753,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:24:52.741Z"
+  "lastSaved": "2025-06-06T22:25:57.665Z"
 }
