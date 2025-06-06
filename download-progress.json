@@ -249,19 +249,23 @@
     "Dotnotes_viva_voice_programing_in_c.pdf",
     "Dotnotes_PC_Akash__1_.pdf",
     "Dotnotes_Let_us_c_-_yashwantkanetkar.pdf",
-    "Dotnotes_DN_PIC-1.json"
+    "Dotnotes_DN_PIC-1.json",
+    "Dotnotes_DN_HVE_notes.pdf",
+    "Dotnotes_DN_UNIT-1_II___HV_E__NEW_SYLLABUS_-_2023.pdf",
+    "Dotnotes_DN_midterm.pdf",
+    "Dotnotes_DN_supp-midterm.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2952,
+    "downloadedFiles": 3002,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 29409868792,
+    "downloadedSize": 29448022484,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:53:36.728Z"
+  "lastSaved": "2025-06-06T21:54:05.100Z"
 }
