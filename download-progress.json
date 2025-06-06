@@ -591,19 +591,46 @@
     "Dotnotes_DN_C_S_Chp9.pdf",
     "Dotnotes_DN_C_S_Chp4_8.pdf",
     "Dotnotes_DN_C_S_Notes.pdf",
-    "Dotnotes_DN_AC_Circuits__Unit_-_3__Handwritten.pdf"
+    "Dotnotes_DN_AC_Circuits__Unit_-_3__Handwritten.pdf",
+    "Dotnotes_DN_C_S_240208_102958.pdf",
+    "Dotnotes_DN_C_S_4.pdf",
+    "Dotnotes_DN_C_S_2.pdf",
+    "Dotnotes_DN_C_S_3.pdf",
+    "Dotnotes_DN_C_S_Unit_3_4.pdf",
+    "Dotnotes_DN_C_S_1.pdf",
+    "Dotnotes_DN_C_S_UNIT_3_NOTES.pdf",
+    "Dotnotes_DN_C_S_UNIT_4_NOTES.pdf",
+    "Dotnotes_DN_C_S_UNIT_2_NOTES.pdf",
+    "Dotnotes_DN_C_S_UNIT_1_NOTES.pdf",
+    "Dotnotes_DN_C_S_Unit_1_.pdf",
+    "Dotnotes_DN_CNS_Important_Topics.pdf",
+    "Dotnotes_DN_CNS_Youtube_Playlists.pdf",
+    "Dotnotes_DN_CAS_Unit_3.pdf",
+    "Dotnotes_DN_Circuit_Analysis_RLC.pdf",
+    "Dotnotes_DN_LR_2_C_S.pdf",
+    "Dotnotes_DN_Laplace_Part_-_1.pdf",
+    "Dotnotes_DN_Classical_Or_Transient_Method.pdf",
+    "Dotnotes_DN_Lec_1_C_S.pdf",
+    "Dotnotes_DN_Laplace_Examples.pdf",
+    "Dotnotes_DN_Laplace_Transform.pdf",
+    "Dotnotes_DN_Laplace_Part_-_2.pdf",
+    "Dotnotes_DN_CS_All_Units.pdf",
+    "Dotnotes_DN_UNIT_3_4__Best_IMO_.pdf",
+    "Dotnotes_DN_Lr_3_C_S.pdf",
+    "Dotnotes_DN_Graph_Theory__Unit_-_4__Handwritten.pdf",
+    "Dotnotes_DN_Two-port_Network.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5143,
+    "downloadedFiles": 5199,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 48320979364,
+    "downloadedSize": 49065680844,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:19:21.432Z"
+  "lastSaved": "2025-06-06T22:20:07.850Z"
 }
