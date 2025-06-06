@@ -69,19 +69,20 @@
     "Dotnotes_DN_Unit_2_notes.pdf",
     "Dotnotes_DN_Communication_Skills_Unit_1.pdf",
     "Dotnotes_DN_CS_4th_unit.pdf",
-    "Dotnotes_DN_Unit_1_notes.pdf"
+    "Dotnotes_DN_Unit_1_notes.pdf",
+    "Dotnotes_DN_End_sem_communication_skill.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 554,
+    "downloadedFiles": 602,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 7486187501,
+    "downloadedSize": 8135968726,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:28:13.880Z"
+  "lastSaved": "2025-06-06T21:28:39.894Z"
 }
