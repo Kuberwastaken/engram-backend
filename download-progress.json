@@ -172,19 +172,46 @@
     "Dotnotes_DN_Cayley_Hamilton_Theorem.pdf",
     "Dotnotes_DN_Gauss_Jordan_Method.pdf",
     "Dotnotes_DN_Gauss_Elimination_Method.pdf",
-    "Dotnotes_DN_Gamma_Function.pdf"
+    "Dotnotes_DN_Gamma_Function.pdf",
+    "Dotnotes_DN_Orthogonal_Trajectory.pdf",
+    "Dotnotes_DN_Orthogonal_Matrix.pdf",
+    "Dotnotes_DN_Mass_Spring_System.pdf",
+    "Dotnotes_DN_Power_Series.pdf",
+    "Dotnotes_DN_Jacobians_and_Lagrange.pdf",
+    "Dotnotes_DN_Bessel_s_Functions_and_Differential_Equations.pdf",
+    "Dotnotes_DN_Method_of_Variation_of_Parameters_.pdf",
+    "Dotnotes_DN_Leibnitz_s_Rule.pdf",
+    "Dotnotes_DN_Exact_differential_equation.pdf",
+    "Dotnotes_DN_Legendre_equations_and_polynomials.pdf",
+    "Dotnotes_DN_MAL_Unit_I_II__Till_gamma_function_.pdf",
+    "Dotnotes_DN_Quadratic_Form.pdf",
+    "Dotnotes_DN_Rank.pdf",
+    "Dotnotes_DN_Solution_of_system_of_equations.pdf",
+    "Dotnotes_DN_Wronskian.pdf",
+    "Dotnotes_DN_Vector.pdf",
+    "Dotnotes_DN_Vector_calculus.pdf",
+    "Dotnotes_DN_Unit_II_Remaining__Cauchy_Euler_Power_series_.pdf",
+    "Dotnotes_DN_UnitIII_MAL.pdf",
+    "Dotnotes_DN_linear_differential_equations.pdf",
+    "Dotnotes_DN_Unit_IV_MAL.pdf",
+    "Dotnotes_DN_population_Dynamics.pdf",
+    "Dotnotes_DN_diagonalisation.pdf",
+    "Dotnotes_DN_vectors_2.pdf",
+    "Dotnotes_DN_maths_unit_1_examples.pdf",
+    "Dotnotes_DN_vectors_1.pdf",
+    "Dotnotes_DN_skshm_full_Maths_Notes_combined_as_on_14_february_2023.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1946,
+    "downloadedFiles": 1999,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 19923909178,
+    "downloadedSize": 20508343453,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:42:48.590Z"
+  "lastSaved": "2025-06-06T21:43:24.734Z"
 }
