@@ -360,19 +360,22 @@
     "Dotnotes_DN_Wave_Equation.pdf",
     "Dotnotes_DN_Unit_iii_MALii_Part2.pdf",
     "Dotnotes_DN_Unit_2_-_Complex_Analysis_2_--_Notes_.pdf",
-    "Dotnotes_DN_Unit_1-_Questions.pdf"
+    "Dotnotes_DN_Unit_1-_Questions.pdf",
+    "Dotnotes_DN_Mid_Term_Paper_SolutionBS112.pdf",
+    "Dotnotes_DN_Solution_of_CT.pdf",
+    "Dotnotes_DN_Maths_II_End_sem.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4253,
+    "downloadedFiles": 4301,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 40045446136,
+    "downloadedSize": 40339133843,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:07:18.381Z"
+  "lastSaved": "2025-06-06T22:07:44.508Z"
 }
