@@ -2118,19 +2118,33 @@
     "StudyX_SX_ch12.pdf",
     "StudyX_SX_ch10.pdf",
     "StudyX_SX_ch15.pdf",
-    "StudyX_SX_ch1.pdf"
+    "StudyX_SX_ch1.pdf",
+    "StudyX_SX_Syllx_Akash_OS.pdf",
+    "StudyX_SX_Previous_Year_OS_sessional.pdf",
+    "StudyX_os_new_lab_manual.pdf",
+    "StudyX_OS_File.pdf",
+    "StudyX_OS-File_-_Yash_Pandey.pdf",
+    "StudyX_SX_AI_NOTES.pdf",
+    "StudyX_SX_Complete_AI_notes.pdf",
+    "StudyX_SX_advance_java_ppt.pdf",
+    "StudyX_SX_Books_notes_part_2.pdf",
+    "StudyX_SX_Books_Notes_part_1.pdf",
+    "StudyX_SX_unit_1_2_3.pdf",
+    "StudyX_SX_java_programming.pdf",
+    "StudyX_SX_Advanced_Java_Unit_1.pdf",
+    "StudyX_SX_Into_To_Java.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9604,
+    "downloadedFiles": 9650,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53206464055,
+    "downloadedSize": 53206557943,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:02:12.337Z"
+  "lastSaved": "2025-06-06T23:02:37.956Z"
 }
