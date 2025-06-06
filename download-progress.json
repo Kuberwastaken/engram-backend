@@ -734,19 +734,40 @@
     "Dotnotes_DN_DBMS_Notes_Unit-2.pdf",
     "Dotnotes_DN_DBMS_Unit-4.pdf",
     "Dotnotes_DN_DBMS_notes_2.pdf",
-    "Dotnotes_DN_DBMS-Normalization.pdf"
+    "Dotnotes_DN_DBMS-Normalization.pdf",
+    "Dotnotes_DN_DBMS_unit-3.pdf",
+    "Dotnotes_DN_DBMS-Unit-2.pdf",
+    "Dotnotes_DN_DBMS-Transaction_Control.pdf",
+    "Dotnotes_DN_Typed_notes.pdf",
+    "Dotnotes_DN_Oracle_Functions.pdf",
+    "Dotnotes_DN_DBMS-Unit-1.pdf",
+    "Dotnotes_DN_DBMS_notes.pdf",
+    "Dotnotes_DN_ch15_TRANS.pdf",
+    "Dotnotes_DN_Unit_-4_DBMS.pdf",
+    "Dotnotes_DN_UNIT-3_DBMS.pdf",
+    "Dotnotes_DN_pl_sql.pdf",
+    "Dotnotes_DN_DBMS_AIDS___AIML.pdf",
+    "Dotnotes_DN_DBMS_COMPLETE_NOTES.pdf",
+    "Dotnotes_DN_DBMS_Mid_Sem.pdf",
+    "Dotnotes_DN_DBMS_Papers.pdf",
+    "Dotnotes_DN_Mid_Term_Exam_DBMS__May_2023-1.pdf",
+    "Dotnotes_DN_DBMS-4.json",
+    "Dotnotes_Raghu_Ramakrishnan.pdf",
+    "Dotnotes_DBMS_Akash.pdf",
+    "Dotnotes_Database_system_concepts_by_Korth.pdf",
+    "Dotnotes_DN_CD_Full_Syllabus.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5500,
+    "downloadedFiles": 5548,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52402720753,
+    "downloadedSize": 52402816650,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:25:57.665Z"
+  "lastSaved": "2025-06-06T22:26:30.349Z"
 }
