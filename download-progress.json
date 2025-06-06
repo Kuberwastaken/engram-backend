@@ -2132,19 +2132,30 @@
     "StudyX_SX_unit_1_2_3.pdf",
     "StudyX_SX_java_programming.pdf",
     "StudyX_SX_Advanced_Java_Unit_1.pdf",
-    "StudyX_SX_Into_To_Java.pdf"
+    "StudyX_SX_Into_To_Java.pdf",
+    "StudyX_Adv-Java-File__YashPandey122_.pdf",
+    "StudyX_SX_AI_Unit_1_with_assignment.pdf",
+    "StudyX_SX_UNIT_2_AI__1_.pdf",
+    "StudyX_SX_unit_1_ai.pdf",
+    "StudyX_SX_Logical_Reasoning_U2.pdf",
+    "StudyX_SX_AI_Unit_2_with_assignment.pdf",
+    "StudyX_SX_state_space__Autosaved_.pdf",
+    "StudyX_SX_Foundations_of_ai.pdf",
+    "StudyX_SX_AI_Unit-III__1_.pdf",
+    "StudyX_SX_ADVANCED_JAVA_AAKASH_SEM6.pdf",
+    "StudyX_SX_AI_unit1.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9702,
+    "downloadedFiles": 9750,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53206662151,
+    "downloadedSize": 53206758343,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:03:03.563Z"
+  "lastSaved": "2025-06-06T23:03:29.184Z"
 }
