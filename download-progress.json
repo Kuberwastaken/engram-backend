@@ -314,19 +314,22 @@
     "Dotnotes_DN_numericals_unit-3__2nd_sem.pdf",
     "Dotnotes_DN_statistical_mechanics.pdf",
     "Dotnotes_DN_UNIT_2_-_AP.pdf",
-    "Dotnotes_DN_physics_notes_unit_1.pdf"
+    "Dotnotes_DN_physics_notes_unit_1.pdf",
+    "Dotnotes_DN_Crystal_structure.pdf",
+    "Dotnotes_DN_Semiconductor.pdf",
+    "Dotnotes_DN_Semiconductor2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3851,
+    "downloadedFiles": 3899,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 36517295109,
+    "downloadedSize": 36929057754,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:02:42.421Z"
+  "lastSaved": "2025-06-06T22:03:10.749Z"
 }
