@@ -486,19 +486,23 @@
     "Dotnotes_DN_Unit_2_-_Part_2.pptx",
     "Dotnotes_DN_Philosophical_Systems.pdf",
     "Dotnotes_DN_Unit_3.pdf",
-    "Dotnotes_DN_indian_knowledge_system.pdf"
+    "Dotnotes_DN_indian_knowledge_system.pdf",
+    "Dotnotes_DN_IKS_mid_sem_1_-_2023.pdf",
+    "Dotnotes_DN_midsem_nov_2022.jpg",
+    "Dotnotes_DN_IKS_mid_sem_2.pdf",
+    "Dotnotes_DN_IKS-3.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4848,
+    "downloadedFiles": 4896,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 45333450734,
+    "downloadedSize": 45558174930,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:14:44.892Z"
+  "lastSaved": "2025-06-06T22:15:18.258Z"
 }
