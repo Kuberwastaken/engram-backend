@@ -1,0 +1,6 @@
+{
+  "Unit I": "Overview of VB.NET and its history, Features and benefits of VB.NET, Introduction to .NET framework architecture and common language runtime (CLR), Setting up the development environment (Visual Studio), Basic syntax and structure of a VB.NET program, Use of namespaces",
+  "Unit II": "Variables and data types, Operators and expressions, Control structures: decision-making statements and loops, Working with arrays and strings, Exception handling in VB.NET, Working with files and directories, Basic understanding of LINQ",
+  "Unit III": "Understanding the basics of object-oriented programming (OOP), Creating classes and objects in VB.NET, Inheritance and polymorphism, Encapsulation and abstraction, Working with interfaces and abstract classes, Delegates and events",
+  "Unit IV": "Working with databases using ADO.NET, Multi-threading concepts and working with threads, Working with XML documents using XML DOM and XML serialization, The basics of web programming with ASP.NET, Understanding the basics of WPF and Windows Forms for desktop application development, Overview of .NET Core and its features"
+}

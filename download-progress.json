@@ -907,19 +907,49 @@
     "Dotnotes_DN_Computer_Networks_Jan2024.pdf",
     "Dotnotes_DN_CN_Mid_term_ICE_2023.pdf",
     "Dotnotes_DN_ICE_End-term_CN.pdf",
-    "Dotnotes_DN_Previous_Years_CN_Sessionals.pdf"
+    "Dotnotes_DN_Previous_Years_CN_Sessionals.pdf",
+    "Dotnotes_DN_Syllx_Akash_CN.pdf",
+    "Dotnotes_CNExp1-5.pdf",
+    "Dotnotes_cn-akash.pdf",
+    "Dotnotes_DN_CN-5.json",
+    "Dotnotes_Andrew_S._Tanenbaum_-_Computer_Networks.pdf",
+    "Dotnotes_DN_VBNET-6.json",
+    "Dotnotes_DN_WEBTECH_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_Web_Technologies_Notes.pdf",
+    "Dotnotes_DN_WET-6.json",
+    "Dotnotes_DN_WT_UNIT_-_1.pdf",
+    "Dotnotes_akash.pdf",
+    "Dotnotes_DN_Server_Side_Unit_-_2.pptx",
+    "Dotnotes_DN_Java_Beans.pptx",
+    "Dotnotes_DN_ADVJ-6.json",
+    "Dotnotes_DN_Advanced_Java_Unit_-_2.pdf",
+    "Dotnotes_DN_Adv_Java_Unit_1__TJ_.pdf",
+    "Dotnotes_DN_Adv_Java_Unit_2__TJ_.pdf",
+    "Dotnotes_DN_PME_Unit_2.pdf",
+    "Dotnotes_DN_PME_Notes_-_Complete__Concise_.pdf",
+    "Dotnotes_DN_PME_Unit_1.pdf",
+    "Dotnotes_DN_PME_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_PME_Midsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_POM_Unit_1__2.pdf",
+    "Dotnotes_DN_UNIT_III_PPT.pdf",
+    "Dotnotes_DN_Principles_of_ManagementLPU.pdf",
+    "Dotnotes_DN_UNIT-_1_PME_NOTES_OF_BTECH_6TH_SEM.pdf",
+    "Dotnotes_DN_T1MC1_Pronciples_of_management.pdf",
+    "Dotnotes_DN_UNIT-_2_PME_NOTES_OF_BTECH_6TH_SEM.pdf",
+    "Dotnotes_DN_Unit_4_Controlling.pdf",
+    "Dotnotes_DN_Unit_3_Organising.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5900,
+    "downloadedFiles": 5951,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52462849904,
+    "downloadedSize": 52544515276,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:29:34.543Z"
+  "lastSaved": "2025-06-06T22:30:01.953Z"
 }

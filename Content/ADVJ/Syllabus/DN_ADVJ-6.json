@@ -1,0 +1,6 @@
+{
+  "Unit I": "Introduction to Java, Inheritance, Exception Handling, Multithreading, Applet Programming, Connecting to a Server, Implementing Servers, Making URL Connections, Socket Programming",
+  "Unit II": "Preparing a Class to be a Java Bean, Creating a Java Bean, Java Bean Properties, Types of beans, Stateful Session bean, Stateless Session bean, Entity bean, Servlet Overview and Architecture, Interface Servlet and the Servlet LifeCycle, Handling HTTP GET Requests, Handling HTTP POST Requests, Session Tracking, Cookies",
+  "Unit III": "JSP: Introduction, Java Server Pages Overview, Implicit Objects, Scripting, Standard Actions, Directives, Custom Tag Libraries",
+  "Unit IV": "The Roles of Client and Server, Remote Method Invocations, Setup for Remote Method Invocation, Parameter Passing in Remote Methods, Introduction of HB, HB Architecture"
+}
