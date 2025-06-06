@@ -326,19 +326,25 @@
     "Dotnotes_Physics_File.pdf",
     "Dotnotes_CamScanner_05-24-2023_11.54.pdf",
     "Dotnotes_Physics_II_Lab_file._pdf.pdf",
-    "Dotnotes_Complete_practical_.pdf"
+    "Dotnotes_Complete_practical_.pdf",
+    "Dotnotes_physics_full_akash__3_.pdf",
+    "Dotnotes_AP-II_Aakash_2021-22.pdf",
+    "Dotnotes_DN_Assignment_3.pdf",
+    "Dotnotes_DN_Adobe_Scan_07-May-2023.pdf",
+    "Dotnotes_DN_APP2-2.json",
+    "Dotnotes_Physics_Unit_1_and_2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3999,
+    "downloadedFiles": 4046,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 37646876089,
+    "downloadedSize": 38797781016,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:04:27.141Z"
+  "lastSaved": "2025-06-06T22:04:52.929Z"
 }

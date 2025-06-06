@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Quantum Mechanics",
+        "author": "Technical Physics",
+        "embedUrl": "https://www.youtube.com/embed/n_5pkM3P9ZI?si=jBPvfFIUBsVrjH1A",
+        "playlistUrl": "https://www.youtube.com/watch?v=n_5pkM3P9ZI&list=PL5zwY2E7i60VL5GwnW9bl681uEXNwDP1h",
+        "thumbnailUrl": "https://i.ytimg.com/vi/n_5pkM3P9ZI/hqdefault.jpg?"
+    },
+    {
+        "title": "Quantum Statistics",
+		"author": "Eduphile",
+		"embedUrl": "https://www.youtube.com/embed/Vr7A21F3_tA?si=s47kA9gXunKbRg5c",
+        "playlistUrl": "https://www.youtube.com/watch?v=Vr7A21F3_tA&list=PLyTVFDODClZiqbL2doX45bhq6QGwebrid",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Vr7A21F3_tA/hqdefault.jpg?"
+    },
+    {
+        "title": "Crystal Structure",
+		"author": "Eduphile",
+        "embedUrl": "https://www.youtube.com/embed/eyqI6HihSnM?si=H1OyXUemVZOwpYBT",
+        "playlistUrl": "https://www.youtube.com/watch?v=eyqI6HihSnM&list=PLyTVFDODClZinQk5tgU-XyCP1wZz-Yrdc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eyqI6HihSnM/hqdefault.jpg?"
+    },
+    {
+        "title": "Band Theory of Solids",
+		"author": "Eduphile",
+        "embedUrl": "https://www.youtube.com/embed/mje44dAK7cE?si=3ArLAGBfe0hQhhRp",
+        "playlistUrl": "https://www.youtube.com/watch?v=mje44dAK7cE&list=PLyTVFDODClZhYaAMP10c0g6qDKL9ifunJ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mje44dAK7cE/hqdefault.jpg?"
+    }
+]
