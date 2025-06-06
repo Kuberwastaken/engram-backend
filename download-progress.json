@@ -861,19 +861,47 @@
     "Dotnotes_se-akash.pdf",
     "Dotnotes_DN_SE-5.json",
     "Dotnotes_SOFTWARE_ENGINEERING.pdf",
-    "Dotnotes_IITKGP_SE.pdf"
+    "Dotnotes_IITKGP_SE.pdf",
+    "Dotnotes_DN_End_Sem_DAA.pdf",
+    "Dotnotes_DN_Complete_Notes-All_Units.pdf",
+    "Dotnotes_DN_ADA_unit_1.pdf",
+    "Dotnotes_DN_Mid_Sem_Complete.pdf",
+    "Dotnotes_DN_ADA_UNIT_3.pdf",
+    "Dotnotes_DN_Unit_1_Hand_Written_Notes.pdf",
+    "Dotnotes_DN_Unit_4_Computational_Complexity_ada.pdf",
+    "Dotnotes_DN_Unit_1_DAA.pdf",
+    "Dotnotes_DN_unit_2_ada.pdf",
+    "Dotnotes_DN_Algorithms_Design_Analysis_Feb2023.pdf",
+    "Dotnotes_DN_unit_1_ada.pdf",
+    "Dotnotes_DN_Design_Analysis_Algorithms_Jan2024.pdf",
+    "Dotnotes_DN_DAA-5.json",
+    "Dotnotes_DN_802.11_and_802.3.pdf",
+    "Dotnotes_daa-akash.pdf",
+    "Dotnotes_DN_CN_Notes_Shivangi.pdf",
+    "Dotnotes_DN_CN_Unit_-_2_Data_Link_Layer.pdf",
+    "Dotnotes_DN_Datalink_Layer.pdf",
+    "Dotnotes_DN_CN_Lecture_Notes.pdf",
+    "Dotnotes_DN_IEEE_standard_802.3__802.11.pdf",
+    "Dotnotes_DN_HDLC_PPP.pdf",
+    "Dotnotes_DN_Switching_Theory.pdf",
+    "Dotnotes_DN_Token_ring_bus_and_FDDI.pdf",
+    "Dotnotes_DN_Unit_-_4_Transport_Layer.pdf",
+    "Dotnotes_DN_Unit_-_3_Network_Layer.pdf",
+    "Dotnotes_DN_cn_notes_part_2.pdf",
+    "Dotnotes_DN_End_Sem_CN.pdf",
+    "Dotnotes_DN_cn-1.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5801,
+    "downloadedFiles": 5849,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52408051331,
+    "downloadedSize": 52447035377,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:28:38.406Z"
+  "lastSaved": "2025-06-06T22:29:04.658Z"
 }
