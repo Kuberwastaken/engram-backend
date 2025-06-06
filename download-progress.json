@@ -89,19 +89,22 @@
     "Dotnotes_DN_Evs_Complete_Notes.pdf",
     "Dotnotes_DN_EVSL_Unit_I_and_II_Handwritten.pdf",
     "Dotnotes_DN_EVS_22-23_QUESTION_PAPER.pdf",
-    "Dotnotes_DN_Evs_End_Term_Paper.pdf"
+    "Dotnotes_DN_Evs_End_Term_Paper.pdf",
+    "Dotnotes_EVS_Practical_list.pdf",
+    "Dotnotes_EVS_file.pdf",
+    "Dotnotes_Environmental_Studies.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 903,
+    "downloadedFiles": 951,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 9910690380,
+    "downloadedSize": 10175800353,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:31:34.908Z"
+  "lastSaved": "2025-06-06T21:32:06.955Z"
 }
