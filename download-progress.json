@@ -2215,19 +2215,32 @@
     "StudyX_SX_unit_1.pdf",
     "StudyX_SX_complete_notes.pdf",
     "StudyX_SX_gears.pdf",
-    "StudyX_SX_full_syllabus_notes.pdf"
+    "StudyX_SX_full_syllabus_notes.pdf",
+    "StudyX_SX_2019.pdf",
+    "StudyX_SX_2014-2018.pdf",
+    "StudyX_SX_2019_solved_end_term.pdf",
+    "StudyX_RS_KHUMI.pdf",
+    "StudyX_SX_RLDL_End_Sem.pdf",
+    "StudyX_SX_mid_sem.pdf",
+    "StudyX_SX_PRCV_End_Sem.pdf",
+    "StudyX_SX_DataAnalytics_Using_R.pdf",
+    "StudyX_SX_DATA_SCIENCE_Using_R_Notes_.pdf",
+    "StudyX_SX_BDA_End_Sem.pdf",
+    "StudyX_SX_4-2_BBig_Data_Analytics_Digital_notes_3.pdf",
+    "StudyX_SX_Big_Data_Analytics_Notes_1.pdf",
+    "StudyX_SX_BDA_mid_sem.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 10150,
+    "downloadedFiles": 10199,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53207561711,
+    "downloadedSize": 53207659907,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:06:54.565Z"
+  "lastSaved": "2025-06-06T23:07:20.177Z"
 }
