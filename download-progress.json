@@ -2008,19 +2008,39 @@
     "StudyX_SX_CD_unit_3_nd_4.pdf",
     "StudyX_SX_CD_unit_1.pdf",
     "StudyX_SX_CD_Notes_Shivangi.pdf",
-    "StudyX_SX_CD_unit-1_ii_.pdf"
+    "StudyX_SX_CD_unit-1_ii_.pdf",
+    "StudyX_SX_Syllx_Akash_CD.pdf",
+    "StudyX_Modern_Compiler_Design_2e.pdf",
+    "StudyX_SX_cd_question_papers.pdf",
+    "StudyX_SX_CD_sessional.pdf",
+    "StudyX_cd_lab.pdf",
+    "StudyX_CD-File_-_Yash_Pandey.pdf",
+    "StudyX_SX_transport_layer.pdf",
+    "StudyX_SX_switching.pdf",
+    "StudyX_SX_network_layer.pdf",
+    "StudyX_SX_error_detection_and_correction_codes.pdf",
+    "StudyX_SX_Token_ring_bus_and_FDDI.pdf",
+    "StudyX_SX_network_devices.pdf",
+    "StudyX_SX_IEEE_standard_802.3__802.11.pdf",
+    "StudyX_SX_medium_access_sublayer.pdf",
+    "StudyX_SX_HDLC_PPP.pdf",
+    "StudyX_SX_Datalink_Layer.pdf",
+    "StudyX_SX_Mid_Sem_Complete.pdf",
+    "StudyX_SX_cn-1.pdf",
+    "StudyX_SX_802.11_and_802.3.pdf",
+    "StudyX_SX_networking_devices.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9150,
+    "downloadedFiles": 9196,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205549123,
+    "downloadedSize": 53205643011,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:58:21.713Z"
+  "lastSaved": "2025-06-06T22:58:47.387Z"
 }
