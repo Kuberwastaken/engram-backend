@@ -1796,19 +1796,36 @@
     "StudyX_SX_main.pdf",
     "StudyX_SX_marked-2.pdf",
     "StudyX_SX_iks_notes__1_.pdf",
-    "StudyX_SX_marked_.pdf"
+    "StudyX_SX_marked_.pdf",
+    "StudyX_IKS_chap_2.pdf",
+    "StudyX_IKS_chap_8.pdf",
+    "StudyX_IKS_chap_1.pdf",
+    "StudyX_IKS_chap_3.pdf",
+    "StudyX_IKS_chap_4.pdf",
+    "StudyX_IKS_chap_7.pdf",
+    "StudyX_IKS_chap_6.pdf",
+    "StudyX_IKS_chap_11.pdf",
+    "StudyX_IKS_chap_13.pdf",
+    "StudyX_IKS_chap_10.pdf",
+    "StudyX_IKS_chap_9.pdf",
+    "StudyX_IKS_chap_5.pdf",
+    "StudyX_IKS_chap_12.pdf",
+    "StudyX_IKS_chap_14.pdf",
+    "StudyX_SX_IKS_Mid_Term.pdf",
+    "StudyX_SX_IKS_-_End_Term_BPIT.pdf",
+    "StudyX_SX_IKS_Important_Topics.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8185,
+    "downloadedFiles": 8249,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203615263,
+    "downloadedSize": 53203743519,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:50:14.832Z"
+  "lastSaved": "2025-06-06T22:50:40.441Z"
 }
