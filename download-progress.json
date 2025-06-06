@@ -1643,19 +1643,24 @@
     "StudyX_SX_handwritten_.pdf",
     "StudyX_SX_Lecture_Notes_.pdf",
     "StudyX_SX_ds_notes.pdf",
-    "StudyX_SX_ds_notes-2.pdf"
+    "StudyX_SX_ds_notes-2.pdf",
+    "StudyX_Data_Structure_Analysis.pdf",
+    "StudyX_Data_Structures_in_C___.pdf",
+    "StudyX_Data_Structures_using_C_by_Reema_Thareja.pdf",
+    "StudyX_Data.Structures_by_Gilberg_Forourzan.pdf",
+    "StudyX_Data_Structures_and_Algorithms_-_Narasimha_Karumanchi.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7301,
+    "downloadedFiles": 7346,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53198066840,
+    "downloadedSize": 53198157020,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:42:33.036Z"
+  "lastSaved": "2025-06-06T22:42:58.660Z"
 }
