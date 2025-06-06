@@ -1770,19 +1770,20 @@
     "StudyX_SX_Algebra_and_Group_Theory.pdf",
     "StudyX_SX__R18A0506__Discrete_Mathematics.pdf",
     "StudyX_SX_Relations_.pdf",
-    "StudyX_SX_Principle_of_Mathematical_Induction.pdf"
+    "StudyX_SX_Principle_of_Mathematical_Induction.pdf",
+    "StudyX_SX_discrete_unit_1_and_2_notes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8003,
+    "downloadedFiles": 8048,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203250535,
+    "downloadedSize": 53203340715,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:48:32.303Z"
+  "lastSaved": "2025-06-06T22:48:57.932Z"
 }
