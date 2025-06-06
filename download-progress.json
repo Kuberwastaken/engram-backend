@@ -2228,19 +2228,26 @@
     "StudyX_SX_BDA_End_Sem.pdf",
     "StudyX_SX_4-2_BBig_Data_Analytics_Digital_notes_3.pdf",
     "StudyX_SX_Big_Data_Analytics_Notes_1.pdf",
-    "StudyX_SX_BDA_mid_sem.pdf"
+    "StudyX_SX_BDA_mid_sem.pdf",
+    "StudyX_SX_Big_Data_Analytics_Digital_notes_2.pdf",
+    "StudyX_SX_Digital_system_design.pdf",
+    "StudyX_SX_Notes.pdf",
+    "StudyX_SX_PPT_NOTES.pdf",
+    "StudyX_SX_Short_Notes.pdf",
+    "StudyX_SX_Complete_PPT.pdf",
+    "StudyX_SX_Book_Notes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 10199,
+    "downloadedFiles": 10252,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53207659907,
+    "downloadedSize": 53207766119,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:07:20.177Z"
+  "lastSaved": "2025-06-06T23:07:45.860Z"
 }
