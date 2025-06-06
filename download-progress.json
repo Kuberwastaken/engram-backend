@@ -164,19 +164,27 @@
     "Dotnotes_handwritten_file_.pdf",
     "Dotnotes_sem1phyfile.pdf",
     "Dotnotes_old_akash_.pdf",
-    "Dotnotes_Physics_Akash_new.pdf"
+    "Dotnotes_Physics_Akash_new.pdf",
+    "Dotnotes_AP_Book..pdf",
+    "Dotnotes_DN_APP1-1.json",
+    "Dotnotes_Physics_for_Scientists_and_Engineers_by_Raymond_A._Serway_and_John_W._Jewett.pdf",
+    "Dotnotes_DN_Cramer_s_Rule.pdf",
+    "Dotnotes_DN_Cayley_Hamilton_Theorem.pdf",
+    "Dotnotes_DN_Gauss_Jordan_Method.pdf",
+    "Dotnotes_DN_Gauss_Elimination_Method.pdf",
+    "Dotnotes_DN_Gamma_Function.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1896,
+    "downloadedFiles": 1946,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 19369941032,
+    "downloadedSize": 19923909178,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:42:11.979Z"
+  "lastSaved": "2025-06-06T21:42:48.590Z"
 }
