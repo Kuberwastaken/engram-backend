@@ -96,19 +96,26 @@
     "Dotnotes_Evs_Akash.pdf",
     "Dotnotes_EVS_by_Anindita_Basak.pdf",
     "Dotnotes_EVS_by_Benny_Joseph.pdf",
-    "Dotnotes_DN_EVS-1.json"
+    "Dotnotes_DN_EVS-1.json",
+    "Dotnotes_DN_Adobe_Scan_16_Jun_2023__1_.pdf",
+    "Dotnotes_DN_Adobe_Scan_16_Jun_2023.pdf",
+    "Dotnotes_DN_Unit_IV_of_IC.pdf",
+    "Dotnotes_DN_IC-2.pdf",
+    "Dotnotes_DN_UNIT-III__INDIAN_CONSTITUTION_.pdf",
+    "Dotnotes_DN_Unit-_2_IC.pdf",
+    "Dotnotes_DN_Unit-1_IC.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1054,
+    "downloadedFiles": 1104,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 10923264601,
+    "downloadedSize": 10989657402,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:33:10.134Z"
+  "lastSaved": "2025-06-06T21:33:36.204Z"
 }
