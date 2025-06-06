@@ -121,19 +121,24 @@
     "Dotnotes_DN_UNIT_2_MP_new.pdf",
     "Dotnotes_DN_MPL_Unit_iv_Plastic_and_Powder_metallurgy.pdf",
     "Dotnotes_DN_Unit_4_MP_new.pdf",
-    "Dotnotes_DN_UNIT_-1_notes.pdf"
+    "Dotnotes_DN_UNIT_-1_notes.pdf",
+    "Dotnotes_DN_MP_mid_sem_2_2023.pdf",
+    "Dotnotes_DN_Mid-Term_2019.pdf",
+    "Dotnotes_DN_previous.pdf",
+    "Dotnotes_DN_Manufacturing_End_sem.pdf",
+    "Dotnotes_DN_MP_prev._year_question_papers.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1452,
+    "downloadedFiles": 1503,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 14479794118,
+    "downloadedSize": 15063772870,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:37:11.220Z"
+  "lastSaved": "2025-06-06T21:37:49.729Z"
 }
