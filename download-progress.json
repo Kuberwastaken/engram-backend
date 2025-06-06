@@ -1449,19 +1449,39 @@
     "StudyX_SX_2D_Array.pdf",
     "StudyX_SX_I_Internal.pdf",
     "StudyX_SX_cnotes.pdf",
-    "StudyX_SX_cprogramming_tutorial.pdf"
+    "StudyX_SX_cprogramming_tutorial.pdf",
+    "StudyX_SX_Biogeochemical_cycle.pdf",
+    "StudyX_SX_unit_3-1.pdf",
+    "StudyX_SX_Unit_4-1.pdf",
+    "StudyX_Let_us_C.pdf",
+    "StudyX_SX_unit_1_EVS.pdf",
+    "StudyX_SX_Comlete_Digital.pdf",
+    "StudyX_SX_Energy_.pdf",
+    "StudyX_SX_Food_Resources_.pdf",
+    "StudyX_SX_EVS-2.pdf",
+    "StudyX_SX_Unit_2_notes.pdf",
+    "StudyX_SX_EVS-1.pdf",
+    "StudyX_SX_Forest.pdf",
+    "StudyX_SX_Other_Pollutions.pdf",
+    "StudyX_SX_Air_pollution.pdf",
+    "StudyX_SX_ES_pollution_notes_KP.pdf",
+    "StudyX_SX_Disaster_Management.pdf",
+    "StudyX_SX_Unit_II-Pollution.pdf",
+    "StudyX_SX_Environment_ppt-converted.pdf",
+    "StudyX_SX_ES_notes.pdf",
+    "StudyX_SX_Unit_1_notes_Evs.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6800,
+    "downloadedFiles": 6849,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53197060578,
+    "downloadedSize": 53197158774,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:38:16.792Z"
+  "lastSaved": "2025-06-06T22:38:42.385Z"
 }
