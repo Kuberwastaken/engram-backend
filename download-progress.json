@@ -1919,19 +1919,20 @@
     "StudyX_SX_toc_unit_2.pdf",
     "StudyX_SX_ToC_Unit-_1___2.pdf",
     "StudyX_SX_TOC_notes.pdf",
-    "StudyX_SX_TOC_Notes-1.pdf"
+    "StudyX_SX_TOC_Notes-1.pdf",
+    "StudyX_SX_tocnotes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8648,
+    "downloadedFiles": 8695,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53204543115,
+    "downloadedSize": 53204637303,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:54:05.482Z"
+  "lastSaved": "2025-06-06T22:54:31.077Z"
 }
