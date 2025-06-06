@@ -263,19 +263,25 @@
     "Dotnotes_DN_ESL_unit_iv_Part_1_Transformer_.pdf",
     "Dotnotes_DN_Resonance.pdf",
     "Dotnotes_DN_Saloni_Rai_ESL_Unit-2_AC_Notes.pdf",
-    "Dotnotes_DN_Unit_4_Instrumentation_Part.pptx"
+    "Dotnotes_DN_Unit_4_Instrumentation_Part.pptx",
+    "Dotnotes_DN__Theory__AC_Circuit_unit_ii.pdf",
+    "Dotnotes_DN_Unit_4_transformer.pdf",
+    "Dotnotes_DN_unit_3_esl_notes.pdf",
+    "Dotnotes_DN_Saloni_Rai_Unit_1_DC.pdf",
+    "Dotnotes_DN_skshm_full_combined_ES_notes_as_on_15_feb_2023_compressed.pdf",
+    "Dotnotes_DN__Questions__Unit_ii_AC_Circuit.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3098,
+    "downloadedFiles": 3153,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 29678354557,
+    "downloadedSize": 30391390346,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:54:58.028Z"
+  "lastSaved": "2025-06-06T21:55:33.791Z"
 }
