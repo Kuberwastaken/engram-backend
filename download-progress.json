@@ -2041,19 +2041,44 @@
     "StudyX_Andrew_S._Tanenbaum_-_Computer_Networks.pdf",
     "StudyX_SX_CN_Mid_term_ICE_2023.pdf",
     "StudyX_SX_Previous_Years_CN_Sessionals.pdf",
-    "StudyX_SX_Syllx_Akash_CN.pdf"
+    "StudyX_SX_Syllx_Akash_CN.pdf",
+    "StudyX_CNExp1-5.pdf",
+    "StudyX_CN-File_-_Yash_Pandey.pdf",
+    "StudyX_SX_SE_Mid_Sem_Complete.pdf",
+    "StudyX_SX_End_Sem_SE.pdf",
+    "StudyX_SX_Unit_2_printed_2.pdf",
+    "StudyX_SX_Unit_2_printed.pdf",
+    "StudyX_SX_SE_LECTURE_NOTES_IV.pdf",
+    "StudyX_SX_SE_LECTURE_NOTES_III.pdf",
+    "StudyX_SX_SE_LECTURE_NOTES_II.pdf",
+    "StudyX_SX_S.E_notes.pdf",
+    "StudyX_SX_SE_LECTURE_NOTES_I.pdf",
+    "StudyX_SX_reliability_model.pdf",
+    "StudyX_SX_Testing.pdf",
+    "StudyX_SX_Unit_1___2_III.pdf",
+    "StudyX_SX_SE_UNIT_2_PART_2.pdf",
+    "StudyX_SX_SE_UNIT_4.pdf",
+    "StudyX_SX_SE_UNIT_1_PART_1.pdf",
+    "StudyX_SX_SE_UNIT_3_PART_2_RELIABILITY_MODELS_DETAILED.pdf",
+    "StudyX_SX_SE_UNIT_2_PART_1.pdf",
+    "StudyX_SX_SE_UNIT_3_PART_2.pdf",
+    "StudyX_SX_Unit_1___2_II.pdf",
+    "StudyX_SX_SE_UNIT_3_PART_1.pdf",
+    "StudyX_SX_SE_UNIT_1_PART_2.pdf",
+    "StudyX_SX_SE_notes1_2.pdf",
+    "StudyX_SX_Unit_1___2_I.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9297,
+    "downloadedFiles": 9354,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205845415,
+    "downloadedSize": 53205959643,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:59:38.642Z"
+  "lastSaved": "2025-06-06T23:00:04.293Z"
 }
