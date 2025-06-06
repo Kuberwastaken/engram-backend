@@ -818,19 +818,47 @@
     "Dotnotes_DN_Unit_-_1.pdf",
     "Dotnotes_DN_MICRO_N_MACRO.pdf",
     "Dotnotes_DN_Unit_-_2.pdf",
-    "Dotnotes_DN_EE_Unit_1___2.pdf"
+    "Dotnotes_DN_EE_Unit_1___2.pdf",
+    "Dotnotes_DN_Economics_For_Engineers_EndSem_Jan2024.pdf",
+    "Dotnotes_DN_Syllx_Akash_EE.pdf",
+    "Dotnotes_DN_EE-5.json",
+    "Dotnotes_DN_End_Sem_SE.pdf",
+    "Dotnotes_DN_Req_Eng.pdf",
+    "Dotnotes_DN_Reliability_Model.pdf",
+    "Dotnotes_DN_Intro.pdf",
+    "Dotnotes_ee-akash.pdf",
+    "Dotnotes_DN_SE_LECTURE_NOTES_I.pdf",
+    "Dotnotes_DN_S.E_notes.pdf",
+    "Dotnotes_DN_PPT_SE.pdf",
+    "Dotnotes_DN_SE_LECTURE_NOTES_II.pdf",
+    "Dotnotes_DN_SE_LECTURE_NOTES_III.pdf",
+    "Dotnotes_DN_SE_LECTURE_NOTES_IV.pdf",
+    "Dotnotes_DN_SE_Mid_Sem_Complete.pdf",
+    "Dotnotes_DN_SE_UNIT_1_PART_1.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_1.pdf",
+    "Dotnotes_DN_SE_UNIT_1_PART_2.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_2_RELIABILITY_MODELS_DETAILED.pdf",
+    "Dotnotes_DN_SE_UNIT_2_PART_2.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_2.pdf",
+    "Dotnotes_DN_SE_UNIT_4.pdf",
+    "Dotnotes_DN_SE_UNIT_2_PART_1.pdf",
+    "Dotnotes_DN_SE_notes1_2.pdf",
+    "Dotnotes_DN_Spiral_Model.pdf",
+    "Dotnotes_DN_SE-UNIT-1__B__NOTES.pdf",
+    "Dotnotes_DN_Testing.pdf",
+    "Dotnotes_DN_Unit_1___2_III.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5703,
+    "downloadedFiles": 5748,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52403127236,
+    "downloadedSize": 52403207780,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:27:47.173Z"
+  "lastSaved": "2025-06-06T22:28:12.757Z"
 }
