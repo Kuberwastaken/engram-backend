@@ -665,19 +665,40 @@
     "Dotnotes_DN_P_S_Unit-3.pdf",
     "Dotnotes_DN_Continuous_distributions_1.pdf",
     "Dotnotes_DN_Handwritten_Notes.pdf",
-    "Dotnotes_DN_PSL_N1.pdf"
+    "Dotnotes_DN_PSL_N1.pdf",
+    "Dotnotes_DN_Unit_2_PDF__Cond__Ind_Prob.pdf",
+    "Dotnotes_DN_Unit_-_3_Regression_Analysis_and_Correlation.pdf",
+    "Dotnotes_DN_Unit_2_wo_int_est.pdf",
+    "Dotnotes_DN_Pslp_Unit_2.pdf",
+    "Dotnotes_DN_Regression.pdf",
+    "Dotnotes_DN_Transportation_and_Assignment_Problems.pdf",
+    "Dotnotes_DN_Pslp_Unit_1.pdf",
+    "Dotnotes_DN_Digital_Notes.pdf",
+    "Dotnotes_DN_Unit_-_3__F-Test_.pdf",
+    "Dotnotes_DN_bayes_theorem_numerical.pdf",
+    "Dotnotes_DN_Unit_3_-_Hypothesis_Testing.pdf",
+    "Dotnotes_DN_LPP.pdf",
+    "Dotnotes_DN_continuous_probability_distribution.pdf",
+    "Dotnotes_DN_normal_2.pdf",
+    "Dotnotes_DN_notes.pdf",
+    "Dotnotes_DN_Unit_3_-_Hypothesis_testing__small_samples_.pdf",
+    "Dotnotes_DN_ppt_binomial.pdf",
+    "Dotnotes_DN_chapter3_joint_probability_distribution_.pdf",
+    "Dotnotes_DN_random_variable.pdf",
+    "Dotnotes_DN_random_variable_and_probability_distribution.pdf",
+    "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5298,
+    "downloadedFiles": 5350,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 50081380590,
+    "downloadedSize": 50934866992,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:22:13.814Z"
+  "lastSaved": "2025-06-06T22:23:09.200Z"
 }
