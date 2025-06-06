@@ -57,19 +57,31 @@
     "Dotnotes_workshop.pdf",
     "Dotnotes_workshop_file_.pdf",
     "Dotnotes_workshop_tools.pdf",
-    "Dotnotes_Complete_practical.pdf"
+    "Dotnotes_Complete_practical.pdf",
+    "Dotnotes_DN_WP-1.json",
+    "Dotnotes_DN_CSL_Unit_IV.pdf",
+    "Dotnotes_DN_CS_3rd_unit_notes.pdf",
+    "Dotnotes_DN_Report_writing_.pdf",
+    "Dotnotes_DN_CSL_Unit_iii.pdf",
+    "Dotnotes_DN_Writing_Skills_-_By_Archit_Jain.pdf",
+    "Dotnotes_DN_CS-Unit_2_notes.pdf",
+    "Dotnotes_DN_CSL_Unit_I_II.pdf",
+    "Dotnotes_DN_Unit_2_notes.pdf",
+    "Dotnotes_DN_Communication_Skills_Unit_1.pdf",
+    "Dotnotes_DN_CS_4th_unit.pdf",
+    "Dotnotes_DN_Unit_1_notes.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 404,
+    "downloadedFiles": 450,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 5573484309,
+    "downloadedSize": 5952671769,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:26:40.052Z"
+  "lastSaved": "2025-06-06T21:27:05.900Z"
 }
