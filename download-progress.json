@@ -567,19 +567,32 @@
     "Dotnotes_DN_DLCD_-_Unit_1_-_1.pdf",
     "Dotnotes_DN_PLA__PAL__ALU__QM_CLA__Parity_Gen.pdf",
     "Dotnotes_DN_QM_method_with_examples.pdf",
-    "Dotnotes_DN_Mux__DeMux__Encoder__Decoder.pdf"
+    "Dotnotes_DN_Mux__DeMux__Encoder__Decoder.pdf",
+    "Dotnotes_DN_Sequential_Circuits.pdf",
+    "Dotnotes_DN_DLCD_End_Term_2024.pdf",
+    "Dotnotes_DN_DLCD_mid_sem_1_2023.jpeg",
+    "Dotnotes_DN_DLCD_mid_sem_2.pdf",
+    "Dotnotes_DN_Mid_Term_PYQs_22.pdf",
+    "Dotnotes_DLCD_Viva.pdf",
+    "Dotnotes_Experiment_1.pdf",
+    "Dotnotes_Experiment_2.pdf",
+    "Dotnotes_Experiment_3.pdf",
+    "Dotnotes_Experiment_4.pdf",
+    "Dotnotes_Experiment_7.pdf",
+    "Dotnotes_Experiment_6.pdf",
+    "Dotnotes_Experiment_5.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5048,
+    "downloadedFiles": 5104,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 47572854739,
+    "downloadedSize": 48056347584,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:17:51.895Z"
+  "lastSaved": "2025-06-06T22:18:51.915Z"
 }
