@@ -273,19 +273,22 @@
     "Dotnotes_DN_Esl_2nd_mid_sem_2023.pdf",
     "Dotnotes_DN_End_Sem_March_2023.pdf",
     "Dotnotes_DN_End_Sem_July_2023.pdf",
-    "FifteenFourteen_FFT_NOTES"
+    "FifteenFourteen_FFT_NOTES",
+    "Dotnotes_es_viva_questions_and_their_answers.pdf",
+    "Dotnotes_Electrical_Science_Lab_Practical_file.pdf",
+    "Dotnotes_ESL_practical.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3352,
+    "downloadedFiles": 3399,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 32526878477,
+    "downloadedSize": 32926255944,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:57:31.569Z"
+  "lastSaved": "2025-06-06T21:58:05.268Z"
 }
