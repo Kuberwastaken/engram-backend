@@ -44,13 +44,13 @@
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 54,
+    "downloadedFiles": 102,
     "skippedFiles": 474,
     "errorFiles": 0,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 476759336,
+    "downloadedSize": 964297329,
     "errors": []
   },
-  "lastSaved": "2025-06-06T21:22:55.797Z"
+  "lastSaved": "2025-06-06T21:23:30.517Z"
 }
