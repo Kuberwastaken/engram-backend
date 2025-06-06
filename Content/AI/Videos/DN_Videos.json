@@ -1,0 +1,37 @@
+[
+    {
+        "title": "AI Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=8471wq7pw2ffph93&amp;list=PLmTfHZlm2zKjM-scMjmxbeATr5gXLTH2w",
+        "playlistUrl": "https://www.youtube.com/watch?v=Wrn0II3HB0w&list=PLmTfHZlm2zKjM-scMjmxbeATr5gXLTH2w&index=1&t=4s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Wrn0II3HB0w/hqdefault.jpg?"
+    },
+    {
+        "title": "AI Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=S-MS_NTkIEQp2C_m&amp;list=PLmTfHZlm2zKidrZNZoOkCEFKWk2pc6zom",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKidrZNZoOkCEFKWk2pc6zom&si=coOVK0RcC39xWb-n",
+        "thumbnailUrl": "https://i.ytimg.com/vi/y1F49DoR6-o/hqdefault.jpg?"
+    },
+    {
+        "title": "AI Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=1NRf9_PQuYHOSERZ&amp;list=PLmTfHZlm2zKgrLpZHomZKkRe5VRHtStaT",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKgrLpZHomZKkRe5VRHtStaT",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FFzdXJ49KAI/hqdefault.jpg?"
+    },
+    {
+        "title": "AI Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=6LwhItrv9x1Q6S7Q&amp;list=PLmTfHZlm2zKgiJ_UEArx3cbzjyI06Eb7R",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKgiJ_UEArx3cbzjyI06Eb7R",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vof2vhfqoBo/hqdefault.jpg?"
+    },
+    {
+        "title": "AI One Shot",
+        "author": "Knowledge Gate",
+        "embedUrl": "https://www.youtube.com/embed/yiXAmkimZRQ?si=xINMqa4lr7iOb95K",
+        "playlistUrl": "https://youtu.be/yiXAmkimZRQ?si=DZdsW9kN5j0TkaOJ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yiXAmkimZRQ/hqdefault.jpg?"
+    }
+]

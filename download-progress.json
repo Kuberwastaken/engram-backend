@@ -955,19 +955,44 @@
     "Dotnotes_DN_AI_Unit_-_2.pdf",
     "Dotnotes_DN_AI_Unit_1__with_assignment_.pdf",
     "Dotnotes_DN_AI_Unit_-_3.pdf",
-    "Dotnotes_DN_Foundations_of_AI.pdf"
+    "Dotnotes_DN_Foundations_of_AI.pdf",
+    "Dotnotes_DN_AI_Unit_2__with_assignment_.pdf",
+    "Dotnotes_DN_State_Space.pdf",
+    "Dotnotes_DN_AI_Unit_-_1__Handwritten_.pdf",
+    "Dotnotes_DN_AI_Unit_-_2__PPT_.pdf",
+    "Dotnotes_DN_Logical_Reasoning_Unit_-_2.pdf",
+    "Dotnotes_DN_AI_Unit_-_4.pdf",
+    "Dotnotes_DN_AI_Unit_-_1__Handwritten__-_Returns.pdf",
+    "Dotnotes_DN_ARTIFICIAL_INTELLIGENCE_AAKASH.pdf",
+    "Dotnotes_DN_AI_Mid_PYQs.pdf",
+    "Dotnotes_DN_AI-6.json",
+    "Dotnotes_DN_IDSP-6.json",
+    "Dotnotes_DN_SOFTWARE_PROJECT_MANAGEMENT.pdf",
+    "Dotnotes_DN_SPM-6.json",
+    "Dotnotes_DN_SPM_Notes.pdf",
+    "Dotnotes_DN_IIOT-6.json",
+    "Dotnotes_DN_Python_-_Dictionaries.pdf",
+    "Dotnotes_DN_Python_-_Exception_Handling.pdf",
+    "Dotnotes_DN_Python_-_Functions.pdf",
+    "Dotnotes_DN_Python_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_Python_Midsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_Python_Notes_-_1.pdf",
+    "Dotnotes_DN_Python_Notes.pdf",
+    "Dotnotes_DN_Python_Unit_-_1.pdf",
+    "Dotnotes_DN_Python_Handwritten_Notes.pdf",
+    "Dotnotes_DN_Python_Notes_Unit_-_1.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5996,
+    "downloadedFiles": 6049,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52544619222,
+    "downloadedSize": 52545779378,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:30:32.694Z"
+  "lastSaved": "2025-06-06T22:30:58.265Z"
 }
