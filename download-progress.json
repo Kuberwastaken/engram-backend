@@ -246,19 +246,22 @@
     "Dotnotes_C_LAB_EXP.pdf",
     "Dotnotes_CamScanner_04-28-2023_19.56.pdf",
     "Dotnotes_Exp_1.pdf",
-    "Dotnotes_viva_voice_programing_in_c.pdf"
+    "Dotnotes_viva_voice_programing_in_c.pdf",
+    "Dotnotes_PC_Akash__1_.pdf",
+    "Dotnotes_Let_us_c_-_yashwantkanetkar.pdf",
+    "Dotnotes_DN_PIC-1.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2903,
+    "downloadedFiles": 2952,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 28846895828,
+    "downloadedSize": 29409868792,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:53:06.799Z"
+  "lastSaved": "2025-06-06T21:53:36.728Z"
 }
