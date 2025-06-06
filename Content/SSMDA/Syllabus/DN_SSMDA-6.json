@@ -1,0 +1,6 @@
+{
+  "Unit I": "Statistics: Introduction & Descriptive Statistics- mean, median, mode, variance, and standard deviation. Data Visualization, Introduction to Probability Distributions. Hypothesis testing, Linear Algebra and Population Statistics, Mathematical Methods and Probability Theory, Sampling Distributions and Statistical Inference, Quantitative analysis.",
+  "Unit II": "Statistical Modelling: Linear models, regression analysis, analysis of variance, applications in various fields. Gauss-Markov theorem; geometry of least squares, subspace formulation of linear models, orthogonal projections; regression models, factorial experiments, analysis of covariance and model formulae; regression diagnostics, residuals, influence diagnostics, transformations, Box-Cox models, model selection and model building strategies, logistic regression models; Poisson regression models.",
+  "Unit III": "Data Analytics: Describe classes of open and closed set. Apply the concept of compactness. Describe Metric space - Metric in Rn. Use the concept of Cauchy sequence, completeness, compactness and connectedness to solve the problems.",
+  "Unit IV": "Advanced concepts in Data Analytics: Describe vector space, subspaces, independence of vectors, basis and dimension. Describe Eigen values, Eigen vectors and related results."
+}

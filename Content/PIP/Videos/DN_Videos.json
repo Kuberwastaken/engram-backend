@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Python Unit - 1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=_IZPXv785Pcv-L6V&amp;list=PLmTfHZlm2zKh6WUCupvHMbysH1syWfVmN",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKh6WUCupvHMbysH1syWfVmN&si=-mnzqFOKSL1XVp29",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XIR20HH8mNY/hqdefault.jpg?"
+    },
+    {
+        "title": "Python Unit - 2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=xuC4QfAcMTADd_YY&amp;list=PLmTfHZlm2zKhM4NTxkAdaFEVa3W1Hnjez",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKhM4NTxkAdaFEVa3W1Hnjez&si=cKOBKmHVS6W_PXta",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Icw4cLTtKh4/hqdefault.jpg?"
+    },
+    {
+        "title": "Python Unit - 3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=1p9OnSplLg2pPcs2&amp;list=PLmTfHZlm2zKgejuw8nLToKW4Vo7DCzBW-",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKgejuw8nLToKW4Vo7DCzBW-",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XIiwgc2uhhk/hqdefault.jpg?"
+    },
+    {
+        "title": "Python Unit - 4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=X43y-rQAk6V-9-5a&amp;list=PLmTfHZlm2zKjNKcISwqS8OlCKUtAeUj4j",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKjNKcISwqS8OlCKUtAeUj4j",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Ri1U1quq6x0/hqdefault.jpg?"
+    }
+]

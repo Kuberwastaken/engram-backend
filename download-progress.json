@@ -980,19 +980,40 @@
     "Dotnotes_DN_Python_Notes.pdf",
     "Dotnotes_DN_Python_Unit_-_1.pdf",
     "Dotnotes_DN_Python_Handwritten_Notes.pdf",
-    "Dotnotes_DN_Python_Notes_Unit_-_1.pdf"
+    "Dotnotes_DN_Python_Notes_Unit_-_1.pdf",
+    "Dotnotes_DN_Python_Notes_Unit_1___Unit_2.pdf",
+    "Dotnotes_DN_PIP-6.json",
+    "Dotnotes_DN_Python_Unit_-_1__Conditional_Statements_.pdf",
+    "Dotnotes_DN_SMMM-6.json",
+    "Dotnotes_DN_SSMDA_Notes__Linear_Algebra_.pdf",
+    "Dotnotes_DN_PYTHON_AAKASH_SEM6.pdf",
+    "Dotnotes_DN_SSMDA_Handwritten_Notes.pdf",
+    "Dotnotes_DN_SSMDA_Unit_2_Notes.pdf",
+    "Dotnotes_DN_SSMDA_Notes_Unit_2.pdf",
+    "Dotnotes_DN_Notes_SSMDA_UNIT-1.pdf",
+    "Dotnotes_DN_SSMDA-6.json",
+    "Dotnotes_DN_Lec-_1_to_19_Types_of_Signals___Their_operations._SAS_.pdf",
+    "Dotnotes_DN_Lec_-_30_to_41_Convolution_Method_in_Details._S_S_.pdf",
+    "Dotnotes_DN_SNS_UNIT_4.pdf",
+    "Dotnotes_SSMDA_Akash.pdf",
+    "Dotnotes_DN_Lec-_42_to_60_Fourier_Series_Complete._S___S_.pdf",
+    "Dotnotes_DN_UNIT-4.pdf",
+    "Dotnotes_DN_lec_20_to_29_system___its_Types_with_Examples_S___S.pdf",
+    "Dotnotes_DN_UNIT-3.pdf",
+    "Dotnotes_DN_lec_61_to_88_Continous_Time_Fourier_Transform_Complete_Details_S.pdf",
+    "Dotnotes_DN_SNS-3.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6049,
+    "downloadedFiles": 6101,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52545779378,
+    "downloadedSize": 52553794523,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:30:58.265Z"
+  "lastSaved": "2025-06-06T22:31:23.959Z"
 }
