@@ -236,15 +236,14 @@ class UnifiedContentDownloader {
         
         this.isPaused = false;
         console.log('▶️ Resuming downloads...');
-    }
-
-    async processDownloadQueue() {
+    }    async processDownloadQueue() {
         console.log(`🚀 Starting downloads with ${this.concurrentDownloads} concurrent connections...`);
         console.log(`📊 Queue size: ${this.downloadQueue.length} files`);
         
         const downloadPromises = [];
         let queueIndex = 0;
         let batchCount = 0;
+        let batchSize = 0;
         
         while (queueIndex < this.downloadQueue.length || downloadPromises.length > 0) {
             // Wait if paused
@@ -279,12 +278,22 @@ class UnifiedContentDownloader {
                 const completedIndex = downloadPromises.findIndex(p => p === completed);
                 downloadPromises.splice(completedIndex, 1);
                 
+                if (completed.success) {
+                    batchSize += completed.size || 0;
+                }
                 batchCount++;
                 
-                // Print progress every 10 files
+                // Print progress every 10 files and commit after 50 files or 1GB
                 if (batchCount % 10 === 0) {
                     this.printProgress();
                     this.saveProgress();
+                }
+                
+                if (batchCount % 50 === 0 || batchSize > 1024 * 1024 * 1024) {
+                    this.printProgress();
+                    this.saveProgress();
+                    await this.commitProgress();
+                    batchSize = 0;
                 }
             }
         }
@@ -292,6 +301,7 @@ class UnifiedContentDownloader {
         // Final progress and save
         this.printProgress();
         this.saveProgress();
+        await this.commitProgress();
     }
 
     printProgress() {
@@ -842,6 +852,19 @@ class UnifiedContentDownloader {
         
         // Save final progress
         this.saveProgress();
+    }
+
+    async commitProgress() {
+        const { execSync } = require('child_process');
+        try {
+            console.log('📝 Committing progress...');
+            execSync('git add Content/ download-progress.json', { stdio: 'inherit' });
+            execSync('git commit -m "Incremental sync: Progress update" || echo "No changes to commit"', { stdio: 'inherit' });
+            execSync('git push || echo "Nothing to push"', { stdio: 'inherit' });
+            console.log('✅ Progress committed');
+        } catch (error) {
+            console.error(`❌ Failed to commit progress: ${error.message}`);
+        }
     }
 }
 
