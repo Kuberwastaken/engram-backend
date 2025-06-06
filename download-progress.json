@@ -2235,19 +2235,32 @@
     "StudyX_SX_PPT_NOTES.pdf",
     "StudyX_SX_Short_Notes.pdf",
     "StudyX_SX_Complete_PPT.pdf",
-    "StudyX_SX_Book_Notes.pdf"
+    "StudyX_SX_Book_Notes.pdf",
+    "StudyX_SX_UNIT_-_3_DISTRIBUTED_FILE_SYSTEM.pdf",
+    "StudyX_SX_Data_Science_Endsem.pdf",
+    "StudyX_SX_unit_-2_.pdf",
+    "StudyX_SX_Notes_unit_-1_.pdf",
+    "StudyX_SX_UNIT-3_and_4th_SNA.pdf",
+    "StudyX_SX_DSCC_End_Sem.pdf",
+    "StudyX_SX_dwdm_LESSON_PLAN_.pdf",
+    "StudyX_SX_PEM_End_Sem.pdf",
+    "StudyX_SX_PEM_End_Sem_Obsidian.pdf",
+    "StudyX_SX_WM_End_Sems.pdf",
+    "StudyX_SX_PEM_UNIT_1.pdf",
+    "StudyX_SX_DWDM_End_Sem.pdf",
+    "StudyX_SX_PEM_UNIT_2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 10252,
+    "downloadedFiles": 10298,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53207766119,
+    "downloadedSize": 53207858303,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:07:45.860Z"
+  "lastSaved": "2025-06-06T23:08:09.999Z"
 }
