@@ -43,19 +43,22 @@
     "Dotnotes_DN_1ST_SEM_2019_Internal.pdf",
     "Dotnotes_Applied_Chemistry_Practical.pdf",
     "Dotnotes_chemistry_lab_file_.pdf",
-    "Dotnotes_chemistry_viva.pdf"
+    "Dotnotes_chemistry_viva.pdf",
+    "Dotnotes_chem_aakash_2022.pdf",
+    "Dotnotes_Engineering_Chemistry_by_Jain_and_Jain.pdf",
+    "Dotnotes_Engineering_Chemistry_by_Shikha_Aggarwal.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 152,
+    "downloadedFiles": 191,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 1788943607,
+    "downloadedSize": 3949906496,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:24:02.467Z"
+  "lastSaved": "2025-06-06T21:24:34.383Z"
 }
