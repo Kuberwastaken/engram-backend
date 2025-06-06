@@ -1067,19 +1067,41 @@
     "Dotnotes_DN_EMFT_UNIT_1.pdf",
     "Dotnotes_DN_emft_unit_1_complete_notes.pdf",
     "Dotnotes_DN_Vector_Emft_part1.pdf",
-    "Dotnotes_DN_transmission_lines_.pdf"
+    "Dotnotes_DN_transmission_lines_.pdf",
+    "Dotnotes_DN_Unit_2_Magnetostatics.pdf",
+    "Dotnotes_DN_Unit_4_Transmission_Lines.pdf",
+    "Dotnotes_DN_vector_2_emft.pdf",
+    "Dotnotes_DN_unit_1_.pdf",
+    "Dotnotes_DN_unit_3___4_.pdf",
+    "Dotnotes_DN_unit_1___2_.pdf",
+    "Dotnotes_DN_unit_4_.pdf",
+    "Dotnotes_DN_EMFT_Mid_Sem.pdf",
+    "Dotnotes_Engineering_electromagnetic_.pdf",
+    "Dotnotes_EMFT_by_Zahn.pdf",
+    "Dotnotes_DN_EMFT-3.json",
+    "Dotnotes_DN_EMFT_Akash.pdf",
+    "Dotnotes_DN_8085_final_ppt.pdf",
+    "Dotnotes_Matthew_N._O._Sadiku.pdf",
+    "Dotnotes_DN_8051_programming_in_c.pdf",
+    "Dotnotes_DN_8085_addressing_modes.pdf",
+    "Dotnotes_DN_8051_Assembly_language_programming.pdf",
+    "Dotnotes_DN_MPMC_Youtube_Playlists.pdf",
+    "Dotnotes_DN_8085___8086.pdf",
+    "Dotnotes_DN_Complete_Notes.pdf",
+    "Dotnotes_DN_Controllers.pdf",
+    "Dotnotes_DN_8085.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6198,
+    "downloadedFiles": 6247,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52579117222,
+    "downloadedSize": 52591285198,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:32:16.971Z"
+  "lastSaved": "2025-06-06T22:32:43.597Z"
 }
