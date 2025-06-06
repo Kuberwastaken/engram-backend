@@ -199,19 +199,26 @@
     "Dotnotes_DN_vectors_2.pdf",
     "Dotnotes_DN_maths_unit_1_examples.pdf",
     "Dotnotes_DN_vectors_1.pdf",
-    "Dotnotes_DN_skshm_full_Maths_Notes_combined_as_on_14_february_2023.pdf"
+    "Dotnotes_DN_skshm_full_Maths_Notes_combined_as_on_14_february_2023.pdf",
+    "Dotnotes_DN_maths_2nd_mid_sem_2023.pdf",
+    "Dotnotes_DN_pyq.pdf",
+    "Dotnotes_DN_MAL_I_End_sem.pdf",
+    "Dotnotes_DN_MidTerm_exam_paper_with_Solutions.pdf",
+    "Dotnotes_Maths_aakash_old.pdf",
+    "Dotnotes_Maths_Akash_s_new_2022.pdf",
+    "Dotnotes_DN_exercise.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2198,
+    "downloadedFiles": 2243,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 22551833107,
+    "downloadedSize": 22815673496,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:45:50.959Z"
+  "lastSaved": "2025-06-06T21:46:21.120Z"
 }
