@@ -1971,19 +1971,33 @@
     "StudyX_SX_Java_Unit_1-3.pdf",
     "StudyX_SX_Java_All_Unit.pdf",
     "StudyX_SX_JAVA_NOTES_TILL_THREADING.pdf",
-    "StudyX_SX_unit_3_java.pdf"
+    "StudyX_SX_unit_3_java.pdf",
+    "StudyX_SX_Unit_4_java.pdf",
+    "StudyX_SX_Unit_2.pdf",
+    "StudyX_SX_Java_File_Handling.pdf",
+    "StudyX_SX_Complete_Notes_-_All_Units_Handwritten.pdf",
+    "StudyX_SX_Java_Sockets.pdf",
+    "StudyX_SX_Unit1_N.pdf",
+    "StudyX_SX_java_unit_1_and_3.pdf",
+    "StudyX_SX_Java_Applet.pdf",
+    "StudyX_SX_Java_Multi_Threading.pdf",
+    "StudyX_SX_Java_Unit-_4.pdf",
+    "StudyX_SX_PIJ_UNIT_1_NOTES.pdf",
+    "StudyX_SX_Java_Classes_and_Objects.pdf",
+    "StudyX_SX_JAVA_Notes_UNIT-2.pdf",
+    "StudyX_SX_JAVA_PROGRAMMING.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8894,
+    "downloadedFiles": 8950,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205036099,
+    "downloadedSize": 53205148323,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:56:13.589Z"
+  "lastSaved": "2025-06-06T22:56:39.159Z"
 }
