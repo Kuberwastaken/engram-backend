@@ -1722,19 +1722,24 @@
     "StudyX_SX_Number_System.pdf",
     "StudyX_SX_Combinational_Sequential_Circuit.pdf",
     "StudyX_SX_Boolean_Algebra_Number_System_Combinational_Circuit.pdf",
-    "StudyX_SX_Lecture_Notes_Till_Midsems.pdf"
+    "StudyX_SX_Lecture_Notes_Till_Midsems.pdf",
+    "StudyX_DLCD.pdf",
+    "StudyX_Sankalp_Batr.pdf",
+    "StudyX_Morris_Complete.pdf",
+    "StudyX_Arun_Kumar_SIngh.pdf",
+    "StudyX_SCHAUM_Digital_Electronics.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7852,
+    "downloadedFiles": 7896,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53202943756,
+    "downloadedSize": 53203034844,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:47:15.484Z"
+  "lastSaved": "2025-06-06T22:47:41.109Z"
 }
