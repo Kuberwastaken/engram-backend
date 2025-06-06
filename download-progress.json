@@ -512,19 +512,48 @@
     "Dotnotes_DN_Mid_Term_Solution.pdf",
     "Dotnotes_DN_DM-3.json",
     "Dotnotes_DN_C___Notes.pdf",
-    "Dotnotes_DN_Basic_Concepts_of_OOPs.pdf"
+    "Dotnotes_DN_Basic_Concepts_of_OOPs.pdf",
+    "Dotnotes_DN_StaticKeyword.pdf",
+    "Dotnotes_DN_Objects_and_Classes.pdf",
+    "Dotnotes_DN_OOPS_Complete_Notes_-_1.pdf",
+    "Dotnotes_DN_Inheritance.pdf",
+    "Dotnotes_DN_OOPS_Complete_Notes_-_2.pdf",
+    "Dotnotes_Discrete_mathematics_Akash.pdf",
+    "Dotnotes_DN_OOPS_Complete_Notes_-_0.pdf",
+    "Dotnotes_DN_OOPS_Basics.pdf",
+    "Dotnotes_DN_Tokens__Expression.pdf",
+    "Dotnotes_DM_Aakash.pdf",
+    "Dotnotes_DN_Unit_3_-_0.pdf",
+    "Dotnotes_DN_Unit_3_-_1.pdf",
+    "Dotnotes_DN_c_vs_c__.pdf",
+    "Dotnotes_DN_constructors_and_destructors.pdf",
+    "Dotnotes_DN_friend_VS_virtual_func.pdf",
+    "Dotnotes_DN_Unit_1__2.pdf",
+    "Dotnotes_DN_operator_overloading.pdf",
+    "Dotnotes_DN_Unit_4.pdf",
+    "Dotnotes_DN_Unit_1_-_1.pdf",
+    "Dotnotes_DN_Unit_1_-_0.pdf",
+    "Dotnotes_DN_after_Tokens_Unit_1.pdf",
+    "Dotnotes_DN_overloading.pdf",
+    "Dotnotes_DN_Unit_3_-_Containership.pdf",
+    "Dotnotes_DN_End_Term_April_2016.pdf",
+    "Dotnotes_DN_End_Term_Dec_2016.pdf",
+    "Dotnotes_DN_End_Term_Dec_2017.pdf",
+    "Dotnotes_DN_End_Term_Feb_2023.pdf",
+    "Dotnotes_DN_End_Term_May_2017.pdf",
+    "Dotnotes_DN_End_Term_June_2016.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4947,
+    "downloadedFiles": 5002,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 46314316388,
+    "downloadedSize": 47094454414,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:15:48.004Z"
+  "lastSaved": "2025-06-06T22:16:46.942Z"
 }
