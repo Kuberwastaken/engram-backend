@@ -95,19 +95,20 @@
     "Dotnotes_Environmental_Studies.pdf",
     "Dotnotes_Evs_Akash.pdf",
     "Dotnotes_EVS_by_Anindita_Basak.pdf",
-    "Dotnotes_EVS_by_Benny_Joseph.pdf"
+    "Dotnotes_EVS_by_Benny_Joseph.pdf",
+    "Dotnotes_DN_EVS-1.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 994,
+    "downloadedFiles": 1054,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 10657338294,
+    "downloadedSize": 10923264601,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:32:41.768Z"
+  "lastSaved": "2025-06-06T21:33:10.134Z"
 }
