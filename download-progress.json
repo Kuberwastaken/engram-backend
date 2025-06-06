@@ -2036,19 +2036,24 @@
     "StudyX_SX_data_link_layer_protocols.pdf",
     "StudyX_SX_computer-network-notes__1_.pdf",
     "StudyX_SX_CN_Notes_Shivangi.pdf",
-    "StudyX_SX_Abhishek_Jha_CN_Notes.pdf"
+    "StudyX_SX_Abhishek_Jha_CN_Notes.pdf",
+    "StudyX_SX_ICE_End-term_CN.pdf",
+    "StudyX_Andrew_S._Tanenbaum_-_Computer_Networks.pdf",
+    "StudyX_SX_CN_Mid_term_ICE_2023.pdf",
+    "StudyX_SX_Previous_Years_CN_Sessionals.pdf",
+    "StudyX_SX_Syllx_Akash_CN.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9251,
+    "downloadedFiles": 9297,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205753231,
+    "downloadedSize": 53205845415,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:59:12.990Z"
+  "lastSaved": "2025-06-06T22:59:38.642Z"
 }
