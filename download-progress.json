@@ -241,19 +241,22 @@
     "Dotnotes_DN_Unit_III_IV_PCL.pdf",
     "Dotnotes_DN_unit3_4_notes.pdf",
     "Dotnotes_DN_Unit_3_and_Unit_4.pdf",
-    "Dotnotes_DN_PCL_Unit_I_II.pdf"
+    "Dotnotes_DN_PCL_Unit_I_II.pdf",
+    "Dotnotes_DN_PC_previous_year_question_papers_adf4ff00-6ed5-4f5f-b59f-a12e0749d51e.pdf",
+    "Dotnotes_C_LAB_EXP.pdf",
+    "Dotnotes_CamScanner_04-28-2023_19.56.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2801,
+    "downloadedFiles": 2851,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 28078047415,
+    "downloadedSize": 28508803336,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:52:10.718Z"
+  "lastSaved": "2025-06-06T21:52:36.732Z"
 }
