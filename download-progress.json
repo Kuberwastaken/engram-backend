@@ -129,19 +129,27 @@
     "Dotnotes_DN_MP_prev._year_question_papers.pdf",
     "Dotnotes_MP_Akash.pdf",
     "Dotnotes_Rajendra_Singh.pdf",
-    "Dotnotes_PN_Rao_.pdf"
+    "Dotnotes_PN_Rao_.pdf",
+    "Dotnotes_DN_MP-1.json",
+    "Dotnotes_DN_AP-1_Physics_-_Sneha_Mishra.pdf",
+    "Dotnotes_DN_Numerical_Unit_I_PHL.pdf",
+    "Dotnotes_DN_Numerical_Unit_II_PHL.pdf",
+    "Dotnotes_DN_Numerical_Unit_IV_PHL.pdf",
+    "Dotnotes_DN_Numerical_Unit_III_PHL.pdf",
+    "Dotnotes_DN_UNIT_2_complete_notes.pdf",
+    "Dotnotes_DN_Unit_3_-_comrade_ka_Interference.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1594,
+    "downloadedFiles": 1646,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 16759497363,
+    "downloadedSize": 17143598836,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:38:58.514Z"
+  "lastSaved": "2025-06-06T21:39:31.122Z"
 }
