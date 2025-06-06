@@ -937,19 +937,37 @@
     "Dotnotes_DN_T1MC1_Pronciples_of_management.pdf",
     "Dotnotes_DN_UNIT-_2_PME_NOTES_OF_BTECH_6TH_SEM.pdf",
     "Dotnotes_DN_Unit_4_Controlling.pdf",
-    "Dotnotes_DN_Unit_3_Organising.pdf"
+    "Dotnotes_DN_Unit_3_Organising.pdf",
+    "Dotnotes_DN_Unit_I_PPT.pdf",
+    "Dotnotes_DN_PPT_Notes.pdf",
+    "Dotnotes_DN_Unit_IV_PPT.pdf",
+    "Dotnotes_DN_Unit_II_PPT.pdf",
+    "Dotnotes_DN_Unit-3_PME.pdf",
+    "Dotnotes_DN_Unit-4_PME.pdf",
+    "Dotnotes_DN_YT_Playlist_Principle_of_Management.pdf",
+    "Dotnotes_DN_POM_Akash_Unit_2.pdf",
+    "Dotnotes_DN_POM_Akash_Unit_1.pdf",
+    "Dotnotes_DN_PME-6.json",
+    "Dotnotes_PME_AAKASH_SEM6.pdf",
+    "Dotnotes_DN_AI_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_Principles_of_Management-OP.pdf",
+    "Dotnotes_DN_AI_Unit_-_1.pdf",
+    "Dotnotes_DN_AI_Unit_-_2.pdf",
+    "Dotnotes_DN_AI_Unit_1__with_assignment_.pdf",
+    "Dotnotes_DN_AI_Unit_-_3.pdf",
+    "Dotnotes_DN_Foundations_of_AI.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5951,
+    "downloadedFiles": 5996,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52544515276,
+    "downloadedSize": 52544619222,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:30:01.953Z"
+  "lastSaved": "2025-06-06T22:30:32.694Z"
 }
