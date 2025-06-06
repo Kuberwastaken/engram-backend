@@ -787,19 +787,35 @@
     "Dotnotes_DN_OS-Notes-final.pdf",
     "Dotnotes_DN_Operating_System_Concepts_-_CH11.pdf",
     "Dotnotes_DN_Operating_System_Concepts_-_CH10.pdf",
-    "Dotnotes_DN_Operating_System_Concepts_-_CH13.pdf"
+    "Dotnotes_DN_Operating_System_Concepts_-_CH13.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH12.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH14.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH15.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH16.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH17.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH18.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH19.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH2.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH3.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH5.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH4.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH6.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH7.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH8.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH9.pdf",
+    "Dotnotes_DN_Previous_Year_OS_sessional.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5601,
+    "downloadedFiles": 5650,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52402923214,
+    "downloadedSize": 52403021410,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:26:55.940Z"
+  "lastSaved": "2025-06-06T22:27:21.546Z"
 }
