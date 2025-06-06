@@ -1632,19 +1632,30 @@
     "StudyX_SX_N-aryTree.pdf",
     "StudyX_SX_HeapNote.pdf",
     "StudyX_SX_Mergesort.pdf",
-    "StudyX_SX_Linked_List.pdf"
+    "StudyX_SX_Linked_List.pdf",
+    "StudyX_SX_Graph_PPT.pdf",
+    "StudyX_SX_1_0_Intro_to_Programming_Methodology.pdf",
+    "StudyX_SX_Arrays.pdf",
+    "StudyX_SX_1_1_Overview_of_Data_Structure_and_Abstract_Data_Types.pdf",
+    "StudyX_SX_1_3_Arrays.pdf",
+    "StudyX_SX_1_4_Lists.pdf",
+    "StudyX_SX_1_5_Stacks_and_Queues.pdf",
+    "StudyX_SX_handwritten_.pdf",
+    "StudyX_SX_Lecture_Notes_.pdf",
+    "StudyX_SX_ds_notes.pdf",
+    "StudyX_SX_ds_notes-2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7150,
+    "downloadedFiles": 7203,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53197762901,
+    "downloadedSize": 53197869558,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:41:16.206Z"
+  "lastSaved": "2025-06-06T22:41:41.791Z"
 }
