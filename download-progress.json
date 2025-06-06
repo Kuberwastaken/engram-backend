@@ -1648,19 +1648,36 @@
     "StudyX_Data_Structures_in_C___.pdf",
     "StudyX_Data_Structures_using_C_by_Reema_Thareja.pdf",
     "StudyX_Data.Structures_by_Gilberg_Forourzan.pdf",
-    "StudyX_Data_Structures_and_Algorithms_-_Narasimha_Karumanchi.pdf"
+    "StudyX_Data_Structures_and_Algorithms_-_Narasimha_Karumanchi.pdf",
+    "StudyX_DS_with_C_-_By_Schaum.pdf",
+    "StudyX_Fundamentals_Of_Data_Structures.pdf",
+    "StudyX_Data_Structures_through_C____Yashavant_Kanetkar_.pdf",
+    "StudyX_SX_usict_end_term.pdf",
+    "StudyX_SX_Mid_Term_-_DS.pdf",
+    "StudyX_SX_DS_akash.pdf",
+    "StudyX_DS_LAB_-_Anuj_Sinha.pdf",
+    "StudyX_DS_File_-_Yash_Pandey.pdf",
+    "StudyX_SX_Lecture8_adders___subtractors.pdf",
+    "StudyX_SX_Lecture11_Decoders.pdf",
+    "StudyX_SX_Lecture12_Encoders.pdf",
+    "StudyX_SX_Lecture13_Code_Converters.pdf",
+    "StudyX_SX_Lecture14_Magnitude_Comparator.pdf",
+    "StudyX_SX_Lecture9_Types_of_adder_circuits.pdf",
+    "StudyX_SX_Lecture6_QM_Method.pdf",
+    "StudyX_SX_Lecture5_SOP_POS_K_map.pdf",
+    "StudyX_SX_Lecture3_Boolen_algebra.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7346,
+    "downloadedFiles": 7401,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53198157020,
+    "downloadedSize": 53198267240,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:42:58.660Z"
+  "lastSaved": "2025-06-06T22:43:24.299Z"
 }
