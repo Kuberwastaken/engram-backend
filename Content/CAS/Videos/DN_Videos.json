@@ -1,0 +1,37 @@
+[
+    {
+        "title": "C&S Unit 1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=coYUslHinGwzQ4Np&amp;list=PLmTfHZlm2zKjLFEj8dopS6l4bGY7RqzbQ",
+        "playlistUrl": "https://www.youtube.com/watch?v=0nOtEEnbZQw&list=PLmTfHZlm2zKjLFEj8dopS6l4bGY7RqzbQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0nOtEEnbZQw/hqdefault.jpg?"
+    },
+    {
+        "title": "C&S Unit 2",
+		"author": "Dotnotes",
+		"embedUrl": "https://www.youtube.com/embed/videoseries?si=--AeIFui5m2DHr8d&amp;list=PLmTfHZlm2zKgJJWi3qeg-3SnBrkR32R32",
+        "playlistUrl": "https://www.youtube.com/watch?v=kXTqtJEZxu4&list=PLmTfHZlm2zKgJJWi3qeg-3SnBrkR32R32",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kXTqtJEZxu4/hqdefault.jpg?"
+    },
+    {
+        "title": "C&S Unit 2 - Alt",
+		"author": "Dotnotes",
+		"embedUrl": "https://www.youtube.com/embed/videoseries?si=ezqD3OfhZNmEvma2&amp;list=PLmTfHZlm2zKilyj1VD9vpegmCVLmnRKms",
+        "playlistUrl": "https://www.youtube.com/watch?v=7Px1_gbXX5Y&list=PLmTfHZlm2zKilyj1VD9vpegmCVLmnRKms",
+        "thumbnailUrl": "https://i.ytimg.com/vi/7Px1_gbXX5Y/hqdefault.jpg?"
+    },
+    {
+        "title": "C&S Unit 3",
+		"author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=9mJOE4REpIvC8IvP&amp;list=PLmTfHZlm2zKj5ymd5M5ZYEGptRfmLR40H",
+        "playlistUrl": "https://www.youtube.com/watch?v=1eJTz4RmMHc&list=PLmTfHZlm2zKj5ymd5M5ZYEGptRfmLR40H",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1eJTz4RmMHc/hqdefault.jpg?"
+    },
+    {
+        "title": "C&S Unit 4",
+		"author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=0mMIM0jRvaxhss5H&amp;list=PLmTfHZlm2zKi2dzktDuyPBLVjBhY_9CyN",
+        "playlistUrl": "https://www.youtube.com/watch?v=VVkiQjFpPYw&list=PLmTfHZlm2zKi2dzktDuyPBLVjBhY_9CyN",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VVkiQjFpPYw/hqdefault.jpg?"
+    }
+]
