@@ -152,19 +152,24 @@
     "Dotnotes_DN_Unit_III_PHL.pdf",
     "Dotnotes_DN_unit_4_relativity_by_mamta_mam.pdf",
     "Dotnotes_DN_unit_4_laser_by_mamta_mam.pdf",
-    "Dotnotes_DN_unit_3_polarization_by_mamta_mam.pdf"
+    "Dotnotes_DN_unit_3_polarization_by_mamta_mam.pdf",
+    "Dotnotes_DN_internal_exam.pdf",
+    "Dotnotes_DN_AP_I_End_sem.pdf",
+    "FifteenFourteen_FFT_files",
+    "Dotnotes_DN_phy_2nd_mid_sem_2023.pdf",
+    "Dotnotes_DN_pyq_phy.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1803,
+    "downloadedFiles": 1853,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 18651191905,
+    "downloadedSize": 18846218485,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:41:15.772Z"
+  "lastSaved": "2025-06-06T21:41:41.933Z"
 }
