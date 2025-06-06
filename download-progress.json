@@ -686,19 +686,25 @@
     "Dotnotes_DN_chapter3_joint_probability_distribution_.pdf",
     "Dotnotes_DN_random_variable.pdf",
     "Dotnotes_DN_random_variable_and_probability_distribution.pdf",
-    "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf"
+    "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf",
+    "Dotnotes_DN_PSL_Practice_Questions.pdf",
+    "Dotnotes_DN_PSLP_MAY_2025_END_SEM.pdf",
+    "Dotnotes_DN_Mid_Term_Exam_PSLP.pdf",
+    "Dotnotes_DN_PSLP-4.json",
+    "Dotnotes_PSL_FILE_4TH_SEM.pdf",
+    "Dotnotes_AKASH_PSLP.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5350,
+    "downloadedFiles": 5399,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 50934866992,
+    "downloadedSize": 51626618654,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:23:09.200Z"
+  "lastSaved": "2025-06-06T22:24:16.188Z"
 }
