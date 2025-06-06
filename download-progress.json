@@ -364,15 +364,15 @@
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4151,
+    "downloadedFiles": 4200,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 39446493488,
+    "downloadedSize": 39722146438,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:06:23.893Z"
+  "lastSaved": "2025-06-06T22:06:51.865Z"
 }
