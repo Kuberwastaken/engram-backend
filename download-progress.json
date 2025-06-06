@@ -1777,19 +1777,38 @@
     "StudyX_Kolman__Busby_Ross___Discrete_Mathematical_Structures_.pdf",
     "StudyX_Liu-Discrete_Math.pdf",
     "StudyX_Discrete_Mathematics_Liu_Mohapatra_3rd_edition.pdf",
-    "StudyX_Discrete_Mathematics_and_Its_Applications_-_7th_Edition_by_Kenneth_H_Rosen.pdf"
+    "StudyX_Discrete_Mathematics_and_Its_Applications_-_7th_Edition_by_Kenneth_H_Rosen.pdf",
+    "StudyX_SX_USICT_End_Term_DM-1.pdf",
+    "StudyX_SX_dm_new_topics.pdf",
+    "StudyX_SX_IKS-UNIT-3.pdf",
+    "StudyX_SX_marked_-_3.pdf",
+    "StudyX_SX_IKS-UNIT-4.pdf",
+    "StudyX_SX_Important_Topics_of_Unit_1_and_Unit_2.pdf",
+    "StudyX_SX_UNIT_1.pdf",
+    "StudyX_SX_PHONETICS_IN_SANSKRIT.pdf",
+    "StudyX_SX_ROLE_OF_SANSKRIT_IN_NLP.pdf",
+    "StudyX_SX_Discrete_mathematics__1_.pdf",
+    "StudyX_SX_IKS_qna.pdf",
+    "StudyX_SX_cheat_notes___.pdf",
+    "StudyX_SX_UNIT_2_-_ii.pdf",
+    "StudyX_SX_UNIT_2_-_i.pdf",
+    "StudyX_SX_iks_unit-3.pdf",
+    "StudyX_SX_main.pdf",
+    "StudyX_SX_marked-2.pdf",
+    "StudyX_SX_iks_notes__1_.pdf",
+    "StudyX_SX_marked_.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8096,
+    "downloadedFiles": 8147,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53203436907,
+    "downloadedSize": 53203539111,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:49:23.551Z"
+  "lastSaved": "2025-06-06T22:49:49.176Z"
 }
