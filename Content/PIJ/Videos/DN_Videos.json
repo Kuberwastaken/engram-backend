@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Java Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=afFBZHzqDA6AsowX&amp;list=PLmTfHZlm2zKgwh1AJlyT8vhLYxoKkqZBC",
+        "playlistUrl": "https://www.youtube.com/watch?v=1dV8geKzIp0&list=PLmTfHZlm2zKgwh1AJlyT8vhLYxoKkqZBC",
+        "thumbnailUrl": "https://img.youtube.com/vi/1dV8geKzIp0/hqdefault.jpg"
+    },
+    {
+        "title": "Java Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=SsVZ4AAD8Ip4NgsV&amp;list=PLmTfHZlm2zKhbFmbg65423vu9s7tCYqD2",
+        "playlistUrl": "https://www.youtube.com/watch?v=W48Wd_1SdAI&list=PLmTfHZlm2zKhbFmbg65423vu9s7tCYqD2",
+        "thumbnailUrl": "https://img.youtube.com/vi/W48Wd_1SdAI/hqdefault.jpg"
+    },
+    {
+        "title": "Java Unit-3 Threads",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=KfMaixU_S5ek9U-I&amp;list=PLmTfHZlm2zKjsuPCsoAj_OVuHs1o3qrrJ",
+        "playlistUrl": "https://www.youtube.com/watch?v=rNrQ_utTq-M&list=PLmTfHZlm2zKjsuPCsoAj_OVuHs1o3qrrJ",
+        "thumbnailUrl": "https://img.youtube.com/vi/rNrQ_utTq-M/hqdefault.jpg"
+    },
+    {
+        "title": "Java Unit-4 Stream",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=x57i4nC_SKRukg2N&amp;list=PLmTfHZlm2zKjJJmfHHdnnTioAcNwbVMKv",
+        "playlistUrl": "https://www.youtube.com/watch?v=kD_HqZP8MLY&list=PLmTfHZlm2zKjJJmfHHdnnTioAcNwbVMKv",
+        "thumbnailUrl": "https://img.youtube.com/vi/kD_HqZP8MLY/hqdefault.jpg"
+    },
+    {
+        "title": "Java PYQs Solving 2012,13,14,15",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=dM-Z7Akzf9jhITKl&amp;list=PLmTfHZlm2zKjcEvXFJnlbbNXyPLTDGmrT",
+        "playlistUrl": "https://www.youtube.com/watch?v=yNftjLBJkUA&list=PLmTfHZlm2zKjcEvXFJnlbbNXyPLTDGmrT",
+        "thumbnailUrl": "https://img.youtube.com/vi/yNftjLBJkUA/hqdefault.jpg"
+    }
+]

@@ -692,19 +692,43 @@
     "Dotnotes_DN_Mid_Term_Exam_PSLP.pdf",
     "Dotnotes_DN_PSLP-4.json",
     "Dotnotes_PSL_FILE_4TH_SEM.pdf",
-    "Dotnotes_AKASH_PSLP.pdf"
+    "Dotnotes_AKASH_PSLP.pdf",
+    "Dotnotes_DN_Java_All_Unit.pdf",
+    "Dotnotes_DN_Java_Applet.pdf",
+    "Dotnotes_DN_JAVA_PROGRAMMING.pdf",
+    "Dotnotes_DN_Java_Classes_and_Objects.pdf",
+    "Dotnotes_DN_JAVA_Notes_UNIT-1.pdf",
+    "Dotnotes_DN_JAVA_Notes_UNIT-2.pdf",
+    "Dotnotes_DN_Complete_Notes_-_All_Units_Handwritten.pdf",
+    "Dotnotes_DN_JAVA_NOTES_TILL_THREADING.pdf",
+    "Dotnotes_DN_Java_Complete_Notes_Typed.pdf",
+    "Dotnotes_DN_Java_File_Handling.pdf",
+    "Dotnotes_DN_Java_Sockets.pdf",
+    "Dotnotes_DN_Java_Multi_Threading.pdf",
+    "Dotnotes_DN_PIJ_UNIT_1_NOTES.pdf",
+    "Dotnotes_DN_Unit1_N.pdf",
+    "Dotnotes_DN_Java_Unit-_4.pdf",
+    "Dotnotes_DN_Java_Notes.pdf",
+    "Dotnotes_DN_Unit_4_java.pdf",
+    "Dotnotes_DN_unit_3_java.pdf",
+    "Dotnotes_DN_java_unit_1_and_3.pdf",
+    "Dotnotes_DN_JAVA_BCA_EndTerm_2023.pdf",
+    "Dotnotes_DN_Java_Unit_1-3.pdf",
+    "Dotnotes_Java_Akash.pdf",
+    "Dotnotes_JAVA_Akash.pdf",
+    "Dotnotes_DN_PIJ-4.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5399,
+    "downloadedFiles": 5447,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 51626618654,
+    "downloadedSize": 52296290579,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:24:16.188Z"
+  "lastSaved": "2025-06-06T22:24:52.741Z"
 }
