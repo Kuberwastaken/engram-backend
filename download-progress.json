@@ -87,19 +87,21 @@
     "Dotnotes_DN_RADIATION_POLLUTION.pdf",
     "Dotnotes_DN_Water_soil_noise_thermal_pollution.pdf",
     "Dotnotes_DN_Evs_Complete_Notes.pdf",
-    "Dotnotes_DN_EVSL_Unit_I_and_II_Handwritten.pdf"
+    "Dotnotes_DN_EVSL_Unit_I_and_II_Handwritten.pdf",
+    "Dotnotes_DN_EVS_22-23_QUESTION_PAPER.pdf",
+    "Dotnotes_DN_Evs_End_Term_Paper.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 853,
+    "downloadedFiles": 903,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 9665395484,
+    "downloadedSize": 9910690380,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:31:09.146Z"
+  "lastSaved": "2025-06-06T21:31:34.908Z"
 }
