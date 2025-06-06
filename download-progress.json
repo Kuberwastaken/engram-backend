@@ -1552,19 +1552,41 @@
     "StudyX_SX_EM_Akash.pdf",
     "StudyX_SX_CM_unit_3.pdf",
     "StudyX_SX_splines.pdf",
-    "StudyX_SX_unit_4_part_2.pdf"
+    "StudyX_SX_unit_4_part_2.pdf",
+    "StudyX_SX_CM_unit_3_II.pdf",
+    "StudyX_SX_unit_4_part_1.pdf",
+    "StudyX_SX_rapson.pdf",
+    "StudyX_SX_unit_1.1-Approximation___Computer_Arithmetic.pdf",
+    "StudyX_SX_Steepest_Descent_Method.pdf",
+    "StudyX_SX_Secant_Method.pdf",
+    "StudyX_SX_Unit-1-Fibonacci_and_Golden_section_method.pdf",
+    "StudyX_SX_Unit-1_Convergence_Analysis__Bisection__Newton_Raphson__Secant.pdf",
+    "StudyX_SX_Newton_Raphson_Method.pdf",
+    "StudyX_SX_Unit-1_Review_of_Taylors_and_Rolles_and_Mean_Value_theorem_proof.pdf",
+    "StudyX_SX_Errors_and_App..pdf",
+    "StudyX_SX_CM_UNIT_-_1_-_Anuj_Sinha.pdf",
+    "StudyX_SX_golden_section_search_method.pdf",
+    "StudyX_SX_Newton_Method.pdf",
+    "StudyX_SX_Neldar_Mead_Algorithm.pdf",
+    "StudyX_SX_SALONI_RAI_CM_NOTES.pdf",
+    "StudyX_SX_Bisection_method.pdf",
+    "StudyX_SX_unit_II_notes_2.pdf",
+    "StudyX_SX_unit_2_notes_1.pdf",
+    "StudyX_SX_Unit-3_complete_.pdf",
+    "StudyX_SX_Unit-4_complete.pdf",
+    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6950,
+    "downloadedFiles": 6998,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53197361656,
+    "downloadedSize": 53197457848,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:39:33.641Z"
+  "lastSaved": "2025-06-06T22:39:59.356Z"
 }
