@@ -1999,19 +1999,28 @@
     "StudyX_SX_Unit_-_1.pdf",
     "StudyX_SX_Production.pdf",
     "StudyX_SX_MICRO_N_MACRO.pdf",
-    "StudyX_SX_Demand.PDF"
+    "StudyX_SX_Demand.PDF",
+    "StudyX_SX_Economics_ICE_2023.pdf",
+    "StudyX_SX_Syllx_Akash_EE.pdf",
+    "StudyX_SX_CD_Full_Syllabus.pdf",
+    "StudyX_SX_End_Sem_CD.pdf",
+    "StudyX_SX_CD_unit_1_and_2.pdf",
+    "StudyX_SX_CD_unit_3_nd_4.pdf",
+    "StudyX_SX_CD_unit_1.pdf",
+    "StudyX_SX_CD_Notes_Shivangi.pdf",
+    "StudyX_SX_CD_unit-1_ii_.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9100,
+    "downloadedFiles": 9150,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205448923,
+    "downloadedSize": 53205549123,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:57:56.067Z"
+  "lastSaved": "2025-06-06T22:58:21.713Z"
 }
