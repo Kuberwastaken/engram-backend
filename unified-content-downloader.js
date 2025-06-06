@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import crypto from 'crypto';
+import { execSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -852,10 +853,7 @@ class UnifiedContentDownloader {
         
         // Save final progress
         this.saveProgress();
-    }
-
-    async commitProgress() {
-        const { execSync } = require('child_process');
+    }    async commitProgress() {
         try {
             console.log('📝 Committing progress...');
             execSync('git add Content/ download-progress.json', { stdio: 'inherit' });
