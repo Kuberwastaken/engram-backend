@@ -889,19 +889,37 @@
     "Dotnotes_DN_Unit_-_3_Network_Layer.pdf",
     "Dotnotes_DN_cn_notes_part_2.pdf",
     "Dotnotes_DN_End_Sem_CN.pdf",
-    "Dotnotes_DN_cn-1.pdf"
+    "Dotnotes_DN_cn-1.pdf",
+    "Dotnotes_DN_data_link_layer_protocols.pdf",
+    "Dotnotes_DN_Abhishek_Jha_CN_Notes.pdf",
+    "Dotnotes_DN_error_detection_and_correction_codes.pdf",
+    "Dotnotes_DN_network_devices.pdf",
+    "Dotnotes_DN_medium_access_sublayer.pdf",
+    "Dotnotes_DN_networking_devices.pdf",
+    "Dotnotes_DN_computer-network-notes__1_.pdf",
+    "Dotnotes_DN_msg_switching___unit_2_part_1.pdf",
+    "Dotnotes_DN_network_layer.pdf",
+    "Dotnotes_DN_switching.pdf",
+    "Dotnotes_DN_transport_layer.pdf",
+    "Dotnotes_DN_unit2.pdf",
+    "Dotnotes_DN_unit_1_part_3.pdf",
+    "Dotnotes_DN_unit_2_part_1.pdf",
+    "Dotnotes_DN_Computer_Networks_Jan2024.pdf",
+    "Dotnotes_DN_CN_Mid_term_ICE_2023.pdf",
+    "Dotnotes_DN_ICE_End-term_CN.pdf",
+    "Dotnotes_DN_Previous_Years_CN_Sessionals.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5849,
+    "downloadedFiles": 5900,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52447035377,
+    "downloadedSize": 52462849904,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:29:04.658Z"
+  "lastSaved": "2025-06-06T22:29:34.543Z"
 }
