@@ -1946,19 +1946,33 @@
     "StudyX_SX_DBMS_notes.pdf",
     "StudyX_SX_Oracle_Functions.pdf",
     "StudyX_C_S-File_YashPandey122_-_Yash_Pandey.pdf",
-    "StudyX_SX_ch15_TRANS.pdf"
+    "StudyX_SX_ch15_TRANS.pdf",
+    "StudyX_SX_pl_sql.pdf",
+    "StudyX_SX_DBMS-Unit-2.pdf",
+    "StudyX_SX_Unit_-4_DBMS.pdf",
+    "StudyX_SX_UNIT-3_DBMS.pdf",
+    "StudyX_SX_DBMS-Unit-1.pdf",
+    "StudyX_SX_ANKIT_SIR_ALL_UNITS_DBMS.pdf",
+    "StudyX_SX_DBMS-Normalization.pdf",
+    "StudyX_SX_DBMS-Transaction_Control.pdf",
+    "StudyX_SX_DBMS_3.pdf",
+    "StudyX_SX_DBMS_notes_2.pdf",
+    "StudyX_SX_DBMS_1.pdf",
+    "StudyX_SX_DBMS_2.pdf",
+    "StudyX_SX_Typed_notes.pdf",
+    "StudyX_SX_DBMS_COMPLETE_NOTES.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8791,
+    "downloadedFiles": 8849,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53204829687,
+    "downloadedSize": 53204945919,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:55:22.379Z"
+  "lastSaved": "2025-06-06T22:55:47.992Z"
 }
