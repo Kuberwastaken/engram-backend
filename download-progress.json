@@ -404,19 +404,33 @@
     "Dotnotes_DN_DS_Full__TopperWorld_.pdf",
     "Dotnotes_DN_Unit_II_DS_Shivesh.pdf",
     "Dotnotes_DN_Unit_4_Graphs_-_0.pdf",
-    "Dotnotes_DN_Unit_I_DS_Shivesh.pdf"
+    "Dotnotes_DN_Unit_I_DS_Shivesh.pdf",
+    "Dotnotes_DN_DS_Quesions.pdf",
+    "Dotnotes_DN_DS_End_Term_2024.pdf",
+    "Dotnotes_DN_DS_mid_sem_1_-_2023.pdf",
+    "Dotnotes_DN_Endsem_2023_Feb.pdf",
+    "Dotnotes_DN_Endsem_2024_AIML.pdf",
+    "Dotnotes_DN_Mid_term_nov22.pdf",
+    "Dotnotes_DN_Midsem-2022.jpg",
+    "Dotnotes_DN_DS-3.json",
+    "Dotnotes_DN_NOV2023-Midsem-1.jpg",
+    "Dotnotes_DN_NOV2023-Midsem-2.jpg",
+    "Dotnotes_DLDExperiment3.pdf",
+    "Dotnotes_DLDExperiment1.pdf",
+    "Dotnotes_Data_Structure_Akash.pdf",
+    "Dotnotes_DLDExperiment2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4450,
+    "downloadedFiles": 4499,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 42297696341,
+    "downloadedSize": 42559954595,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:10:09.018Z"
+  "lastSaved": "2025-06-06T22:10:45.472Z"
 }
