@@ -254,19 +254,28 @@
     "Dotnotes_DN_UNIT-1_II___HV_E__NEW_SYLLABUS_-_2023.pdf",
     "Dotnotes_DN_midterm.pdf",
     "Dotnotes_DN_supp-midterm.pdf",
-    "Dotnotes_Professional_Ethics_and_Human_Values_by_R.S_NAAGARAZAN.pdf"
+    "Dotnotes_Professional_Ethics_and_Human_Values_by_R.S_NAAGARAZAN.pdf",
+    "Dotnotes_DN_HVPE-1.json",
+    "Dotnotes_DN_ESL_DC_Unit_I.pdf",
+    "Dotnotes_DN_ESL_unit_iv_Part_2_Instruments_.pdf",
+    "Dotnotes_DN_ESL_unit_iii_part_1_DC_machines__.pdf",
+    "Dotnotes_DN_ESL_unit_iii_Part_2_AC_Machines__.pdf",
+    "Dotnotes_DN_ESL_unit_iv_Part_1_Transformer_.pdf",
+    "Dotnotes_DN_Resonance.pdf",
+    "Dotnotes_DN_Saloni_Rai_ESL_Unit-2_AC_Notes.pdf",
+    "Dotnotes_DN_Unit_4_Instrumentation_Part.pptx"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3044,
+    "downloadedFiles": 3098,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 29545479620,
+    "downloadedSize": 29678354557,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:54:31.607Z"
+  "lastSaved": "2025-06-06T21:54:58.028Z"
 }
