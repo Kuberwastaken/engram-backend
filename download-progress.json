@@ -280,19 +280,27 @@
     "Dotnotes_akash_electrical_science.pdf",
     "Dotnotes_Electrical_Science_Aakash.pdf",
     "Dotnotes_JB_Gupta_chapter_1_2_3.pdf",
-    "Dotnotes_DN_ES-1.json"
+    "Dotnotes_DN_ES-1.json",
+    "Dotnotes_DN_ENGINEERING_DRAWING.pdf",
+    "Dotnotes_DN_Orthogonal.pdf",
+    "Dotnotes_DN_Scale.pdf",
+    "Dotnotes_DN_orthogonal_trajectories_.pdf",
+    "Dotnotes_DN_Projection_of_solid_.pdf",
+    "Dotnotes_DN_lines_and_letter.pdf",
+    "Dotnotes_DN_projection_of_lines.pdf",
+    "Dotnotes_DN_projection_of_point.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3505,
+    "downloadedFiles": 3553,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 34905824140,
+    "downloadedSize": 35034371276,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:59:10.691Z"
+  "lastSaved": "2025-06-06T21:59:41.696Z"
 }
