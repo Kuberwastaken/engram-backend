@@ -490,19 +490,41 @@
     "Dotnotes_DN_IKS_mid_sem_1_-_2023.pdf",
     "Dotnotes_DN_midsem_nov_2022.jpg",
     "Dotnotes_DN_IKS_mid_sem_2.pdf",
-    "Dotnotes_DN_IKS-3.json"
+    "Dotnotes_DN_IKS-3.json",
+    "Dotnotes_IKS.pdf",
+    "Dotnotes_DN_DM_Notes_Complete.pdf",
+    "Dotnotes_DN_DM_Unit_1__2__3.pdf",
+    "Dotnotes_DN_Discrete_Mathematics_Notes.pdf",
+    "Dotnotes_DN_Group_Theory_-_0.pdf",
+    "Dotnotes_DN_DM_Unit_1__2_-_1.pdf",
+    "Dotnotes_DN_Unit_1__revised_topics_.pdf",
+    "Dotnotes_DN_Unit_2__revised_topics_.pdf",
+    "Dotnotes_DN_DM_Unit_3_-_0.pdf",
+    "Dotnotes_DN_Graph_Theory_Unit_4.pdf",
+    "Dotnotes_DN_Unit_4_-_0.pdf",
+    "Dotnotes_DN_Group_Theory_-_1.pdf",
+    "Dotnotes_DN_DM_mid_sem_1_-_2023.pdf",
+    "Dotnotes_DN_DM_End_Term_2024.pdf",
+    "Dotnotes_DN_DM_mid_sem_2.pdf",
+    "Dotnotes_DN_DM_PYQ_feb_23.pdf",
+    "Dotnotes_DN_Unit_1__2_-_0.pdf",
+    "Dotnotes_DN_midsem_Jan_2023.jpg",
+    "Dotnotes_DN_Mid_Term_Solution.pdf",
+    "Dotnotes_DN_DM-3.json",
+    "Dotnotes_DN_C___Notes.pdf",
+    "Dotnotes_DN_Basic_Concepts_of_OOPs.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4896,
+    "downloadedFiles": 4947,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 45558174930,
+    "downloadedSize": 46314316388,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:15:18.258Z"
+  "lastSaved": "2025-06-06T22:15:48.004Z"
 }
