@@ -2066,19 +2066,21 @@
     "StudyX_SX_SE_UNIT_3_PART_1.pdf",
     "StudyX_SX_SE_UNIT_1_PART_2.pdf",
     "StudyX_SX_SE_notes1_2.pdf",
-    "StudyX_SX_Unit_1___2_I.pdf"
+    "StudyX_SX_Unit_1___2_I.pdf",
+    "StudyX_SX_Syllx_Akash_SE.pdf",
+    "StudyX_SX_SE_End_Term_Papers.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9354,
+    "downloadedFiles": 9401,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205959643,
+    "downloadedSize": 53206055109,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:00:04.293Z"
+  "lastSaved": "2025-06-06T23:00:29.896Z"
 }
