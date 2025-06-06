@@ -541,19 +541,45 @@
     "Dotnotes_DN_End_Term_Dec_2017.pdf",
     "Dotnotes_DN_End_Term_Feb_2023.pdf",
     "Dotnotes_DN_End_Term_May_2017.pdf",
-    "Dotnotes_DN_End_Term_June_2016.pdf"
+    "Dotnotes_DN_End_Term_June_2016.pdf",
+    "Dotnotes_DN_End_Term_May_2018.pdf",
+    "Dotnotes_DN_oops_mid_sem_1_2023.pdf",
+    "Dotnotes_DN_Oops_mid_sem_2.pdf",
+    "Dotnotes_DN_OOPS_End_Term_2024.pdf",
+    "Dotnotes_DN_OOPS-3.json",
+    "Dotnotes_OOP-Balagurusamy.pdf",
+    "Dotnotes_ObjectOrientedProgramminginC4thEdition.pdf",
+    "Dotnotes_oops_aakash.pdf",
+    "Dotnotes_DN_Computer_Organization_and_Architecture.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_0.pdf",
+    "Dotnotes_DN_Boolean_Algebra__Logic_gates.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_3_-_2.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_4.pdf",
+    "Dotnotes_DN_Encoder_and_Decoder.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_1_-_0.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_2.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_3_-_1.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_1.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_1_-_2.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_3_-_0.pdf",
+    "Dotnotes_DN_Number_Systems.pdf",
+    "Dotnotes_DN_K_Maps__Adders__Subtractors.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_1_-_1.pdf",
+    "Dotnotes_DN_PLA__PAL__ALU__QM_CLA__Parity_Gen.pdf",
+    "Dotnotes_DN_QM_method_with_examples.pdf",
+    "Dotnotes_DN_Mux__DeMux__Encoder__Decoder.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 5002,
+    "downloadedFiles": 5048,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 47094454414,
+    "downloadedSize": 47572854739,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:16:46.942Z"
+  "lastSaved": "2025-06-06T22:17:51.895Z"
 }
