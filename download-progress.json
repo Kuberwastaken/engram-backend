@@ -206,19 +206,23 @@
     "Dotnotes_DN_MidTerm_exam_paper_with_Solutions.pdf",
     "Dotnotes_Maths_aakash_old.pdf",
     "Dotnotes_Maths_Akash_s_new_2022.pdf",
-    "Dotnotes_DN_exercise.pdf"
+    "Dotnotes_DN_exercise.pdf",
+    "Dotnotes_VP_Mishra.pdf",
+    "Dotnotes_h_k_das.pdf",
+    "Dotnotes_Higher_engineering_mathematics_BS_Grewal.pdf",
+    "Dotnotes_DN_APM1-1.json"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 2243,
+    "downloadedFiles": 2293,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 22815673496,
+    "downloadedSize": 24283063569,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:46:21.120Z"
+  "lastSaved": "2025-06-06T21:46:57.304Z"
 }

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Partial Differentiation",
+        "author": "Dr.Gajendra Purohit",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=bQ_C8qLfhumYsNGS&amp;list=PLU6SqdYcYsfLuIJdHwY92aGBg5-uRHBOb",
+        "playlistUrl": "https://www.youtube.com/watch?v=eTp5wq-cSXY&list=PLU6SqdYcYsfLuIJdHwY92aGBg5-uRHBOb",
+        "thumbnailUrl": "https://img.youtube.com/vi/eTp5wq-cSXY/hqdefault.jpg"
+    },
+    {
+        "title": "Ordinary Differential Equation",
+        "author": "Dr.Gajendra Purohit",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=j8-lJsKNf24Jjhfw&amp;list=PLU6SqdYcYsfJmqo86d12EoNNWKtAZqu8q",
+        "playlistUrl": "https://www.youtube.com/watch?v=McOc6OUC7Pc&list=PLU6SqdYcYsfJmqo86d12EoNNWKtAZqu8q",
+        "thumbnailUrl": "https://img.youtube.com/vi/McOc6OUC7Pc/hqdefault.jpg"
+    },
+    {
+        "title": "Linear Algebra",
+        "author": "Dr.Gajendra Purohit",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=AUhhY0L4vGXBNgfZ&amp;list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am",
+        "playlistUrl": "https://www.youtube.com/watch?v=1XlT3Y2oyAU&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am",
+        "thumbnailUrl": "https://img.youtube.com/vi/1XlT3Y2oyAU/hqdefault.jpg"
+    },
+    {
+        "title": "Vector Calculus",
+        "author": "Dr.Gajendra Purohit",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=wtVcfM87cU518R1g&amp;list=PLU6SqdYcYsfJz9FAzbgocIjlkw4NXAar-",
+        "playlistUrl": "https://www.youtube.com/watch?v=FfJtVvQtqTM&list=PLU6SqdYcYsfJz9FAzbgocIjlkw4NXAar-",
+        "thumbnailUrl": "https://img.youtube.com/vi/FfJtVvQtqTM/hqdefault.jpg"
+    },
+    {
+        "title": "VECTOR CALCULUS (Complete Playlist)",
+        "author": "MKS TUTORIALS by Manoj Sir",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=NIuEBfp9GPp9LGeQ&amp;list=PLhSp9OSVmeyIeKw3AdI2e3R9Q2IKzPcy7",
+        "playlistUrl": "https://www.youtube.com/watch?v=1LpyTH9KJSk&list=PLhSp9OSVmeyIeKw3AdI2e3R9Q2IKzPcy7",
+        "thumbnailUrl": "https://img.youtube.com/vi/1LpyTH9KJSk/hqdefault.jpg"
+    },
+    {
+        "title": "Vector Calculus in Hindi 1.0",
+        "author": "Bhagwan Singh Vishwakarma",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=N3-mB7DwirJX263_&amp;list=PLdM-WZokR4taGIZJg-PckJNvQgv1XMags",
+        "playlistUrl": "https://www.youtube.com/watch?v=v6bzT7SwZWo&list=PLdM-WZokR4taGIZJg-PckJNvQgv1XMags",
+        "thumbnailUrl": "https://img.youtube.com/vi/v6bzT7SwZWo/hqdefault.jpg"
+    }
+]
