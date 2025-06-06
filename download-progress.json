@@ -1985,19 +1985,33 @@
     "StudyX_SX_PIJ_UNIT_1_NOTES.pdf",
     "StudyX_SX_Java_Classes_and_Objects.pdf",
     "StudyX_SX_JAVA_Notes_UNIT-2.pdf",
-    "StudyX_SX_JAVA_PROGRAMMING.pdf"
+    "StudyX_SX_JAVA_PROGRAMMING.pdf",
+    "StudyX_SX_JAVA_BCA_EndTerm_2023.pdf",
+    "StudyX_Complete_Reference.pdf",
+    "StudyX_SX_JAVA_Akash.pdf",
+    "StudyX_SX_End_Sem_EE.pdf",
+    "StudyX_SX_ECONOMICS_FOR_ENGINEERS.pdf",
+    "StudyX_SX_Economics_Eng_Lesson14.pdf",
+    "StudyX_SX_Economics_for_Engineers_RR.pdf",
+    "StudyX_SX_Unit_-_2.pdf",
+    "StudyX_Java-File_YashPandey122_.pdf",
+    "StudyX_SX_Consumer_Equillibrium.pdf",
+    "StudyX_SX_Unit_-_1.pdf",
+    "StudyX_SX_Production.pdf",
+    "StudyX_SX_MICRO_N_MACRO.pdf",
+    "StudyX_SX_Demand.PDF"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9049,
+    "downloadedFiles": 9100,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53205346719,
+    "downloadedSize": 53205448923,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:57:30.438Z"
+  "lastSaved": "2025-06-06T22:57:56.067Z"
 }
