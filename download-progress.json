@@ -157,19 +157,26 @@
     "Dotnotes_DN_AP_I_End_sem.pdf",
     "FifteenFourteen_FFT_files",
     "Dotnotes_DN_phy_2nd_mid_sem_2023.pdf",
-    "Dotnotes_DN_pyq_phy.pdf"
+    "Dotnotes_DN_pyq_phy.pdf",
+    "Dotnotes_Physics_I.pdf",
+    "Dotnotes_bvcoe_file_.pdf",
+    "Dotnotes_Physics_I_Lab_file.pdf",
+    "Dotnotes_handwritten_file_.pdf",
+    "Dotnotes_sem1phyfile.pdf",
+    "Dotnotes_old_akash_.pdf",
+    "Dotnotes_Physics_Akash_new.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1853,
+    "downloadedFiles": 1896,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 18846218485,
+    "downloadedSize": 19369941032,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:41:41.933Z"
+  "lastSaved": "2025-06-06T21:42:11.979Z"
 }
