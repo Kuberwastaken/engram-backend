@@ -1574,19 +1574,28 @@
     "StudyX_SX_unit_2_notes_1.pdf",
     "StudyX_SX_Unit-3_complete_.pdf",
     "StudyX_SX_Unit-4_complete.pdf",
-    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf"
+    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf",
+    "StudyX_NumericalMethods_by_Jain_and_Iyengar.pdf",
+    "StudyX_SX_Midterm_2023.pdf",
+    "StudyX_SX_usict_end_sem_2023_exam.pdf",
+    "StudyX_SX_Endterm_2023.pdf",
+    "StudyX_CM_book.pdf",
+    "StudyX_SX_Endterm_2024.pdf",
+    "StudyX_CM-File_Yash_Pandey.pdf",
+    "StudyX_SX_akash.pdf",
+    "StudyX_CM_LAB_-_Anuj_Sinha.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 7050,
+    "downloadedFiles": 7095,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53197562056,
+    "downloadedSize": 53197652236,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:40:25.008Z"
+  "lastSaved": "2025-06-06T22:40:50.607Z"
 }
