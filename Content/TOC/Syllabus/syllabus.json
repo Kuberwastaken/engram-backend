@@ -1,0 +1,6 @@
+{
+  "Unit I": "Automata and Language Theory: Chomsky Classification, Finite Automata, Deterministic Finite Automata (DFA), Non-Deterministic Finite Automata (NFA), Regular Expressions, Equivalence of DFAs, NFAs and Regular Expressions, Closure properties of Regular grammar, Non-Regular Languages, Pumping Lemma.",
+  "Unit II": "Context Free Languages: Context Free Grammar (CFG), Parse Trees, Push Down Automata (deterministic and non-deterministic) (PDA), Equivalence of CFGs and PDAs, Closure properties of CFLs, Pumping Lemma, Parsing, LL(K) grammar.",
+  "Unit III": "Turing Machines and Computability Theory: Definition, design and extensions of Turing Machine, Equivalence of various Turing Machine Formalisms, Church – Turing Thesis, Decidability, Halting Problem, Reducibility and its use in proving undecidability, Rice's theorem, Undecidability of Post's correspondence problem, Recursion Theorem.",
+  "Unit IV": "Complexity Theory: The class P as consensus class of tractable sets, Classes NP, co-NP, Polynomial time reductions, NP-completeness, NP-hardness, Cook-Levin theorem (With proof), Space complexity, PSPACE and NPSPACE complexity classes, Savitch theorem (With proof), Probabilistic computation, BPP class, Interactive proof systems and IP class, relativized computation and oracles."
+}

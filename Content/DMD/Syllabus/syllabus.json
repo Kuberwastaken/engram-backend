@@ -1,0 +1,6 @@
+{
+  "Unit I": "Introduction: Overview of database systems architecture and components, database design life cycle Conceptual data modelling: ER Modeling, EER Modeling, Modeling complex relationships, Design issues in ER & EER modeling",
+  "Unit II": "Logical data modelling: Overview of relational data model, Integrity constraints, Mapping ER Model to a logical schema, Mapping EER Model to a logical schema, Mapping of higher degree relationships, Mapping of Aggregation, Mapping complex ER Model Constructs to a logical schema Normalization: Introduction, Anomalies, Normal forms – 1NF, 2NF, 3NF, BCNF, 4NF & 5NF",
+  "Unit III": "Database implementation and physical database design: Database creation using SQL, SQL commands – DDL & DML, Views, Advanced data manipulation using SQL Database Programming: Cursor, Exception Handling, Procedures, Functions, Packages, Triggers",
+  "Unit IV": "Database tuning and maintenance: Introduction, Clustering and indexing, guidelines for index selection, de‐normalization, database tuning Database security: Introduction, Access control DCL Commands, views"
+}

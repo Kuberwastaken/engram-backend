@@ -1,0 +1,6 @@
+{
+  "Unit I": "Introduction to client server computing, Evolution of corporate computing models from centralized to distributed computing, Client server models, Benefits of client server computing, Pitfalls of client server programming, Distributed programming with Java RMI, Overview of CORBA, CORBA IDL, Client/server programming with CORBA & Java",
+  "Unit II": "XML Technology, XML – Name Spaces, Structuring With Schemas and DTD, Presentation Techniques, Transformation, XML Infrastructure, SOAP: Overview of SOAP, HTTP, XML-RPC, SOAP Protocol, Message Structure, Intermediaries, Actors, Design Patterns And Faults, SOAP With Attachments",
+  "Unit III": "XML Technology, XML – Name Spaces, Structuring With Schemas and DTD, Presentation Techniques, Transformation, XML Infrastructure, SOAP: Overview of SOAP, HTTP, XML-RPC, SOAP Protocol, Message Structure, Intermediaries, Actors, Design Patterns And Faults, SOAP With Attachments",
+  "Unit IV": "Agent Communication and Collaboration, Overview of Agent Oriented Programming, Agent Communication Language, Agent-Based Framework of Interoperability, Agents for Information Gathering, Open Agent Architecture, Communicative Action for Artificial Agent, Agent Architecture, Agents for Information Gathering, Open Agent Architecture, Communicative Action for Artificial Agent"
+}

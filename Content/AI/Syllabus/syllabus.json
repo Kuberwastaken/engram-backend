@@ -1,0 +1,6 @@
+{
+  "Unit I": "AI Definition, Problems, Techniques, Models, Defining Problem as a state space search, production system, Characteristics, Search methods and issues in the design of search problems.",
+  "Unit II": "Knowledge representation issues, mapping, frame problem, Predicate logic, facts in logic, representing instance and Isa relationship, Resolution, procedural and declarative knowledge, matching, control knowledge, Symbolic reasoning under uncertainty, Non monotonic reasoning, statistical reasoning.",
+  "Unit III": "Game Playing, minimax search, Alfa beta cut-offs, Natural Language Processing, Learning, Explanation-based learning, discovery, analogy, Neural net learning and Genetic Learning.",
+  "Unit IV": "Fuzzy logic systems, Perception and action, Expert systems, Inference in Bayesian Networks, K-means Clustering Algorithm, Machine learning."
+}

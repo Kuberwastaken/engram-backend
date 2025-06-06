@@ -1,0 +1,6 @@
+{
+  "Unit I": "The Communication Process, Review of Fourier Transforms and Dirac Delta Functions, Transmission through Linear Systems, Filters (low pass and band pass signals), Phase and Group Delay, Sources of Information, Amplitude Modulation: Introduction, Double Sideband – Suppressed Carrier Modulation, Quadrature – Carrier Multiplexing, Single-Sideband and Vestigial-Sideband methods of modulation, Frequency Translation, Frequency-Division Multiplexing",
+  "Unit II": "Angle Modulation: Introduction, Basic Definitions, Frequency Modulation, Phase-Locked Loop, Nonlinear Effects in FM Systems, Superheterodyne receiver.",
+  "Unit III": "Probability and Random Processes: Introduction; Probability; Random Variables, Statistical Averages; Random Processes; Mean, Correlation, and Covariance functions; Transmission of a Random Process Through a Linear Filter, Power Spectral Density, Gaussian Process, Noise, Narrowband Noise",
+  "Unit IV": "Noise: Introduction, Receiver Model, Noise in DSB-SC Receivers, Noise in AM Receivers, Noise in FM Receivers, Pre-emphasis and De-emphasis in FM."
+}

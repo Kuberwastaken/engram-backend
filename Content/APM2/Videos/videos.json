@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Complex Analysis – I",
+    "author": "Dr.Gajendra Purohit",
+    "embedUrl": "https://www.youtube.com/embed/t9xW7UaZwZ0?si=a-r5jPGgHeG4Ki2g",
+    "playlistUrl": "https://www.youtube.com/watch?v=t9xW7UaZwZ0&list=PLU6SqdYcYsfI3sh-ho_iiTkCGsTbVh_Sw",
+    "thumbnailUrl": "https://i.ytimg.com/vi/t9xW7UaZwZ0/hqdefault.jpg?"
+  },
+  {
+    "title": "Complex Analysis – II",
+    "author": "Study Buddy",
+    "embedUrl": "https://www.youtube.com/embed/YaoQOR7YP9Q?si=vVM9aPhJpxgNJNJ_",
+    "playlistUrl": "https://www.youtube.com/watch?v=YaoQOR7YP9Q&list=PL5fCG6TOVhr4uENPleQY2-n1DChCcJTDU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YaoQOR7YP9Q/hqdefault.jpg?"
+  },
+  {
+    "title": "Laplace Transforms",
+    "author": "Dr.Gajendra Purohit",
+    "embedUrl": "https://www.youtube.com/embed/EDVJotmT584?si=jwjs-3-DcPDr3jxX",
+    "playlistUrl": "https://www.youtube.com/watch?v=EDVJotmT584&list=PLU6SqdYcYsfILCRFpIM3fQdVIzOo71snJ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EDVJotmT584/hqdefault.jpg?"
+  },
+  {
+    "title": "Partial Differential Equations (PDEs)",
+    "author": "MKS TUTORIALS",
+    "embedUrl": "https://www.youtube.com/embed/JL5MP-ewE0c?si=QFWqW76r_Hi2hUPP",
+    "playlistUrl": "https://www.youtube.com/watch?v=JL5MP-ewE0c&list=PLhSp9OSVmeyJoNnAqghUK-Lit3qBgfa6o",
+    "thumbnailUrl": "https://i.ytimg.com/vi/JL5MP-ewE0c/hqdefault.jpg?"
+  }
+]

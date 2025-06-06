@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Web Unit - 1",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=KJ3Ri-r2lUNZKSbL&amp;list=PLmTfHZlm2zKjgVwPONfBf2gAJ7ByYWcSS",
+    "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKjgVwPONfBf2gAJ7ByYWcSS&si=zLVEpk76NG0o55hp",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8VWu_8c_7NE/hqdefault.jpg?"
+  },
+  {
+    "title": "Web Unit - 2",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=rVrna1PTvVj4-NhQ&amp;list=PLmTfHZlm2zKig4XSQd3w3Vn0JzXlZTIwF",
+    "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKig4XSQd3w3Vn0JzXlZTIwF&si=ny7IHLcoefNE_Q0-",
+    "thumbnailUrl": "https://i.ytimg.com/vi/m4sZjUc85Us/hqdefault.jpg?"
+  },
+  {
+    "title": "Web Unit - 3",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=jHaqn2B51H3LNUJ5&amp;list=PLmTfHZlm2zKhaMypzM_pf-gbFZdUhqyJW",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKhaMypzM_pf-gbFZdUhqyJW",
+    "thumbnailUrl": "https://i.ytimg.com/vi/OTptdMCzDZM/hqdefault.jpg?"
+  },
+  {
+    "title": "Web Unit - 4",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=dRMUpI3p7C0udQKz&amp;list=PLmTfHZlm2zKg_i0ZZJ9Zym7mZAiE1It-L",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLmTfHZlm2zKg_i0ZZJ9Zym7mZAiE1It-L",
+    "thumbnailUrl": "https://i.ytimg.com/vi/R1djM9B0ay0/hqdefault.jpg?"
+  }
+]

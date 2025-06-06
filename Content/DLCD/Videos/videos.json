@@ -1,0 +1,37 @@
+[
+  {
+    "title": "DLCD Unit 1 & Unit 2",
+    "author": "CS Engineering Gyan",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=4rCLJkcnPHVeeQFb&amp;list=PLqcuf9-ILPYCehhzGPZu2rnCjPM94O5eq",
+    "playlistUrl": "https://www.youtube.com/watch?v=pInDovMD2f4&list=PLqcuf9-ILPYCehhzGPZu2rnCjPM94O5eq",
+    "thumbnailUrl": "https://img.youtube.com/vi/pInDovMD2f4/hqdefault.jpg"
+  },
+  {
+    "title": "DLCD Unit 3 Basic Computer organization",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=-z58V2sMRsA6ckYV&amp;list=PLmTfHZlm2zKi0ClcZZj4ouLp-ELeAspO7",
+    "playlistUrl": "https://www.youtube.com/watch?v=j8NnE1YeSN0&list=PLmTfHZlm2zKi0ClcZZj4ouLp-ELeAspO7",
+    "thumbnailUrl": "https://img.youtube.com/vi/j8NnE1YeSN0/hqdefault.jpg"
+  },
+  {
+    "title": "DLCD Unit 4",
+    "author": "Dotnotes",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=aVFQwWHABDNEn9Z5&amp;list=PLmTfHZlm2zKgA3UoemTX-HmkEt4UAAaYC",
+    "playlistUrl": "https://www.youtube.com/watch?v=PcF-Me3t2u4&list=PLmTfHZlm2zKgA3UoemTX-HmkEt4UAAaYC",
+    "thumbnailUrl": "https://img.youtube.com/vi/PcF-Me3t2u4/hqdefault.jpg"
+  },
+  {
+    "title": "Digital Electronics",
+    "author": "Neso Academy",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=o7PXPnOE6yo3G4Ah&amp;list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+    "playlistUrl": "https://www.youtube.com/watch?v=M0mx8S05v60&list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+    "thumbnailUrl": "https://img.youtube.com/vi/M0mx8S05v60/hqdefault.jpg"
+  },
+  {
+    "title": "Digital Electronics",
+    "author": "GATE Wallah - EE, EC & CS",
+    "embedUrl": "https://www.youtube.com/embed/videoseries?si=a1_5UplSnVlYpe-G&amp;list=PL3eEXnCBViH8nznEyq1bdI0M_IfBScJ2H",
+    "playlistUrl": "https://www.youtube.com/watch?v=FgVdnXotCkI&list=PL3eEXnCBViH8nznEyq1bdI0M_IfBScJ2H",
+    "thumbnailUrl": "https://img.youtube.com/vi/FgVdnXotCkI/hqdefault.jpg"
+  }
+]
