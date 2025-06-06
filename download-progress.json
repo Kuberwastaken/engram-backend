@@ -451,19 +451,28 @@
     "Dotnotes_DN_Finite_difference_Operator_Factorial_notation_and_missing_term.pdf",
     "Dotnotes_DN_Numerical_solution_of_PD.pdf",
     "Dotnotes_DN_Spline.pdf",
-    "Dotnotes_DN_CM_Unit_4_-_0.pdf"
+    "Dotnotes_DN_CM_Unit_4_-_0.pdf",
+    "Dotnotes_DN_CM_End_Term_2024.pdf",
+    "Dotnotes_DN_CM_mid_sem_2.pdf",
+    "Dotnotes_DN_CM_unit_1_pyqs_with_answer.pdf",
+    "Dotnotes_DN_Mid_term_QP_2022.pdf",
+    "Dotnotes_DN_Mid_term_QP_2023.jpeg",
+    "Dotnotes_DN_End_Term_Paper_2023.pdf",
+    "Dotnotes_DN_Midterm_Answersheet_Nov_2023.pdf",
+    "Dotnotes_CMpractical01.pdf",
+    "Dotnotes_CMpractical2.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4650,
+    "downloadedFiles": 4703,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 44669224579,
+    "downloadedSize": 44894570538,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:12:52.189Z"
+  "lastSaved": "2025-06-06T22:13:18.761Z"
 }
