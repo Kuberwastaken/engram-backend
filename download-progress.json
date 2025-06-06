@@ -2154,19 +2154,28 @@
     "StudyX_SX_Metric_Space__1_.pdf",
     "StudyX_SX_SSMD_Unit_3.pdf",
     "StudyX_SX_ssmda_unit1_b_.pdf",
-    "StudyX_SX_open_sphere__1_.pdf"
+    "StudyX_SX_open_sphere__1_.pdf",
+    "StudyX_SX_SSMDA_unit_2_notes.pdf",
+    "StudyX_SX_Probability_Distribution_Lecture.pdf",
+    "StudyX_SX_ssmda_unit-1.pdf",
+    "StudyX_SX_HYPOTHESIS_TESTING.pdf",
+    "StudyX_SX_Final_Hypothesis_testing_lecture.pdf",
+    "StudyX_SX_STATS_PROBABILITY.pdf",
+    "StudyX_SX_Regression_analysis_and_least_square_method.pdf",
+    "StudyX_SX_Statistical-Methods_Testing_Hypothesis.pdf",
+    "StudyX_SX_SSMDA_UNIT-1.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9798,
+    "downloadedFiles": 9850,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53206856303,
+    "downloadedSize": 53206960511,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:03:54.913Z"
+  "lastSaved": "2025-06-06T23:04:20.526Z"
 }
