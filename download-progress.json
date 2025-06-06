@@ -467,19 +467,36 @@
     "Dotnotes_CMpractical7.pdf",
     "Dotnotes_CMpractical6.pdf",
     "Dotnotes_CMpractical8.pdf",
-    "Dotnotes_CMpractical9.pdf"
+    "Dotnotes_CMpractical9.pdf",
+    "Dotnotes_CM_book_by_SRK_and_RK_jain.pdf",
+    "Dotnotes_CM_Akash_.pdf",
+    "Dotnotes_CM_book.pdf",
+    "Dotnotes_DN_CM-3.json",
+    "Dotnotes_DN_IKS_Unit_1_2.pdf",
+    "Dotnotes_DN_IKS_Overview___Introduction.pdf",
+    "Dotnotes_DN_IKS-UNIT-3.pdf",
+    "Dotnotes_DN_IKS-UNIT-4.pdf",
+    "Dotnotes_DN_Indian_Philosophical_System__Cropped_.pdf",
+    "Dotnotes_DN_Knowledge_Framework_and_Classification.pdf",
+    "Dotnotes_DN_Nyaya_school_in_Indian_Philosophy.pptx",
+    "Dotnotes_DN_Unit_1_Brief_Notes.pdf",
+    "Dotnotes_DN_Unit_2_Brief_Notes.pdf",
+    "Dotnotes_DN_Unit_1_Full.pdf",
+    "Dotnotes_DN_Unit_2_-_Part_1.pdf",
+    "Dotnotes_DN_Unit_2_-_Part_2.pptx",
+    "Dotnotes_DN_Philosophical_Systems.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4754,
+    "downloadedFiles": 4800,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 44901635896,
+    "downloadedSize": 45098707834,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:13:46.355Z"
+  "lastSaved": "2025-06-06T22:14:12.113Z"
 }
