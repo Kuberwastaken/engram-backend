@@ -289,19 +289,22 @@
     "Dotnotes_DN_lines_and_letter.pdf",
     "Dotnotes_DN_projection_of_lines.pdf",
     "Dotnotes_DN_projection_of_point.pdf",
-    "Dotnotes_DN_EG-1.json"
+    "Dotnotes_DN_EG-1.json",
+    "Dotnotes_egl_viva_question.pdf",
+    "Dotnotes_EGL_I.pdf",
+    "Dotnotes_DN_Application_of_pn.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3655,
+    "downloadedFiles": 3703,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 35295473288,
+    "downloadedSize": 35316003933,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:00:36.470Z"
+  "lastSaved": "2025-06-06T22:01:02.300Z"
 }
