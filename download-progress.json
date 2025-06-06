@@ -276,19 +276,21 @@
     "FifteenFourteen_FFT_NOTES",
     "Dotnotes_es_viva_questions_and_their_answers.pdf",
     "Dotnotes_Electrical_Science_Lab_Practical_file.pdf",
-    "Dotnotes_ESL_practical.pdf"
+    "Dotnotes_ESL_practical.pdf",
+    "Dotnotes_akash_electrical_science.pdf",
+    "Dotnotes_Electrical_Science_Aakash.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 3399,
+    "downloadedFiles": 3439,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 32926255944,
+    "downloadedSize": 33506377861,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:58:05.268Z"
+  "lastSaved": "2025-06-06T21:58:39.148Z"
 }
