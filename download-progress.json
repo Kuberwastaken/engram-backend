@@ -1875,19 +1875,24 @@
     "StudyX_SX_continuous_probability_distribution.pdf",
     "StudyX_SX_random_variable.pdf",
     "StudyX_SX_Handwritten_Notes.pdf",
-    "StudyX_SX_P_S_Unit-3.pdf"
+    "StudyX_SX_P_S_Unit-3.pdf",
+    "StudyX_SX_notes.pdf",
+    "StudyX_SX_Digital_Notes.pdf",
+    "StudyX_SX_chapter3_joint_probability_distribution_.pdf",
+    "StudyX_SX_random_variable_and_probability_distribution.pdf",
+    "StudyX_SX_PSLP_Handwritten.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 8447,
+    "downloadedFiles": 8500,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53204140311,
+    "downloadedSize": 53204246523,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:52:22.989Z"
+  "lastSaved": "2025-06-06T22:52:48.591Z"
 }
