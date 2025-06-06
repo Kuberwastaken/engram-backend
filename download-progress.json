@@ -2081,19 +2081,37 @@
     "StudyX_SX_unit_1_ada.pdf",
     "StudyX_SX_Unit_1_DAA.pdf",
     "StudyX_SX_ADA_unit_1.pdf",
-    "StudyX_SX_ADA_UNIT_3.pdf"
+    "StudyX_SX_ADA_UNIT_3.pdf",
+    "StudyX_SX_Syllx_Akash_DAA.pdf",
+    "StudyX_SX_ADA_sessional.pdf",
+    "StudyX_SX_ADA_End_Term_Papers.pdf",
+    "StudyX_Intro_to_Algo.pdf",
+    "StudyX_algorithm_design_and_analysis.pdf",
+    "StudyX_DAA.pdf",
+    "StudyX_DAA-File_-_Yash_Pandey.pdf",
+    "StudyX_SX_OS_Unit_4_with_assignment.pdf",
+    "StudyX_SX_OS_Unit_3_with_assignment.pdf",
+    "StudyX_SX_End_Sem_OS.pdf",
+    "StudyX_SX_OS_Unit_2_with_assignment.pdf",
+    "StudyX_SX_OS_Unit_1.pdf",
+    "StudyX_SX_OS_unit_1_b__notes.pdf",
+    "StudyX_SX_OS-Unit1_a__Notes.pdf",
+    "StudyX_SX_OS-unit-2_a_-notes.pdf",
+    "StudyX_SX_OS-unit1-_C_.pdf",
+    "StudyX_SX_ch18.pdf",
+    "StudyX_SX_OS-Notes-final.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 9451,
+    "downloadedFiles": 9500,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 53206155735,
+    "downloadedSize": 53206255639,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T23:00:55.585Z"
+  "lastSaved": "2025-06-06T23:01:21.118Z"
 }
