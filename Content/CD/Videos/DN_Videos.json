@@ -1,0 +1,37 @@
+[
+    {
+        "title": "CD Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/4mAxMWz8p6g?si=0L2E3uIljxP97-qY",
+        "playlistUrl": "https://www.youtube.com/watch?v=4mAxMWz8p6g&list=PLmTfHZlm2zKib8W9Ry1HsbdH9CCqUNSeJ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4mAxMWz8p6g/hqdefault.jpg?"
+    },
+    {
+        "title": "CD Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/hGuXUIefVkc?si=fKXCeKOHaJo2KNgE",
+        "playlistUrl": "https://www.youtube.com/watch?v=hGuXUIefVkc&list=PLmTfHZlm2zKg32052CbEjKQagn9VtQqj2",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hGuXUIefVkc/hqdefault.jpg?"
+    },
+    {
+        "title": "CD Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=Mmu7o--Lf8IYogUJ&amp;list=PLmTfHZlm2zKh67Lbb0mWK760PxdlQ4IBP",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKh67Lbb0mWK760PxdlQ4IBP&si=xsqYyfaT1mvFo-fn",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_CloXDbYAAg/hqdefault.jpg?"
+    },
+    {
+        "title": "CD Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=dOOhdIX2xHIJ2V9i&amp;list=PLmTfHZlm2zKgkKei3NwglIht0xTBzvBp6",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKgkKei3NwglIht0xTBzvBp6&si=joXXME_sEl4jSIus",
+        "thumbnailUrl": "https://i.ytimg.com/vi/O-iMkZ7FhKU/hqdefault.jpg?"
+    },
+    {
+        "title": "Complete CD Compiler Design in one shot",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/OQCjakjCJu4?si=xxVJRoKcedIwv1ip",
+        "playlistUrl": "https://www.youtube.com/watch?v=OQCjakjCJu4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/OQCjakjCJu4/hqdefault.jpg?"
+    }
+]
