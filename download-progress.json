@@ -460,19 +460,26 @@
     "Dotnotes_DN_End_Term_Paper_2023.pdf",
     "Dotnotes_DN_Midterm_Answersheet_Nov_2023.pdf",
     "Dotnotes_CMpractical01.pdf",
-    "Dotnotes_CMpractical2.pdf"
+    "Dotnotes_CMpractical2.pdf",
+    "Dotnotes_CMpractical3.pdf",
+    "Dotnotes_CMpractical4.pdf",
+    "Dotnotes_CMpractical5.pdf",
+    "Dotnotes_CMpractical7.pdf",
+    "Dotnotes_CMpractical6.pdf",
+    "Dotnotes_CMpractical8.pdf",
+    "Dotnotes_CMpractical9.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 4703,
+    "downloadedFiles": 4754,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 44894570538,
+    "downloadedSize": 44901635896,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:13:18.761Z"
+  "lastSaved": "2025-06-06T22:13:46.355Z"
 }
