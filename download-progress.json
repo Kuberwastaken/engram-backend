@@ -1164,19 +1164,49 @@
     "Dotnotes_DN_UNIT_II.pdf",
     "Dotnotes_DN_servo_motor.pdf",
     "Dotnotes_DN_tlwa_notes.pdf",
-    "Dotnotes_DN_unit_2___3.pdf"
+    "Dotnotes_DN_unit_2___3.pdf",
+    "Dotnotes_DN_unit_3___4.pdf",
+    "Dotnotes_DN_block_diag_sfg.pdf",
+    "Dotnotes_DN_complete_handwritten.pdf",
+    "Dotnotes_DN_complete_Notes.pdf",
+    "Dotnotes_DN_Time_domain_Analysis.pdf",
+    "Dotnotes_DN_introduction.pdf",
+    "Dotnotes_DN_EMT-3.json",
+    "Dotnotes_Hasan_Saeed.pdf",
+    "Dotnotes_DN_EM1-3.json",
+    "Dotnotes_Anand_Kumar.pdf",
+    "Dotnotes_DN_CS_Akash.pdf",
+    "Dotnotes_DN_1_Synchronous_Generators_.pdf",
+    "Dotnotes_DN_2_Sychronous_Motors_.pdf",
+    "Dotnotes_DN_EM2_PYQ.pdf",
+    "Dotnotes_DN_3_Three_Phase_Induction_Motors.pdf",
+    "Dotnotes_DN_01_Introduction_to_Power_System.pdf",
+    "Dotnotes_DN_EM2_Akash.pdf",
+    "Dotnotes_DN_Electrical_Machine_Unit_1_-_4.pdf",
+    "Dotnotes_DN_02_Introduction_to_SLD___PU_System.pdf",
+    "Dotnotes_DN_ELECTRICAL_MACHINES_UNIT_1.pdf",
+    "Dotnotes_DN_03_Transmission_Line_Parameter.pdf",
+    "Dotnotes_DN_Unit_-_II_.pdf",
+    "Dotnotes_Modern_Control_Engineering.pdf",
+    "Dotnotes_DN_04_Inductance_Calculation_for_3_phase.pdf",
+    "Dotnotes_DN_05_Transmission_Line_Capacitance.pdf",
+    "Dotnotes_DN_07_Transmission_Line_Modeling.pdf",
+    "Dotnotes_DN_08_Transmission_Line_Modeling__Lossless_Line_.pdf",
+    "Dotnotes_DN_09_Transmission_Line_Steady_State_Operation.pdf",
+    "Dotnotes_DN_Power_system_Akash.pdf",
+    "Dotnotes_DN_Handwritten_Notes"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 6346,
+    "downloadedFiles": 6398,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 52998278649,
+    "downloadedSize": 53196164068,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T22:33:42.938Z"
+  "lastSaved": "2025-06-06T22:34:37.755Z"
 }
