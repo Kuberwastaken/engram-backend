@@ -103,19 +103,22 @@
     "Dotnotes_DN_IC-2.pdf",
     "Dotnotes_DN_UNIT-III__INDIAN_CONSTITUTION_.pdf",
     "Dotnotes_DN_Unit-_2_IC.pdf",
-    "Dotnotes_DN_Unit-1_IC.pdf"
+    "Dotnotes_DN_Unit-1_IC.pdf",
+    "Dotnotes_DN_IC-1.json",
+    "Dotnotes_DN_MPL_Unit_I_Moulding.pdf",
+    "Dotnotes_DN_Deformation_Processes_Metal_Forming_Processes_Hot_Cold_.pdf"
   ],
   "stats": {
     "totalFiles": 10306,
-    "downloadedFiles": 1154,
+    "downloadedFiles": 1203,
     "skippedFiles": 474,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-06T21:22:26.092Z",
-    "downloadedSize": 11056959796,
+    "downloadedSize": 11170351113,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-06T21:34:02.970Z"
+  "lastSaved": "2025-06-06T21:34:28.677Z"
 }
