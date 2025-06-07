@@ -89,8 +89,8 @@ jobs:
       run: |
         echo "🔍 Scanning existing content and cross-checking with metadata..."
         
-        # Create the content scanner script
-        cat > content-scanner.js << 'EOF'
+        # Create the content scanner script with .cjs extension for CommonJS
+        cat > content-scanner.cjs << 'EOF'
         const fs = require('fs').promises;
         const path = require('path');
         
@@ -265,7 +265,7 @@ jobs:
         
         # Run the content scanner
         echo "🚀 Running content scanner..."
-        FORCE_RESCAN="${{ github.event.inputs.rescan_content || 'false' }}" node content-scanner.js
+        FORCE_RESCAN="${{ github.event.inputs.rescan_content || 'false' }}" node content-scanner.cjs
         
         # Check results
         if [ -f "download-queue.json" ]; then
@@ -307,8 +307,8 @@ jobs:
         echo "Start time: $(date -u)"
         echo "Files to download: ${{ steps.content_scan.outputs.missing_files }}"
         
-        # Create the targeted downloader script
-        cat > targeted-downloader.js << 'EOF'
+        # Create the targeted downloader script with .cjs extension
+        cat > targeted-downloader.cjs << 'EOF'
         const fs = require('fs').promises;
         const path = require('path');
         const https = require('https');
@@ -562,7 +562,7 @@ jobs:
         EOF
         
         # Execute the targeted downloader with timeout
-        if timeout 300m node targeted-downloader.js; then
+        if timeout 300m node targeted-downloader.cjs; then
           echo "✅ Download process completed successfully within time limit."
           echo "download_success=true" >> $GITHUB_OUTPUT
           echo "download_completed=true" >> $GITHUB_OUTPUT
