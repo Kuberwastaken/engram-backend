@@ -40,17 +40,22 @@
     "Dotnotes_DN_Question_papers_of_previous_years.pdf",
     "Dotnotes_DN_1ST_SEM_2019_Internal.pdf",
     "Dotnotes_DN_previous_year.pdf",
-    "Dotnotes_DN_Chemistry_end_sem.pdf"
+    "Dotnotes_DN_Chemistry_end_sem.pdf",
+    "Dotnotes_chemistry_lab_file_.pdf",
+    "Dotnotes_chemistry_viva.pdf",
+    "Dotnotes_Applied_Chemistry_Practical.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 554,
+    "downloadedFiles": 602,
     "skippedFiles": 0,
-    "errorFiles": 0,
+    "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-07T07:47:36.415Z",
-    "downloadedSize": 185898076,
-    "errors": []
+    "downloadedSize": 185994268,
+    "errors": [
+      "FFT_PYQ: Request failed with status code 404"
+    ]
   },
-  "lastSaved": "2025-06-07T07:52:26.007Z"
+  "lastSaved": "2025-06-07T07:52:51.838Z"
 }
