@@ -48,19 +48,28 @@
     "Dotnotes_Engineering_Chemistry_by_Jain_and_Jain.pdf",
     "Dotnotes_Engineering_Chemistry_by_Shikha_Aggarwal.pdf",
     "Dotnotes_DN_APC-1.json",
-    "Dotnotes_DN_Videos.json"
+    "Dotnotes_DN_Videos.json",
+    "Dotnotes_CamScanner_06-01-2023_09.15.pdf",
+    "Dotnotes_Adobe_Scan_21-Jun-2023.pdf",
+    "Dotnotes_Workshop_Lab_Manual_18.04_SUDH.pdf",
+    "Dotnotes_Practical_.pdf",
+    "Dotnotes_Workshop_Viva.pdf",
+    "Dotnotes_workshop_tools.pdf",
+    "Dotnotes_workshop_file_.pdf",
+    "Dotnotes_workshop.pdf",
+    "Dotnotes_Complete_practical.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 705,
+    "downloadedFiles": 751,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-07T07:47:36.415Z",
-    "downloadedSize": 186231463,
+    "downloadedSize": 186328272,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-07T07:53:44.337Z"
+  "lastSaved": "2025-06-07T07:54:10.266Z"
 }
