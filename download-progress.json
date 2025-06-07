@@ -43,19 +43,20 @@
     "Dotnotes_DN_Chemistry_end_sem.pdf",
     "Dotnotes_chemistry_lab_file_.pdf",
     "Dotnotes_chemistry_viva.pdf",
-    "Dotnotes_Applied_Chemistry_Practical.pdf"
+    "Dotnotes_Applied_Chemistry_Practical.pdf",
+    "Dotnotes_chem_aakash_2022.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 602,
+    "downloadedFiles": 635,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-07T07:47:36.415Z",
-    "downloadedSize": 185994268,
+    "downloadedSize": 186060400,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-07T07:52:51.838Z"
+  "lastSaved": "2025-06-07T07:53:17.995Z"
 }
