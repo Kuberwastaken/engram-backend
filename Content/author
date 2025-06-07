@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+
+  <!--
+
+  Feross Aboukhadijeh
+  https://feross.org
+
+  Far better is it to dare mighty things, to win glorious triumphs,
+  even though checkered by failure... than to rank with those poor spirits
+  who neither enjoy nor suffer much, because they live in a gray twilight
+  that knows not victory nor defeat.
+                                                  — Theodore Roosevelt
+
+  -->
+  
+
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+
+  <title>Home of Feross Aboukhadijeh &raquo; Feross.org</title>
+  <meta property="og:title" content="Home of Feross Aboukhadijeh &raquo; Feross.org" />
+
+  <meta name="description" content="Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.">
+  <meta property="og:description" content="Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral." />
+
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:image" content="https://feross.org/images/F.png" />
+
+  <meta property="article:author" content="https://feross.org/about/" />
+  <meta property="fb:admins" content="1347524341" />
+  <meta property="fb:app_id" content="515587071790188" />
+  <link rel="payment" href="https://patreon.com/feross" title="Support my Patreon (feross)" />
+
+  
+  <link rel="canonical" href="https://feross.org/" />
+  <meta property="og:url" content="https://feross.org/" />
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ea391b">
+  <meta name="apple-mobile-web-app-title" content="Feross.org">
+  <meta name="application-name" content="Feross.org">
+  <meta name="theme-color" content="#ff41b4">
+
+  <link rel="alternate" type="application/atom+xml" title="Feross.org" href="https://feross.org/atom.xml" />
+
+  <link rel="stylesheet" href="/css/main.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+
+</head>
+<body class="home">
+  <div id="container">
+
+    <header id="header">
+      <h1><a href="/">Feross</a></h1>
+    </header>
+
+    <section class="content clearfix">
+      <div class="left">
+  <h2>Blog
+    <a class="rss" href="https://feross.org/atom.xml" title="Subscribe to the Feross.org Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h2>
+  <ul class="listing">
+    
+    <li>
+      <a href="/form-california-llc/">How to Form a California LLC (without a lawyer)</a>
+      <time datetime="2020-09-15">
+        September 15, 2020
+      </time>
+    </li>
+    
+    <li>
+      <a href="/libtorrent-webtorrent/">libtorrent adds support for the WebTorrent protocol</a>
+      <time datetime="2020-07-07">
+        July  7, 2020
+      </time>
+    </li>
+    
+    <li>
+      <a href="/funding-experiment-recap/">Recap of the `funding` experiment</a>
+      <time datetime="2019-08-28">
+        August 28, 2019
+      </time>
+    </li>
+    
+    <li>
+      <a href="/npm-install-funding/">Introducing `funding`</a>
+      <time datetime="2019-08-19">
+        August 19, 2019
+      </time>
+    </li>
+    
+    <li>
+      <a href="/bitmidi/">Announcing BitMidi</a>
+      <time datetime="2018-08-27">
+        August 27, 2018
+      </time>
+    </li>
+    
+    <li>
+      <a href="/introducing-thanks/">Introducing `thanks`</a>
+      <time datetime="2018-02-11">
+        February 11, 2018
+      </time>
+    </li>
+    
+    <li>
+      <a href="/never-use-semicolons/">Never Use Semicolons</a>
+      <time datetime="2017-02-28">
+        February 28, 2017
+      </time>
+    </li>
+    
+    <li>
+      <a href="/coding-in-the-wild/">Coding in the Wild</a>
+      <time datetime="2016-09-13">
+        September 13, 2016
+      </time>
+    </li>
+    
+    <li>
+      <a href="/node-board/">I'm running for the Node.js Board of Directors</a>
+      <time datetime="2016-01-15">
+        January 15, 2016
+      </time>
+    </li>
+    
+    <li>
+      <a href="/fill-disk/">Introducing the HTML5 Hard Disk Filler&trade; API</a>
+      <time datetime="2013-02-27">
+        February 27, 2013.
+        Code on <a href="https://github.com/feross/filldisk.js">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/japan/">Travels in Japan</a>
+      <time datetime="2013-01-02">
+        January  2, 2013
+      </time>
+    </li>
+    
+    <li>
+      <a href="/html5-fullscreen-api-attack/">Using the HTML5 Fullscreen API for Phishing Attacks</a>
+      <time datetime="2012-10-08">
+        October  8, 2012.
+        Code on <a href="https://github.com/feross/fullscreen-api-attack">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/how-to-setup-your-linode/">How To Set Up Your Linode For Maximum Awesomeness</a>
+      <time datetime="2012-10-05">
+        October  5, 2012
+      </time>
+    </li>
+    
+    <li>
+      <a href="/thoughts-on-free-will/">Thoughts on free will</a>
+      <time datetime="2012-08-06">
+        August  6, 2012
+      </time>
+    </li>
+    
+    <li>
+      <a href="/open-sourcing-several-projects/">Open sourcing several projects</a>
+      <time datetime="2012-08-05">
+        August  5, 2012
+      </time>
+    </li>
+    
+    <li>
+      <a href="/cmsploit/">1% of CMS-Powered Sites Expose Their Database Passwords</a>
+      <time datetime="2011-11-17">
+        November 17, 2011.
+        Code on <a href="https://github.com/feross/CMSploit">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/linode-vps-hosting-review/">Linode VPS Hosting Review</a>
+      <time datetime="2011-11-14">
+        November 14, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/chrome/">Content, not Chrome</a>
+      <time datetime="2011-11-01">
+        November  1, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/webcam-spy/">HOW TO: Spy on the Webcams of Your Website Visitors</a>
+      <time datetime="2011-10-18">
+        October 18, 2011.
+        Code on <a href="https://github.com/feross/webcam-spy">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/think-different/">Think Different</a>
+      <time datetime="2011-10-09">
+        October  9, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/xenocide/">Human Assumptions and Prejudices</a>
+      <time datetime="2011-10-08">
+        October  8, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/shortlisted-best-api-use/">YouTube Instant Shortlisted for Best API Use in .Net Magazine Awards</a>
+      <time datetime="2011-10-04">
+        October  4, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/aoe2/">Age of Empires II and Longevity</a>
+      <time datetime="2011-09-14">
+        September 14, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/how-i-learned-to-program-computers/">How I Learned to Program Computers</a>
+      <time datetime="2011-09-13">
+        September 13, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/anything-for-page-views/">Learning a lesson the hard way</a>
+      <time datetime="2011-09-13">
+        September 13, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/in-the-news/">In the news again...</a>
+      <time datetime="2011-09-12">
+        September 12, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/spoofmac/">Announcing SpoofMAC - Spoof your MAC address in Mac OS X</a>
+      <time datetime="2011-09-01">
+        September  1, 2011.
+        Code on <a href="https://github.com/feross/SpoofMAC">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/2011-net-magazine-awards/">2011 .Net Magazine Awards</a>
+      <time datetime="2011-08-02">
+        August  2, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/stanford-open-source-workshop/">Stanford Open Source Workshop</a>
+      <time datetime="2011-05-23">
+        May 23, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/none-of-us-knows-what-were-doing/">None of Us Knows What We're Doing</a>
+      <time datetime="2011-05-22">
+        May 22, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/instant-fm-tech-stack/">Instant.fm Tech Stack</a>
+      <time datetime="2011-05-19">
+        May 19, 2011.
+        Code on <a href="https://github.com/feross/Instant.fm">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/my-recent-hacks/">Announcing Instant.fm, Instant.io, and EmuSpin.com</a>
+      <time datetime="2011-05-17">
+        May 17, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/email-overload/">Email Overload</a>
+      <time datetime="2011-05-09">
+        May  9, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/cheating-in-video-games/">Cheating in Video Games</a>
+      <time datetime="2011-05-05">
+        May  5, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/like-everything-on-facebook/">Like Everything on Facebook with this JavaScript Bookmarklet</a>
+      <time datetime="2011-03-15">
+        March 15, 2011.
+        Code on <a href="https://github.com/feross/Facebook-Like-Everything">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/is-google-an-open-redirector/">Is Google an Open Redirector?</a>
+      <time datetime="2011-03-09">
+        March  9, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/brain-grinder-built-in-3-hours/">Announcing Brain Grinder, Another 3 Hour Hack</a>
+      <time datetime="2011-03-07">
+        March  7, 2011.
+        Code on <a href="https://github.com/feross/BrainGrinder">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/how-to-get-accepted-at-stanford/">How To Get Accepted Into Stanford</a>
+      <time datetime="2011-01-23">
+        January 23, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/its-time-i-updated-my-blog/">It's time I updated my blog</a>
+      <time datetime="2011-01-18">
+        January 18, 2011
+      </time>
+    </li>
+    
+    <li>
+      <a href="/one-million-visitors-in-10-days/">One Million Visitors in 10 Days</a>
+      <time datetime="2010-09-24">
+        September 24, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/visit-to-youtube-hq-to-meet-chad-hurley/">I just met Chad Hurley at YouTube HQ</a>
+      <time datetime="2010-09-14">
+        September 14, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/youtube-instant-media-frenzy/">YouTube Instant. The last two days…</a>
+      <time datetime="2010-09-11">
+        September 11, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/youtube-instant/">Psh… Google Instant? I built YouTube Instant.</a>
+      <time datetime="2010-09-10">
+        September 10, 2010.
+        Code on <a href="https://github.com/feross/YouTube-Instant">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/cult-of-done/">Cult of Done</a>
+      <time datetime="2010-08-30">
+        August 30, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/detect-proxy-usage-in-firefox/">Detect Proxy Usage in Firefox</a>
+      <time datetime="2010-08-22">
+        August 22, 2010.
+        Code on <a href="https://github.com/feross/detect-proxy">GitHub</a>.
+        
+      </time>
+    </li>
+    
+    <li>
+      <a href="/422/">4 minutes and 22 seconds</a>
+      <time datetime="2010-07-17">
+        July 17, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/san-francisco-symphony-orchestra-final-fantasy/">San Francisco Symphony Orchestra plays Final Fantasy</a>
+      <time datetime="2010-07-16">
+        July 16, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/web-security-and-privacy/">Web Security and Privacy</a>
+      <time datetime="2010-07-07">
+        July  7, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/summer-facebook/">Summer @ Facebook</a>
+      <time datetime="2010-07-05">
+        July  5, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/applied-philosophy-a-k-a-hacking/">Applied Philosophy a.k.a. "Hacking"</a>
+      <time datetime="2010-06-19">
+        June 19, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/stallman-stanford/">I just met Richard Stallman</a>
+      <time datetime="2010-05-21">
+        May 21, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/phosphenes-and-psychedelic-patterns/">Phosphenes and Psychedelic Patterns</a>
+      <time datetime="2010-05-21">
+        May 21, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/stanford-iphone-app-final-project-iboard/">Stanford iPhone App Final Project - iBoard</a>
+      <time datetime="2010-04-05">
+        April  5, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/gcc-ownage/">GCC Easter Egg: C++ Undefined Defined Behavior</a>
+      <time datetime="2010-03-28">
+        March 28, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/copying-is-not-theft/">Copying Is Not Theft</a>
+      <time datetime="2010-03-25">
+        March 25, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/misinterpreting-copyright/">Misinterpreting Copyright</a>
+      <time datetime="2010-03-18">
+        March 18, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/mc-frontalot/">MC Frontalot comes to Stanford!</a>
+      <time datetime="2010-02-20">
+        February 20, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/facebook-launch-night/">I just met Mark Zuckerberg at Facebook Launch Night</a>
+      <time datetime="2010-02-08">
+        February  8, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/i-broke-my-iphone/">I broke my iPhone</a>
+      <time datetime="2010-01-15">
+        January 15, 2010
+      </time>
+    </li>
+    
+    <li>
+      <a href="/net-neutrality-adventures-in-calling-congress/">Net Neutrality – Adventures in Calling Congress</a>
+      <time datetime="2009-12-09">
+        December  9, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/immortal-technique-comes-to-stanford/">Immortal Technique Comes to Stanford</a>
+      <time datetime="2009-11-07">
+        November  7, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/ridin-dirty-at-stanford/">Ridin' Dirty with Chamillionare at Stanford</a>
+      <time datetime="2009-11-04">
+        November  4, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/new-projects/">New projects</a>
+      <time datetime="2009-10-23">
+        October 23, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/bloons/">I filled my room with balloons!</a>
+      <time datetime="2009-10-04">
+        October  4, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/bumper-sticker-wisdom/">Bumper Sticker Wisdom</a>
+      <time datetime="2009-09-24">
+        September 24, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/im-amazing-autotune-feross-vs-kanye-west/">Feross vs. Kanye West</a>
+      <time datetime="2009-09-06">
+        September  6, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/have-we-entered-a-post-literate-technological-age/">Have We Entered a Post-Literate Technological Age?</a>
+      <time datetime="2009-08-24">
+        August 24, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/shame-on-you-comcast/">Shame on You, Comcast!</a>
+      <time datetime="2009-08-23">
+        August 23, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/search-engine-rap-battle/">Search Engine Rap Battle</a>
+      <time datetime="2009-08-18">
+        August 18, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/your-baby-is-smarter-than-you-think/">How Babies Learn Differently</a>
+      <time datetime="2009-08-16">
+        August 16, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/post-to-tweetie-from-google-reader/">Post to Tweetie from Google Reader</a>
+      <time datetime="2009-08-16">
+        August 16, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/the-cake-is-a-lie/">The Cake Is A Lie</a>
+      <time datetime="2009-08-15">
+        August 15, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/freedom-of-speech-on-the-internet/">Freedom of Speech on the Internet</a>
+      <time datetime="2009-07-18">
+        July 18, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/mixing-the-old-and-the-new/">Mixing the Old and the New</a>
+      <time datetime="2009-07-11">
+        July 11, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/whats-been-happening-in-my-life/">What’s been happening in my life</a>
+      <time datetime="2009-07-10">
+        July 10, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/omg-i-just-met-steve-ballmer/">OMG, I just met Steve Ballmer!</a>
+      <time datetime="2009-05-06">
+        May  6, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/stanford-entrepreneurs-nike-t-shirt-just-start-up/">Stanford Entrepreneurs Nike T-Shirt (Just Start Up)</a>
+      <time datetime="2009-04-19">
+        April 19, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/halting-problem-poem/">Poem About the Halting Problem</a>
+      <time datetime="2009-04-09">
+        April  9, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/condoleezza-rice/">I met Condoleezza Rice Today</a>
+      <time datetime="2009-04-01">
+        April  1, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/awesome-human-computer-interface-video-demonstrations/">Awesome Human-Computer Interface Video Demonstrations</a>
+      <time datetime="2009-03-21">
+        March 21, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/how-many-ferosss-can-fit-in-one-url/">How Many Feross's Can Fit in One URL?</a>
+      <time datetime="2009-03-11">
+        March 11, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/party-like-its-1234567890/">Time to Party Like it's 1234567890</a>
+      <time datetime="2009-02-14">
+        February 14, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/3-smart-things-about-sleeping-late/">3 Smart Things About Sleeping Late</a>
+      <time datetime="2009-02-08">
+        February  8, 2009
+      </time>
+    </li>
+    
+    <li>
+      <a href="/first-blog-post/">First blog post</a>
+      <time datetime="2009-01-30">
+        January 30, 2009
+      </time>
+    </li>
+    
+  </ul>
+</div>
+
+<div class="right">
+  <h2>Hey there, I'm Feross! ✨</h2>
+  <div class="bio">
+    <p>
+      Read my <a href="/about/" class="strong">bio</a> and <a href="/resume/" class="strong">résumé</a>.
+      <br>Become an <a href="/thanks/">open source supporter</a>.
+      <br>Get a <a href="/support/">support contract</a> for your company/team.
+      <br>Follow me on <a href="https://twitter.com/feross">Twitter</a> and <a href="https://github.com/feross">GitHub</a>.
+    </p>
+
+    <a class="avatar" href="/about/" title="Feross Aboukhadijeh">
+      <img src="/images/feross-japan.jpg" alt="I am so handsome."/>
+    </a>
+
+    
+<!-- Carbon Ads -->
+<div id="carbonads-container">
+  <script async src="//cdn.carbonads.com/carbon.js?serve=CKYIC27M&placement=ferossorgbiz" id="_carbonads_js"></script>
+</div>
+
+
+
+    <small>Total blog post views: <span class="views"></span></small>
+  </div>
+
+  <h2>Current Projects</h2>
+  <ul class="listing">
+    <li>
+      <a href="https://bitmidi.com">BitMidi</a>
+      <span>Listen to the best free MIDI songs.</span>
+    </li>
+    <li>
+      <a href="https://play.cash">Play</a>
+      <span>Music videos with insider song facts.</span>
+    </li>
+    <li>
+      <a href="https://webtorrent.io/desktop">WebTorrent Desktop</a>
+      <span>Streaming torrent app for Mac, Windows, &amp; Linux.</span>
+    </li>
+    <li>
+      <a href="https://webtorrent.io">WebTorrent</a>
+      <span>Streaming torrent client for the web.</span>
+    </li>
+    <li>
+      <a href="https://standardjs.com">JavaScript Standard Style</a>
+      <span>JavaScript style guide, with linter, &amp; automatic code fixer.</span>
+    </li>
+    <li>
+      <a href="https://www.apstudynotes.org">Study Notes</a>
+      <span>Free AP notes &amp; sample college essays for high school students.</span>
+    </li>
+  </ul>
+
+  <h2>Other</h2>
+  <ul class="listing">
+    <li>
+      <a href="/citations/">Book &amp; Academic Citations</a>
+      <span>List of published books and academic research that cite my work.</span>
+    </li>
+    <li>
+      <a href="/quotes/">Favorite Quotes</a>
+      <span>List of interesting &amp; inspiring quotes.</span>
+    </li>
+  </ul>
+
+</div>
+
+    </section>
+
+    
+      <a href="https://github.com/feross" id="github">Fork me on GitHub</a>
+    
+
+  </div>
+
+  <script src="/client/bundle.js"></script>
+
+  
+
+  <!-- Google Analytics -->
+  <script>
+    window.GoogleAnalyticsObject = 'ga'
+    function ga () { window.ga.q.push(arguments) }
+    window.ga.q = window.ga.q || []
+    window.ga.l = Date.now()
+    window.ga('create', 'UA-3898076-5', 'auto')
+    window.ga('send', 'pageview')
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+</body>
+</html>
