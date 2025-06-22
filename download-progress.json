@@ -476,19 +476,28 @@
     "Dotnotes_DN_IKS_Unit_1_2.pdf",
     "Dotnotes_DN_IKS-UNIT-3.pdf",
     "Dotnotes_DN_IKS-UNIT-4.pdf",
-    "Dotnotes_DN_Knowledge_Framework_and_Classification.pdf"
+    "Dotnotes_DN_Knowledge_Framework_and_Classification.pdf",
+    "Dotnotes_DN_Nyaya_school_in_Indian_Philosophy.pptx",
+    "Dotnotes_DN_Unit_1_Brief_Notes.pdf",
+    "Dotnotes_DN_Indian_Philosophical_System__Cropped_.pdf",
+    "Dotnotes_DN_Philosophical_Systems.pdf",
+    "Dotnotes_DN_Unit_1_Full.pdf",
+    "Dotnotes_DN_Unit_2_-_Part_1.pdf",
+    "Dotnotes_DN_Unit_2_-_Part_2.pptx",
+    "Dotnotes_DN_Unit_2_Brief_Notes.pdf",
+    "Dotnotes_DN_Unit_3.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5254,
+    "downloadedFiles": 5304,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39018524773,
+    "downloadedSize": 39018624973,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:25:36.376Z"
+  "lastSaved": "2025-06-22T04:26:02.333Z"
 }
