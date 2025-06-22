@@ -363,19 +363,21 @@
     "Dotnotes_DN_Unit_1-_Questions.pdf",
     "Dotnotes_DN_Mid_Term_Paper_SolutionBS112.pdf",
     "Dotnotes_DN_Solution_of_CT.pdf",
-    "Dotnotes_DN_Maths_II_End_sem.pdf"
+    "Dotnotes_DN_Maths_II_End_sem.pdf",
+    "Dotnotes_Maths_Akash.pdf",
+    "Dotnotes_DN_APM2-2.json"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 4754,
+    "downloadedFiles": 4806,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 38931479177,
+    "downloadedSize": 39017626981,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:21:15.046Z"
+  "lastSaved": "2025-06-22T04:21:40.937Z"
 }
