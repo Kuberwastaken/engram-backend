@@ -1768,19 +1768,22 @@
     "StudyX_SX_PascalTriangle.pdf",
     "StudyX_SX_Logic.pdf",
     "StudyX_SX_Algebra_and_Group_Theory.pdf",
-    "StudyX_SX__R18A0506__Discrete_Mathematics.pdf"
+    "StudyX_SX__R18A0506__Discrete_Mathematics.pdf",
+    "StudyX_SX_Relations_.pdf",
+    "StudyX_SX_Principle_of_Mathematical_Induction.pdf",
+    "StudyX_SX_discrete_unit_1_and_2_notes.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 8447,
+    "downloadedFiles": 8502,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 51229911444,
+    "downloadedSize": 51732174328,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:01:23.047Z"
+  "lastSaved": "2025-06-22T05:02:14.534Z"
 }
