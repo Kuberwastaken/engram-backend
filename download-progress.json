@@ -269,19 +269,23 @@
     "Dotnotes_DN_Unit_4_transformer.pdf",
     "Dotnotes_DN_skshm_full_combined_ES_notes_as_on_15_feb_2023_compressed.pdf",
     "Dotnotes_DN_Saloni_Rai_Unit_1_DC.pdf",
-    "Dotnotes_DN_unit_3_esl_notes.pdf"
+    "Dotnotes_DN_unit_3_esl_notes.pdf",
+    "Dotnotes_DN_Esl_2nd_mid_sem_2023.pdf",
+    "Dotnotes_DN_End_Sem_March_2023.pdf",
+    "Dotnotes_DN_End_Sem_July_2023.pdf",
+    "FifteenFourteen_FFT_NOTES"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 3756,
+    "downloadedFiles": 3805,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 34960130039,
+    "downloadedSize": 35398628554,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:12:32.878Z"
+  "lastSaved": "2025-06-22T04:13:00.135Z"
 }
