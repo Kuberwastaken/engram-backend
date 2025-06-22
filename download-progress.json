@@ -322,19 +322,23 @@
     "Dotnotes_APPLIED_PHYSICS_2_PRACTICAL_VIVA_VOCE_Q.pdf",
     "Dotnotes_Diameter_of_wire.pdf",
     "Dotnotes_CamScanner_05-24-2023_11.54.pdf",
-    "Dotnotes_sonometer.pdf"
+    "Dotnotes_sonometer.pdf",
+    "Dotnotes_syllabus.JPG",
+    "Dotnotes_Physics_File.pdf",
+    "Dotnotes_Complete_practical_.pdf",
+    "Dotnotes_Physics_II_Lab_file._pdf.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 4402,
+    "downloadedFiles": 4456,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 38834255071,
+    "downloadedSize": 38886442767,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:18:12.918Z"
+  "lastSaved": "2025-06-22T04:18:39.037Z"
 }
