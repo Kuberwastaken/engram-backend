@@ -104,19 +104,36 @@
     "Dotnotes_DN_Unit_IV_of_IC.pdf",
     "Dotnotes_DN_Unit-_2_IC.pdf",
     "Dotnotes_DN_Unit-1_IC.pdf",
-    "Dotnotes_DN_IC-1.json"
+    "Dotnotes_DN_IC-1.json",
+    "Dotnotes_DN_Deformation_Processes_Metal_Forming_Processes_Hot_Cold_.pdf",
+    "Dotnotes_DN_Extrusion_Process.pdf",
+    "Dotnotes_DN_MPL_Unit_I_Moulding.pdf",
+    "Dotnotes_DN_Forging_Process.pdf",
+    "Dotnotes_DN_MPL_Unit_iii_Extrusion__forging_and_sheet_metal.pdf",
+    "Dotnotes_DN_MPL_Unit_iv_Plastic_and_Powder_metallurgy.pdf",
+    "Dotnotes_DN_Powder_Metallurgy.pdf",
+    "Dotnotes_DN_MPL_Unit_ii_Welding.pdf",
+    "Dotnotes_DN_Rolling_Process.pdf",
+    "Dotnotes_DN_Sheet_Metal_Operations.pdf",
+    "Dotnotes_DN_Plastic-1.pdf",
+    "Dotnotes_DN_MP_NOTES_FULL_SEM.pdf",
+    "Dotnotes_DN_UNIT_2_MP_new.pdf",
+    "Dotnotes_DN_Unit_1_MP_new.pdf",
+    "Dotnotes_DN_Unit_3_MP_new.pdf",
+    "Dotnotes_DN_UNIT_-1_notes.pdf",
+    "Dotnotes_DN_Unit_4_MP_new.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 1657,
+    "downloadedFiles": 1703,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 14112963249,
+    "downloadedSize": 14563010449,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T03:53:25.710Z"
+  "lastSaved": "2025-06-22T03:53:51.454Z"
 }
