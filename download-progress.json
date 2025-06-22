@@ -458,19 +458,28 @@
     "Dotnotes_DN_Mid_term_QP_2022.pdf",
     "Dotnotes_DN_End_Term_Paper_2023.pdf",
     "Dotnotes_DN_Mid_term_QP_2023.jpeg",
-    "Dotnotes_DN_Midterm_Answersheet_Nov_2023.pdf"
+    "Dotnotes_DN_Midterm_Answersheet_Nov_2023.pdf",
+    "Dotnotes_CMpractical01.pdf",
+    "Dotnotes_CMpractical2.pdf",
+    "Dotnotes_CMpractical3.pdf",
+    "Dotnotes_CMpractical4.pdf",
+    "Dotnotes_CMpractical5.pdf",
+    "Dotnotes_CMpractical6.pdf",
+    "Dotnotes_CMpractical8.pdf",
+    "Dotnotes_CMpractical7.pdf",
+    "Dotnotes_CMpractical9.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5157,
+    "downloadedFiles": 5206,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39018330385,
+    "downloadedSize": 39018428581,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:24:44.789Z"
+  "lastSaved": "2025-06-22T04:25:10.573Z"
 }
