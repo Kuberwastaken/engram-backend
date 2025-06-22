@@ -2149,19 +2149,32 @@
     "StudyX_AI-File_YashPandey122_.pdf",
     "StudyX_SX_AIML_Unit_2_notes.pdf",
     "StudyX_SX_AIML_UNIT_4.pdf",
-    "StudyX_SX_AIML_unit1_notes.pdf"
+    "StudyX_SX_AIML_unit1_notes.pdf",
+    "StudyX_SX_UNIT_3_AIML.pdf",
+    "StudyX_SX_SSMD_Unit_3.pdf",
+    "StudyX_SX_Metric_Space__1_.pdf",
+    "StudyX_SX_ssmda_unit1_b_.pdf",
+    "StudyX_SX_open_sphere__1_.pdf",
+    "StudyX_SX_HYPOTHESIS_TESTING.pdf",
+    "StudyX_SX_Probability_Distribution_Lecture.pdf",
+    "StudyX_SX_Final_Hypothesis_testing_lecture.pdf",
+    "StudyX_SX_STATS_PROBABILITY.pdf",
+    "StudyX_SX_ssmda_unit-1.pdf",
+    "StudyX_SX_Statistical-Methods_Testing_Hypothesis.pdf",
+    "StudyX_SX_SSMDA_unit_2_notes.pdf",
+    "StudyX_SX_Regression_analysis_and_least_square_method.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10250,
+    "downloadedFiles": 10300,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 70905063405,
+    "downloadedSize": 71091161998,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:24:56.154Z"
+  "lastSaved": "2025-06-22T05:25:35.813Z"
 }
