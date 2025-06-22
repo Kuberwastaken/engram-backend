@@ -451,19 +451,26 @@
     "Dotnotes_DN_Simpson_one_third_and_Simpsons_three_eight_rule.pdf",
     "Dotnotes_DN_Spline.pdf",
     "Dotnotes_DN_Trapezoidal_rule.pdf",
-    "Dotnotes_DN_Errors_and_other.pdf"
+    "Dotnotes_DN_Errors_and_other.pdf",
+    "Dotnotes_DN_CM_End_Term_2024.pdf",
+    "Dotnotes_DN_CM_mid_sem_2.pdf",
+    "Dotnotes_DN_CM_unit_1_pyqs_with_answer.pdf",
+    "Dotnotes_DN_Mid_term_QP_2022.pdf",
+    "Dotnotes_DN_End_Term_Paper_2023.pdf",
+    "Dotnotes_DN_Mid_term_QP_2023.jpeg",
+    "Dotnotes_DN_Midterm_Answersheet_Nov_2023.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5105,
+    "downloadedFiles": 5157,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39018226177,
+    "downloadedSize": 39018330385,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:24:19.024Z"
+  "lastSaved": "2025-06-22T04:24:44.789Z"
 }
