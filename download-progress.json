@@ -1057,19 +1057,41 @@
     "Dotnotes_NAS_Akash.pdf",
     "Dotnotes_DN_EMFT_Youtube_Playlists.pdf",
     "Dotnotes_DN_EMFT_Magnetostatics.pdf",
-    "Dotnotes_DN_EMFT_UNIT_2.pdf"
+    "Dotnotes_DN_EMFT_UNIT_2.pdf",
+    "Dotnotes_DN_UNIT__.pdf",
+    "Dotnotes_DN_EMFT_Unit-2.pdf",
+    "Dotnotes_DN_EMFT_unit_3.pdf",
+    "Dotnotes_DN_Unit_1_Coordinate_System.pdf",
+    "Dotnotes_DN_EMFT_unit_4_part_1.pdf",
+    "Dotnotes_DN_EMFT_UNIT_1.pdf",
+    "Dotnotes_DN_Unit_2_Magnetostatics.pdf",
+    "Dotnotes_DN_emft_unit_1_complete_notes.pdf",
+    "Dotnotes_DN_Vector_Emft_part1.pdf",
+    "Dotnotes_DN_transmission_lines_.pdf",
+    "Dotnotes_DN_Unit_3_Electromagnetic_Waves.pdf",
+    "Dotnotes_DN_Unit_4_Transmission_Lines.pdf",
+    "Dotnotes_DN_unit_1___2_.pdf",
+    "Dotnotes_DN_unit_4_.pdf",
+    "Dotnotes_DN_unit_3___4_.pdf",
+    "Dotnotes_DN_unit_1_.pdf",
+    "Dotnotes_DN_vector_2_emft.pdf",
+    "Dotnotes_DN_EMFT_Mid_Sem.pdf",
+    "Dotnotes_Engineering_electromagnetic_.pdf",
+    "Dotnotes_EMFT_by_Zahn.pdf",
+    "Dotnotes_DN_EMFT-3.json",
+    "Dotnotes_DN_EMFT_Akash.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6652,
+    "downloadedFiles": 6698,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39129454283,
+    "downloadedSize": 39129546467,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:37:47.160Z"
+  "lastSaved": "2025-06-22T04:38:12.968Z"
 }
