@@ -32,13 +32,13 @@
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 406,
+    "downloadedFiles": 456,
     "skippedFiles": 0,
     "errorFiles": 0,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 2578361360,
+    "downloadedSize": 2847650080,
     "errors": []
   },
-  "lastSaved": "2025-06-22T03:41:53.605Z"
+  "lastSaved": "2025-06-22T03:42:19.862Z"
 }
