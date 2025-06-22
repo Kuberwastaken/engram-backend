@@ -948,19 +948,45 @@
     "Dotnotes_DN_POM_Akash_Unit_1.pdf",
     "Dotnotes_DN_POM_Akash_Unit_2.pdf",
     "Dotnotes_DN_PME-6.json",
-    "Dotnotes_PME_AAKASH_SEM6.pdf"
+    "Dotnotes_PME_AAKASH_SEM6.pdf",
+    "Dotnotes_Principles_of_Management-OP.pdf",
+    "Dotnotes_DN_AI_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_AI_Unit_-_1.pdf",
+    "Dotnotes_DN_AI_Unit_-_2.pdf",
+    "Dotnotes_DN_AI_Unit_-_1__Handwritten_.pdf",
+    "Dotnotes_DN_AI_Unit_-_3.pdf",
+    "Dotnotes_DN_AI_Unit_1__with_assignment_.pdf",
+    "Dotnotes_DN_Foundations_of_AI.pdf",
+    "Dotnotes_DN_AI_Unit_-_1__Handwritten__-_Returns.pdf",
+    "Dotnotes_DN_State_Space.pdf",
+    "Dotnotes_DN_AI_Unit_-_2__PPT_.pdf",
+    "Dotnotes_DN_AI_Unit_2__with_assignment_.pdf",
+    "Dotnotes_DN_Logical_Reasoning_Unit_-_2.pdf",
+    "Dotnotes_DN_AI_Unit_-_4.pdf",
+    "Dotnotes_DN_ARTIFICIAL_INTELLIGENCE_AAKASH.pdf",
+    "Dotnotes_DN_AI_Mid_PYQs.pdf",
+    "Dotnotes_DN_AI-6.json",
+    "Dotnotes_DN_IDSP-6.json",
+    "Dotnotes_DN_SOFTWARE_PROJECT_MANAGEMENT.pdf",
+    "Dotnotes_DN_SPM_Notes.pdf",
+    "Dotnotes_DN_SPM-6.json",
+    "Dotnotes_DN_IIOT-6.json",
+    "Dotnotes_DN_Python_-_Dictionaries.pdf",
+    "Dotnotes_DN_Python_-_Exception_Handling.pdf",
+    "Dotnotes_DN_Python_-_Functions.pdf",
+    "Dotnotes_DN_Python_Endsem_Notes__Complete_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6452,
+    "downloadedFiles": 6502,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39129052599,
+    "downloadedSize": 39129153683,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:36:03.943Z"
+  "lastSaved": "2025-06-22T04:36:29.760Z"
 }
