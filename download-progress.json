@@ -2066,19 +2066,28 @@
     "StudyX_SX_Unit_1___2_II.pdf",
     "StudyX_SX_SE_UNIT_1_PART_2.pdf",
     "StudyX_SX_SE_notes1_2.pdf",
-    "StudyX_SX_Unit_1___2_I.pdf"
+    "StudyX_SX_Unit_1___2_I.pdf",
+    "StudyX_SX_Syllx_Akash_SE.pdf",
+    "StudyX_SOFTWARE_ENGINEERING.pdf",
+    "StudyX_SX_SE_Sessional.pdf",
+    "StudyX_SX_SE_End_Term_Papers.pdf",
+    "StudyX_SE_practicals.pdf",
+    "StudyX_SE-File_Yash_Pandey.pdf",
+    "StudyX_SX_Unit_4_Computational_Complexity_ada.pdf",
+    "StudyX_SX_Unit_1_Hand_Written_Notes.pdf",
+    "StudyX_SX_unit_2_ada.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9854,
+    "downloadedFiles": 9897,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 68050773949,
+    "downloadedSize": 68324935557,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:20:34.448Z"
+  "lastSaved": "2025-06-22T05:21:00.502Z"
 }
