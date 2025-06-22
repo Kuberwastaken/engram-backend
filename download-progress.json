@@ -1030,19 +1030,46 @@
     "Dotnotes_DN_UNIT-4",
     "Dotnotes_DN_Complete.pdf",
     "Dotnotes_DN_Graph_Theory.pdf",
-    "Dotnotes_DN_dc_unit_1_notes.pdf"
+    "Dotnotes_DN_dc_unit_1_notes.pdf",
+    "Dotnotes_DN_L.T_of_circuits.pdf",
+    "Dotnotes_DN_NAS_Playlist.pdf",
+    "Dotnotes_DN_Impulse_func_RLC_ckt.pdf",
+    "Dotnotes_DN_NAS_notes.pdf",
+    "Dotnotes_DN_classical.method.pdf",
+    "Dotnotes_DN_Notes_unit_-_1.pdf",
+    "Dotnotes_DN_DC_Akash.pdf",
+    "Dotnotes_DN_Synthesis_Notes.pdf",
+    "Dotnotes_DN_graph_thoery_2__1_.pdf",
+    "Dotnotes_DN_Theorems_Transient_Two-Port.pdf",
+    "Dotnotes_DN_Till_first_order.pdf",
+    "Dotnotes_DN_laplace_transform.pdf",
+    "Dotnotes_DN_intro_n_signal_n_system__1_.pdf",
+    "Dotnotes_DN_nodal_n_loop_analysis.pdf",
+    "Dotnotes_DN_signal_n_wavefrm_synthesis.pdf",
+    "Dotnotes_DN_unit_1_nas_notes.pdf",
+    "Dotnotes_DN_unit_4_nas_notes.pdf",
+    "Dotnotes_DN_unit_2_nas_notes.pdf",
+    "Dotnotes_DN_unit_3_nas_notes.pdf",
+    "Dotnotes_DN_NAS_07-Jul-2023_13-40-20.pdf",
+    "Dotnotes_DN_NAS_Question_Paper_June2024_08-Jun-2024.pdf",
+    "Dotnotes_DN_EE_Important_Topics.pdf",
+    "Dotnotes_DN_EMFT_Important_Topics.pdf",
+    "Dotnotes_NAS_Akash.pdf",
+    "Dotnotes_DN_EMFT_Youtube_Playlists.pdf",
+    "Dotnotes_DN_EMFT_Magnetostatics.pdf",
+    "Dotnotes_DN_EMFT_UNIT_2.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6601,
+    "downloadedFiles": 6652,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39129352079,
+    "downloadedSize": 39129454283,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:37:21.293Z"
+  "lastSaved": "2025-06-22T04:37:47.160Z"
 }
