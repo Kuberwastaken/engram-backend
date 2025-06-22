@@ -1796,19 +1796,28 @@
     "StudyX_SX_iks_notes__1_.pdf",
     "StudyX_SX_UNIT_2_-_ii.pdf",
     "StudyX_SX_UNIT_2_-_i.pdf",
-    "StudyX_SX_marked_.pdf"
+    "StudyX_SX_marked_.pdf",
+    "StudyX_IKS_chap_2.pdf",
+    "StudyX_IKS_chap_1.pdf",
+    "StudyX_IKS_chap_3.pdf",
+    "StudyX_IKS_chap_8.pdf",
+    "StudyX_IKS_chap_4.pdf",
+    "StudyX_IKS_chap_6.pdf",
+    "StudyX_IKS_chap_7.pdf",
+    "StudyX_IKS_chap_9.pdf",
+    "StudyX_IKS_chap_13.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 8651,
+    "downloadedFiles": 8678,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 53289261018,
+    "downloadedSize": 54256268398,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:03:57.370Z"
+  "lastSaved": "2025-06-22T05:04:37.506Z"
 }
