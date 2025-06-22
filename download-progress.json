@@ -1572,19 +1572,21 @@
     "StudyX_SX_Bisection_method.pdf",
     "StudyX_SX_unit_2_notes_1.pdf",
     "StudyX_SX_unit_II_notes_2.pdf",
-    "StudyX_SX_Unit-4_complete.pdf"
+    "StudyX_SX_Unit-4_complete.pdf",
+    "StudyX_SX_Unit-3_complete_.pdf",
+    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 7451,
+    "downloadedFiles": 7503,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 44445080180,
+    "downloadedSize": 44824526276,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:49:38.105Z"
+  "lastSaved": "2025-06-22T04:50:51.823Z"
 }
