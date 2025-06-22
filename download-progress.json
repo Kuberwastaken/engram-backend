@@ -1962,19 +1962,42 @@
     "StudyX_SX_Typed_notes.pdf",
     "StudyX_SX_DBMS_COMPLETE_NOTES.pdf",
     "StudyX_Raghu_Ramakrishnan.pdf",
-    "StudyX_SX_DBMS_AIDS___AIML.pdf"
+    "StudyX_SX_DBMS_AIDS___AIML.pdf",
+    "StudyX_Database_system_concepts_by_Korth.pdf",
+    "StudyX_SX_DBMS_Akash.pdf",
+    "StudyX_DBMS-File_YashPandey122_-_Yash_Pandey.pdf",
+    "StudyX_SX_JAVA_Notes_UNIT-1.pdf",
+    "StudyX_SX_Java_Complete_Notes_Typed.pdf",
+    "StudyX_SX_Java_Unit_1-3.pdf",
+    "StudyX_SX_Java_All_Unit.pdf",
+    "StudyX_SX_JAVA_NOTES_TILL_THREADING.pdf",
+    "StudyX_SX_unit_3_java.pdf",
+    "StudyX_SX_Unit_4_java.pdf",
+    "StudyX_SX_Unit_2.pdf",
+    "StudyX_SX_Complete_Notes_-_All_Units_Handwritten.pdf",
+    "StudyX_SX_Unit1_N.pdf",
+    "StudyX_SX_Java_File_Handling.pdf",
+    "StudyX_SX_Java_Sockets.pdf",
+    "StudyX_SX_Java_Unit-_4.pdf",
+    "StudyX_SX_Java_Applet.pdf",
+    "StudyX_SX_Java_Classes_and_Objects.pdf",
+    "StudyX_SX_Java_Multi_Threading.pdf",
+    "StudyX_SX_PIJ_UNIT_1_NOTES.pdf",
+    "StudyX_SX_java_unit_1_and_3.pdf",
+    "StudyX_SX_JAVA_Notes_UNIT-2.pdf",
+    "StudyX_SX_JAVA_PROGRAMMING.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9346,
+    "downloadedFiles": 9402,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 62899541762,
+    "downloadedSize": 63760926791,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:14:29.800Z"
+  "lastSaved": "2025-06-22T05:14:59.761Z"
 }
