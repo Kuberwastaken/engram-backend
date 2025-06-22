@@ -856,19 +856,43 @@
     "Dotnotes_DN_SE_Sessional.pdf",
     "Dotnotes_DN_Software_Engineering_Feb2023.pdf",
     "Dotnotes_DN_Software_Engineering_Jan2024.pdf",
-    "Dotnotes_DN_Syllx_Akash_SE.pdf"
+    "Dotnotes_DN_Syllx_Akash_SE.pdf",
+    "Dotnotes_SE_practicals.pdf",
+    "Dotnotes_se-akash.pdf",
+    "Dotnotes_IITKGP_SE.pdf",
+    "Dotnotes_DN_SE-5.json",
+    "Dotnotes_SOFTWARE_ENGINEERING.pdf",
+    "Dotnotes_DN_ADA_unit_1.pdf",
+    "Dotnotes_DN_Mid_Sem_Complete.pdf",
+    "Dotnotes_DN_ADA_UNIT_3.pdf",
+    "Dotnotes_DN_End_Sem_DAA.pdf",
+    "Dotnotes_DN_Unit_1_DAA.pdf",
+    "Dotnotes_DN_Complete_Notes-All_Units.pdf",
+    "Dotnotes_DN_Unit_1_Hand_Written_Notes.pdf",
+    "Dotnotes_DN_Unit_4_Computational_Complexity_ada.pdf",
+    "Dotnotes_DN_unit_2_ada.pdf",
+    "Dotnotes_DN_unit_1_ada.pdf",
+    "Dotnotes_DN_Algorithms_Design_Analysis_Feb2023.pdf",
+    "Dotnotes_DN_Design_Analysis_Algorithms_Jan2024.pdf",
+    "Dotnotes_DN_DAA-5.json",
+    "Dotnotes_daa-akash.pdf",
+    "Dotnotes_DN_802.11_and_802.3.pdf",
+    "Dotnotes_DN_Datalink_Layer.pdf",
+    "Dotnotes_DN_CN_Unit_-_2_Data_Link_Layer.pdf",
+    "Dotnotes_DN_CN_Notes_Shivangi.pdf",
+    "Dotnotes_DN_HDLC_PPP.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6256,
+    "downloadedFiles": 6303,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39047090697,
+    "downloadedSize": 39047184885,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:34:20.482Z"
+  "lastSaved": "2025-06-22T04:34:46.330Z"
 }
