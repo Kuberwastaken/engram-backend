@@ -2198,19 +2198,35 @@
     "StudyX_SX_ML_Unit_1.pdf",
     "StudyX_SX_PME_AAKASH_SEM6.pdf",
     "StudyX_SX_ML_Unit_2.pdf",
-    "StudyX_SX_ML_7th_Sem_AIML_ITE_Notes_Complete_LONG.pdf"
+    "StudyX_SX_ML_7th_Sem_AIML_ITE_Notes_Complete_LONG.pdf",
+    "StudyX_SX_ML_Akash.pdf",
+    "StudyX_SX_Complete_AI_Notes.pdf",
+    "StudyX_SX_PPL_Notes_Unit_1.pdf",
+    "StudyX_SX_unit2_part2.pdf",
+    "StudyX_SX_unit2_ppl.pdf",
+    "StudyX_SX_storage_allocation.pdf",
+    "StudyX_SX_ppl_notes_unit_2.pdf",
+    "StudyX_SX_unit1_ppl.pdf",
+    "StudyX_SX_web_dev_unit_2.pdf",
+    "StudyX_SX_Web_dev_unit_1.pdf",
+    "StudyX_SX_MERN_Stack_All_Units_.pdf",
+    "StudyX_SX_IoT.pdf",
+    "StudyX_SX_IoT___Applications_Digital_Notes.pdf",
+    "StudyX_SX_unit_1.pdf",
+    "StudyX_SX_complete_notes.pdf",
+    "StudyX_SX_gears.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10551,
+    "downloadedFiles": 10600,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 73780853843,
+    "downloadedSize": 74194211964,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:28:38.866Z"
+  "lastSaved": "2025-06-22T05:29:23.700Z"
 }
