@@ -1785,19 +1785,30 @@
     "StudyX_SX_Important_Topics_of_Unit_1_and_Unit_2.pdf",
     "StudyX_SX_IKS-UNIT-3.pdf",
     "StudyX_SX_UNIT_1.pdf",
-    "StudyX_SX_PHONETICS_IN_SANSKRIT.pdf"
+    "StudyX_SX_PHONETICS_IN_SANSKRIT.pdf",
+    "StudyX_SX_ROLE_OF_SANSKRIT_IN_NLP.pdf",
+    "StudyX_SX_iks_unit-3.pdf",
+    "StudyX_SX_main.pdf",
+    "StudyX_SX_marked-2.pdf",
+    "StudyX_SX_IKS_qna.pdf",
+    "StudyX_SX_cheat_notes___.pdf",
+    "StudyX_SX_Discrete_mathematics__1_.pdf",
+    "StudyX_SX_iks_notes__1_.pdf",
+    "StudyX_SX_UNIT_2_-_ii.pdf",
+    "StudyX_SX_UNIT_2_-_i.pdf",
+    "StudyX_SX_marked_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 8595,
+    "downloadedFiles": 8651,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 52780743454,
+    "downloadedSize": 53289261018,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:03:10.961Z"
+  "lastSaved": "2025-06-22T05:03:57.370Z"
 }
