@@ -562,19 +562,29 @@
     "Dotnotes_DN_Encoder_and_Decoder.pdf",
     "Dotnotes_DN_DLCD_-_Unit_4.pdf",
     "Dotnotes_DN_DLCD_-_Unit_1_-_0.pdf",
-    "Dotnotes_DN_K_Maps__Adders__Subtractors.pdf"
+    "Dotnotes_DN_K_Maps__Adders__Subtractors.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_1.pdf",
+    "Dotnotes_DN_Number_Systems.pdf",
+    "Dotnotes_DN_Mux__DeMux__Encoder__Decoder.pdf",
+    "Dotnotes_DN_PLA__PAL__ALU__QM_CLA__Parity_Gen.pdf",
+    "Dotnotes_DN_QM_method_with_examples.pdf",
+    "Dotnotes_DN_Sequential_Circuits.pdf",
+    "Dotnotes_DN_DLCD_End_Term_2024.pdf",
+    "Dotnotes_DN_DLCD_mid_sem_1_2023.jpeg",
+    "Dotnotes_DN_DLCD_mid_sem_2.pdf",
+    "Dotnotes_DN_Mid_Term_PYQs_22.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5504,
+    "downloadedFiles": 5555,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39039578991,
+    "downloadedSize": 39039681195,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:27:47.030Z"
+  "lastSaved": "2025-06-22T04:28:13.572Z"
 }
