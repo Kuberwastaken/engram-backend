@@ -209,19 +209,36 @@
     "Dotnotes_DN_exercise.pdf",
     "Dotnotes_Higher_engineering_mathematics_BS_Grewal.pdf",
     "Dotnotes_h_k_das.pdf",
-    "Dotnotes_VP_Mishra.pdf"
+    "Dotnotes_VP_Mishra.pdf",
+    "Dotnotes_DN_APM1-1.json",
+    "Dotnotes_DN_COM_COG_AND_CENTROID.pdf",
+    "Dotnotes_DN_EM_NOTES_2.pdf",
+    "Dotnotes_DN_3.3_Impact_of_Bodies.pdf",
+    "Dotnotes_DN_Engineering-Mechanics-Notes-and-Paper.pdf",
+    "Dotnotes_DN_Friction.pdf",
+    "Dotnotes_Erwin_Kreyszig_-_Advanced_Engineering_Mathematics-Wiley__2005_.pdf",
+    "Dotnotes_DN_IC_Notes.pdf",
+    "Dotnotes_DN_Impact_notes.pdf",
+    "Dotnotes_DN_Structure.pdf",
+    "Dotnotes_DN_centroid_MOI_notes.pdf",
+    "Dotnotes_DN_Mechanics_full_notes_MdE_116.pdf",
+    "Dotnotes_DN_force_system_notes.pdf",
+    "Dotnotes_DN_Truss.pdf",
+    "Dotnotes_DN_kinematics_notes.pdf",
+    "Dotnotes_DN_kinetics_notes.pdf",
+    "Dotnotes_DN_kinetics_of_rigid_bodies_notes.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 2743,
+    "downloadedFiles": 2804,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 26966857284,
+    "downloadedSize": 27345954907,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:03:26.701Z"
+  "lastSaved": "2025-06-22T04:03:53.033Z"
 }
