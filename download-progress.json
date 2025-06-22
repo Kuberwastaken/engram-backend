@@ -1939,19 +1939,40 @@
     "StudyX_SX_Lec_1_C_S.pdf",
     "StudyX_SX_Two-port_Network.pdf",
     "StudyX_SX_CS_All_Units.pdf",
-    "StudyX_SX_C__S_unit_1_.pdf"
+    "StudyX_SX_C__S_unit_1_.pdf",
+    "StudyX_SX_Endterm_CnS.pdf",
+    "StudyX_SX_CNS_Akash.pdf",
+    "StudyX_CNS_pdf.pdf",
+    "StudyX_SX_DBMS_notes.pdf",
+    "StudyX_C_S-File_YashPandey122_-_Yash_Pandey.pdf",
+    "StudyX_SX_Oracle_Functions.pdf",
+    "StudyX_SX_ch15_TRANS.pdf",
+    "StudyX_SX_pl_sql.pdf",
+    "StudyX_SX_Unit_-4_DBMS.pdf",
+    "StudyX_SX_DBMS-Unit-2.pdf",
+    "StudyX_SX_UNIT-3_DBMS.pdf",
+    "StudyX_SX_ANKIT_SIR_ALL_UNITS_DBMS.pdf",
+    "StudyX_SX_DBMS-Unit-1.pdf",
+    "StudyX_SX_DBMS-Normalization.pdf",
+    "StudyX_SX_DBMS-Transaction_Control.pdf",
+    "StudyX_SX_DBMS_3.pdf",
+    "StudyX_SX_DBMS_notes_2.pdf",
+    "StudyX_SX_DBMS_1.pdf",
+    "StudyX_SX_DBMS_2.pdf",
+    "StudyX_SX_Typed_notes.pdf",
+    "StudyX_SX_DBMS_COMPLETE_NOTES.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9250,
+    "downloadedFiles": 9301,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 61127193890,
+    "downloadedSize": 62211869193,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:12:53.109Z"
+  "lastSaved": "2025-06-22T05:13:23.405Z"
 }
