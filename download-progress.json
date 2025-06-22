@@ -903,19 +903,40 @@
     "Dotnotes_DN_switching.pdf",
     "Dotnotes_DN_unit_1_part_3.pdf",
     "Dotnotes_DN_unit2.pdf",
-    "Dotnotes_DN_unit_2_part_1.pdf"
+    "Dotnotes_DN_unit_2_part_1.pdf",
+    "Dotnotes_DN_Computer_Networks_Jan2024.pdf",
+    "Dotnotes_DN_CN_Mid_term_ICE_2023.pdf",
+    "Dotnotes_DN_ICE_End-term_CN.pdf",
+    "Dotnotes_DN_Previous_Years_CN_Sessionals.pdf",
+    "Dotnotes_cn-akash.pdf",
+    "Dotnotes_CNExp1-5.pdf",
+    "Dotnotes_DN_Syllx_Akash_CN.pdf",
+    "Dotnotes_DN_CN-5.json",
+    "Dotnotes_Andrew_S._Tanenbaum_-_Computer_Networks.pdf",
+    "Dotnotes_DN_VBNET-6.json",
+    "Dotnotes_DN_WEBTECH_Endsem_Notes__Complete_.pdf",
+    "Dotnotes_DN_WT_UNIT_-_1.pdf",
+    "Dotnotes_DN_Web_Technologies_Notes.pdf",
+    "Dotnotes_DN_WET-6.json",
+    "Dotnotes_DN_Advanced_Java_Unit_-_2.pdf",
+    "Dotnotes_DN_Server_Side_Unit_-_2.pptx",
+    "Dotnotes_DN_Java_Beans.pptx",
+    "Dotnotes_akash.pdf",
+    "Dotnotes_DN_ADVJ-6.json",
+    "Dotnotes_DN_Adv_Java_Unit_1__TJ_.pdf",
+    "Dotnotes_DN_Adv_Java_Unit_2__TJ_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6354,
+    "downloadedFiles": 6400,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 39047287089,
+    "downloadedSize": 39128948391,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:35:12.305Z"
+  "lastSaved": "2025-06-22T04:35:38.086Z"
 }
