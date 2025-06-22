@@ -2167,19 +2167,34 @@
     "StudyX_SSADA-File__YashPandey122_.pdf",
     "StudyX_SX_SSMDA_Akash.pdf",
     "StudyX_SX_unit-2_human_values.pdf",
-    "StudyX_SX_Complete_4_units_AI_NOTES.pdf"
+    "StudyX_SX_Complete_4_units_AI_NOTES.pdf",
+    "StudyX_SX_Python_Unit_1_Notes.pdf",
+    "StudyX_SX_Unit-1__Manish_Sir_.pdf",
+    "StudyX_SX_digital_notes.pdf",
+    "StudyX_SX_PYTHON_PROGRAMMING_NOTES.pdf",
+    "StudyX_SX_Handwritten.pdf",
+    "StudyX_SX_python_unit_1_conditional_statement_notes.pdf",
+    "StudyX_Automate_the_Boring_Stuff_with_Python-1-168.pdf",
+    "StudyX_SX_Intro_to_WSN.pdf",
+    "StudyX_SX_Unit-II_Transceiver_Design_consideration.pdf",
+    "StudyX_SX_Architecture_of_WSN.pdf",
+    "StudyX_SX_WSN_Unit_1___2_complete_Notes.pdf",
+    "StudyX_SX_PYTHON_AAKASH_SEM6.pdf",
+    "StudyX_SX_WSN_Unit_3_handwritten_notes_______1_.pdf",
+    "StudyX_SX_WSN_Unit_4_handwritten_Notes_____.pdf",
+    "StudyX_SX_UNIT2.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10351,
+    "downloadedFiles": 10398,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 71497427591,
+    "downloadedSize": 72214925545,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:26:08.219Z"
+  "lastSaved": "2025-06-22T05:26:43.138Z"
 }
