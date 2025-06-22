@@ -231,19 +231,27 @@
     "Dotnotes_DN_Paper.pdf",
     "Dotnotes_DN_Mechanics_end_sem.pdf",
     "Dotnotes_akash_engineering_mechanics.pdf",
-    "Dotnotes_AK_Tayal.pdf"
+    "Dotnotes_AK_Tayal.pdf",
+    "Dotnotes_DN_EM-1.json",
+    "Dotnotes_DN_UNIT-1__Programming_in_C.pdf",
+    "Dotnotes_DN_ITP_notes_Shivangi.pdf",
+    "Dotnotes_DN_UNIT-2__Programming_in_C.pdf",
+    "Dotnotes_DN_PCL_Unit_I_II.pdf",
+    "Dotnotes_DN_Unit_III_IV_PCL.pdf",
+    "Dotnotes_DN_notes_unit1.pdf",
+    "Dotnotes_DN_unit_1_2_notes.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 3100,
+    "downloadedFiles": 3153,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 28965351584,
+    "downloadedSize": 29557265762,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T04:06:29.770Z"
+  "lastSaved": "2025-06-22T04:06:57.762Z"
 }
