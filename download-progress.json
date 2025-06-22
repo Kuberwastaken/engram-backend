@@ -1985,19 +1985,22 @@
     "StudyX_SX_PIJ_UNIT_1_NOTES.pdf",
     "StudyX_SX_java_unit_1_and_3.pdf",
     "StudyX_SX_JAVA_Notes_UNIT-2.pdf",
-    "StudyX_SX_JAVA_PROGRAMMING.pdf"
+    "StudyX_SX_JAVA_PROGRAMMING.pdf",
+    "StudyX_Complete_Reference.pdf",
+    "StudyX_SX_JAVA_BCA_EndTerm_2023.pdf",
+    "StudyX_SX_JAVA_Akash.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9503,
+    "downloadedFiles": 9546,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 64941004051,
+    "downloadedSize": 65836229943,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:16:20.453Z"
+  "lastSaved": "2025-06-22T05:16:46.855Z"
 }
