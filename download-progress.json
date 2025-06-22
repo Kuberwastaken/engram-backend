@@ -121,19 +121,24 @@
     "Dotnotes_DN_Unit_1_MP_new.pdf",
     "Dotnotes_DN_Unit_3_MP_new.pdf",
     "Dotnotes_DN_UNIT_-1_notes.pdf",
-    "Dotnotes_DN_Unit_4_MP_new.pdf"
+    "Dotnotes_DN_Unit_4_MP_new.pdf",
+    "Dotnotes_DN_MP_mid_sem_2_2023.pdf",
+    "Dotnotes_DN_MP_prev._year_question_papers.pdf",
+    "Dotnotes_DN_Mid-Term_2019.pdf",
+    "Dotnotes_DN_previous.pdf",
+    "Dotnotes_DN_Manufacturing_End_sem.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 1906,
+    "downloadedFiles": 1952,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 17249872688,
+    "downloadedSize": 17829992376,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T03:55:41.651Z"
+  "lastSaved": "2025-06-22T03:56:07.991Z"
 }
