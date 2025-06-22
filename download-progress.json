@@ -1936,19 +1936,22 @@
     "StudyX_SX_C_S_Chp10.pdf",
     "StudyX_SX_laplace_part_2.pdf",
     "StudyX_SX_LR_2_C_S.pdf",
-    "StudyX_SX_Lec_1_C_S.pdf"
+    "StudyX_SX_Lec_1_C_S.pdf",
+    "StudyX_SX_Two-port_Network.pdf",
+    "StudyX_SX_CS_All_Units.pdf",
+    "StudyX_SX_C__S_unit_1_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9197,
+    "downloadedFiles": 9250,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-22T03:38:00.830Z",
-    "downloadedSize": 60500707849,
+    "downloadedSize": 61127193890,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-22T05:12:12.245Z"
+  "lastSaved": "2025-06-22T05:12:53.109Z"
 }
