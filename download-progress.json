@@ -802,19 +802,35 @@
     "Dotnotes_DN_Operating_System_Concepts_-_CH6.pdf",
     "Dotnotes_DN_Operating_System_Concepts_-_CH8.pdf",
     "Dotnotes_DN_Operating_System_Concepts_-_CH9.pdf",
-    "Dotnotes_DN_Operating_System_Concepts_-_CH7.pdf"
+    "Dotnotes_DN_Operating_System_Concepts_-_CH7.pdf",
+    "Dotnotes_DN_Previous_Year_OS_sessional.pdf",
+    "Dotnotes_os_new_lab_manual.pdf",
+    "Dotnotes_DN_OS-5.json",
+    "Dotnotes_os-akash.pdf",
+    "Dotnotes_OS_File.pdf",
+    "Dotnotes_DN_Consumer_Equillibrium.pdf",
+    "Dotnotes_DN_ECONOMICS_FOR_ENGINEERS.pdf",
+    "Dotnotes_DN_Economics_Eng_Lesson14.pdf",
+    "Dotnotes_DN_Economics_for_Engineers_RR.pdf",
+    "Dotnotes_DN_Demand.PDF",
+    "Dotnotes_DN_Unit_-_1.pdf",
+    "Dotnotes_DN_Production.pdf",
+    "Dotnotes_DN_MICRO_N_MACRO.pdf",
+    "Dotnotes_DN_End_Sem_EE.pdf",
+    "Dotnotes_DN_Unit_-_2.pdf",
+    "Dotnotes_DN_EE_Unit_1___2.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6104,
+    "downloadedFiles": 6153,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 56229905555,
+    "downloadedSize": 56518501676,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:49:27.192Z"
+  "lastSaved": "2025-06-29T04:49:56.503Z"
 }

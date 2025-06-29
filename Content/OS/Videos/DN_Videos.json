@@ -1,1 +1,37 @@
-<!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv="content-type" content="text/html; charset=utf-8"/><style nonce="llmELUbH4h2O5sPFfsskDg">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:0}.grecaptcha-badge{visibility:hidden}.uc-main{padding-top:50px;text-align:center}#uc-dl-icon{display:inline-block;margin-top:16px;padding-right:1em;vertical-align:top}#uc-text{display:inline-block;max-width:68ex;text-align:left}.uc-error-caption,.uc-warning-caption{color:#222;font-size:16px}#uc-download-link{text-decoration:none}.uc-name-size a{color:#15c;text-decoration:none}.uc-name-size a:visited{color:#61c;text-decoration:none}.uc-name-size a:active{color:#d14836;text-decoration:none}.uc-footer{color:#777;font-size:11px;padding-bottom:5ex;padding-top:5ex;text-align:center}.uc-footer a{color:#15c}.uc-footer a:visited{color:#61c}.uc-footer a:active{color:#d14836}.uc-footer-divider{color:#ccc;width:100%}.goog-inline-block{position:relative;display:-moz-inline-box;display:inline-block}* html .goog-inline-block{display:inline}*:first-child+html .goog-inline-block{display:inline}sentinel{}</style><link rel="icon" href="//ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"/></head><body><div class="uc-main"><div id="uc-text"><p class="uc-error-caption">Sorry, you can&#39;t view or download this file at this time.</p><p class="uc-error-subcaption">Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.</p></div></div><div class="uc-footer"><hr class="uc-footer-divider"></div></body></html>
+[
+    {
+        "title": "OS Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/WJ-UaAaumNA?si=Kxwtz5ZRBLI-eQFP",
+        "playlistUrl": "https://www.youtube.com/watch?v=WJ-UaAaumNA&list=PLmTfHZlm2zKjqQUjtj0-iJXhgfX9dj0fS",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WJ-UaAaumNA/hqdefault.jpg?"
+    },
+    {
+        "title": "OS Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/3Eaw1SSIqRg?si=gP1-584Ia4C83ml1",
+        "playlistUrl": "https://www.youtube.com/watch?v=3Eaw1SSIqRg&list=PLmTfHZlm2zKgmZXeJViAiFgZtMZUKCBGA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3Eaw1SSIqRg/hqdefault.jpg?"
+    },
+    {
+        "title": "OS Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=Z8l54PJtjYhWTm-5&amp;list=PLmTfHZlm2zKgqoB5jorr2_KCMSmRdVHIe",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKgqoB5jorr2_KCMSmRdVHIe&si=UVeoAgOADfRRzb_F",
+        "thumbnailUrl": "https://i.ytimg.com/vi/meCBj2PboB4/hqdefault.jpg?"
+    },
+    {
+        "title": "OS Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=KJ1YeOOpqUiGPpdn&amp;list=PLmTfHZlm2zKh75ct37sAjfogKUTATmArj",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKh75ct37sAjfogKUTATmArj&si=Q--yK717aszzLhkl",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0LtuQhNFFe0/hqdefault.jpg?"
+    },
+    {
+        "title": "Complete Operating System in one shot",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/xw_OuOhjauw?si=2mu9t8AnnxdDeN7c",
+        "playlistUrl": "https://www.youtube.com/watch?v=xw_OuOhjauw&list=PLmTfHZlm2zKj2tULznRAo542tLk4xMngs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xw_OuOhjauw/hqdefault.jpg?"
+    }
+]
