@@ -2188,19 +2188,29 @@
     "StudyX_SX_Combined_Pdf.pdf",
     "StudyX_SX_Web_Technologies_digital.pdf",
     "StudyX_SX_Web_Technology.pdf",
-    "StudyX_WebTech-File__YashPandey122_.pdf"
+    "StudyX_WebTech-File__YashPandey122_.pdf",
+    "StudyX_SX_POM_Akash_Unit_1.pdf",
+    "StudyX_SX_POM_Akash_Unit_2.pdf",
+    "StudyX_SX_WT-web_technology_akash.pdf",
+    "StudyX_SX_JavaScript-Handwritten-Notes.pdf",
+    "StudyX_SX_3._Generative_Algorithms.pdf",
+    "StudyX_SX_ML_Unit_1.pdf",
+    "StudyX_SX_2._Gradient_Descent_based_Learners.pdf",
+    "StudyX_SX_ML_7th_Sem_AIML_ITE_Notes_Complete_LONG.pdf",
+    "StudyX_SX_ML_Unit_2.pdf",
+    "StudyX_SX_PME_AAKASH_SEM6.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10488,
+    "downloadedFiles": 10551,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 97309939523,
+    "downloadedSize": 98037430250,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:36:12.911Z"
+  "lastSaved": "2025-06-29T05:36:38.991Z"
 }
