@@ -229,19 +229,21 @@
     "Dotnotes_DN_kinetics_notes.pdf",
     "Dotnotes_DN_EM_End_Term_Exams.pdf",
     "Dotnotes_DN_Paper.pdf",
-    "Dotnotes_DN_Mechanics_end_sem.pdf"
+    "Dotnotes_DN_Mechanics_end_sem.pdf",
+    "Dotnotes_akash_engineering_mechanics.pdf",
+    "Dotnotes_AK_Tayal.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 3054,
+    "downloadedFiles": 3099,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 28405751521,
+    "downloadedSize": 28949712354,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:15:02.030Z"
+  "lastSaved": "2025-06-29T04:15:28.124Z"
 }
