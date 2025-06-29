@@ -2182,19 +2182,25 @@
     "StudyX_SX_Architecture_of_WSN.pdf",
     "StudyX_SX_UNIT2.pdf",
     "StudyX_SX_WSN_Unit_4_handwritten_Notes_____.pdf",
-    "StudyX_SX_WSN_Unit_3_handwritten_notes_______1_.pdf"
+    "StudyX_SX_WSN_Unit_3_handwritten_notes_______1_.pdf",
+    "StudyX_SX_PHP.pdf",
+    "StudyX_SX_Wireless_Sensor_Networks_Akash_6th_Sem_23-24.pdf",
+    "StudyX_SX_Combined_Pdf.pdf",
+    "StudyX_SX_Web_Technologies_digital.pdf",
+    "StudyX_SX_Web_Technology.pdf",
+    "StudyX_WebTech-File__YashPandey122_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10455,
+    "downloadedFiles": 10488,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 96872094297,
+    "downloadedSize": 97309939523,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:35:46.846Z"
+  "lastSaved": "2025-06-29T05:36:12.911Z"
 }
