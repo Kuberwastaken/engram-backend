@@ -103,19 +103,20 @@
     "Dotnotes_DN_Unit_IV_of_IC.pdf",
     "Dotnotes_DN_Unit-_2_IC.pdf",
     "Dotnotes_DN_Unit-1_IC.pdf",
-    "Dotnotes_DN_IC-2.pdf"
+    "Dotnotes_DN_IC-2.pdf",
+    "Dotnotes_DN_IC-1.json"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 1606,
+    "downloadedFiles": 1656,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 14006599972,
+    "downloadedSize": 14136184694,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:01:57.450Z"
+  "lastSaved": "2025-06-29T04:02:23.299Z"
 }
