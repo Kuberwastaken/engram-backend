@@ -836,19 +836,39 @@
     "Dotnotes_DN_SE_Mid_Sem_Complete.pdf",
     "Dotnotes_DN_SE_UNIT_1_PART_1.pdf",
     "Dotnotes_DN_SE_UNIT_1_PART_2.pdf",
-    "Dotnotes_DN_SE_UNIT_2_PART_2.pdf"
+    "Dotnotes_DN_SE_UNIT_2_PART_2.pdf",
+    "Dotnotes_DN_SE_notes1_2.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_2_RELIABILITY_MODELS_DETAILED.pdf",
+    "Dotnotes_DN_SE_UNIT_4.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_2.pdf",
+    "Dotnotes_DN_SE_UNIT_3_PART_1.pdf",
+    "Dotnotes_DN_SE_UNIT_2_PART_1.pdf",
+    "Dotnotes_DN_Spiral_Model.pdf",
+    "Dotnotes_DN_SE-UNIT-1__B__NOTES.pdf",
+    "Dotnotes_DN_Testing.pdf",
+    "Dotnotes_DN_Unit_2_SE.pdf",
+    "Dotnotes_DN_Unit_2_printed_2.pdf",
+    "Dotnotes_DN_Unit_2_printed.pdf",
+    "Dotnotes_DN_Unit_1___2_II.pdf",
+    "Dotnotes_DN_Unit_1___2_III.pdf",
+    "Dotnotes_DN_Unit_1___2_I.pdf",
+    "Dotnotes_DN_SE_End_Term_Papers.pdf",
+    "Dotnotes_DN_SE_Sessional.pdf",
+    "Dotnotes_DN_Software_Engineering_Feb2023.pdf",
+    "Dotnotes_DN_Software_Engineering_Jan2024.pdf",
+    "Dotnotes_DN_Syllx_Akash_SE.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6202,
+    "downloadedFiles": 6256,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 56964246866,
+    "downloadedSize": 57198065487,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:50:31.687Z"
+  "lastSaved": "2025-06-29T04:51:06.038Z"
 }
