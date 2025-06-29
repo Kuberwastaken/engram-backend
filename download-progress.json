@@ -2241,19 +2241,27 @@
     "StudyX_SX_unit_-2_.pdf",
     "StudyX_SX_Notes_unit_-1_.pdf",
     "StudyX_SX_DSCC_End_Sem.pdf",
-    "StudyX_SX_UNIT-3_and_4th_SNA.pdf"
+    "StudyX_SX_UNIT-3_and_4th_SNA.pdf",
+    "StudyX_SX_WM_End_Sems.pdf",
+    "StudyX_SX_dwdm_LESSON_PLAN_.pdf",
+    "StudyX_SX_PEM_End_Sem.pdf",
+    "StudyX_SX_PEM_End_Sem_Obsidian.pdf",
+    "StudyX_SX_DWDM_End_Sem.pdf",
+    "StudyX_SX_PEM_UNIT_1.pdf",
+    "StudyX_SX_PEM_UNIT_2.pdf",
+    "StudyX_SX_EDADV_End_Sem.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10748,
+    "downloadedFiles": 10775,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 99092224057,
+    "downloadedSize": 99136001213,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:38:24.766Z"
+  "lastSaved": "2025-06-29T05:38:37.717Z"
 }
