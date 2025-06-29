@@ -1574,19 +1574,24 @@
     "StudyX_SX_unit_II_notes_2.pdf",
     "StudyX_SX_Unit-4_complete.pdf",
     "StudyX_SX_Unit-3_complete_.pdf",
-    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf"
+    "StudyX_SX_CM_-_Complete_Unit_1_--__NOTES__.pdf",
+    "StudyX_NumericalMethods_by_Jain_and_Iyengar.pdf",
+    "StudyX_CM_book.pdf",
+    "StudyX_SX_Endterm_2023.pdf",
+    "StudyX_SX_Midterm_2023.pdf",
+    "StudyX_SX_usict_end_sem_2023_exam.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 7503,
+    "downloadedFiles": 7550,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 69181416932,
+    "downloadedSize": 69495751731,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:08:19.213Z"
+  "lastSaved": "2025-06-29T05:08:46.622Z"
 }
