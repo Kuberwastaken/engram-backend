@@ -269,19 +269,23 @@
     "Dotnotes_DN__Questions__Unit_ii_AC_Circuit.pdf",
     "Dotnotes_DN_Unit_4_transformer.pdf",
     "Dotnotes_DN_unit_3_esl_notes.pdf",
-    "Dotnotes_DN_skshm_full_combined_ES_notes_as_on_15_feb_2023_compressed.pdf"
+    "Dotnotes_DN_skshm_full_combined_ES_notes_as_on_15_feb_2023_compressed.pdf",
+    "Dotnotes_DN_End_Sem_March_2023.pdf",
+    "Dotnotes_DN_Esl_2nd_mid_sem_2023.pdf",
+    "Dotnotes_DN_End_Sem_July_2023.pdf",
+    "FifteenFourteen_FFT_NOTES"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 3756,
+    "downloadedFiles": 3803,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 34989936922,
+    "downloadedSize": 35409330020,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:21:22.424Z"
+  "lastSaved": "2025-06-29T04:21:48.662Z"
 }
