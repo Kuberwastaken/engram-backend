@@ -1880,19 +1880,20 @@
     "StudyX_SX_notes.pdf",
     "StudyX_SX_random_variable_and_probability_distribution.pdf",
     "StudyX_SX_chapter3_joint_probability_distribution_.pdf",
-    "StudyX_SX_PSLP_Handwritten.pdf"
+    "StudyX_SX_PSLP_Handwritten.pdf",
+    "StudyX_Irwin_Miller__Marylees_Miller_-_John_E._Freund_s_Mathematical_Statistics_with_Applications-Pearson__2014_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 8950,
+    "downloadedFiles": 8999,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 82007778568,
+    "downloadedSize": 82694478365,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:21:43.614Z"
+  "lastSaved": "2025-06-29T05:22:15.177Z"
 }
