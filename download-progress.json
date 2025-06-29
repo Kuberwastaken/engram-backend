@@ -127,19 +127,23 @@
     "Dotnotes_DN_Manufacturing_End_sem.pdf",
     "Dotnotes_DN_Mid-Term_2019.pdf",
     "Dotnotes_DN_previous.pdf",
-    "Dotnotes_MP_Akash.pdf"
+    "Dotnotes_MP_Akash.pdf",
+    "Dotnotes_Rajendra_Singh.pdf",
+    "Dotnotes_PN_Rao_.pdf",
+    "Dotnotes_DN_MP-1.json",
+    "Dotnotes_DN_Numerical_Unit_I_PHL.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 2053,
+    "downloadedFiles": 2104,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 19640557666,
+    "downloadedSize": 20072643194,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:05:54.109Z"
+  "lastSaved": "2025-06-29T04:06:25.749Z"
 }
