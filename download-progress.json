@@ -2235,19 +2235,25 @@
     "StudyX_SX_PPT_NOTES.pdf",
     "StudyX_SX_Short_Notes.pdf",
     "StudyX_SX_Book_Notes.pdf",
-    "StudyX_SX_Complete_PPT.pdf"
+    "StudyX_SX_Complete_PPT.pdf",
+    "StudyX_SX_UNIT_-_3_DISTRIBUTED_FILE_SYSTEM.pdf",
+    "StudyX_SX_Data_Science_Endsem.pdf",
+    "StudyX_SX_unit_-2_.pdf",
+    "StudyX_SX_Notes_unit_-1_.pdf",
+    "StudyX_SX_DSCC_End_Sem.pdf",
+    "StudyX_SX_UNIT-3_and_4th_SNA.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10704,
+    "downloadedFiles": 10748,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 99001277370,
+    "downloadedSize": 99092224057,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:37:57.610Z"
+  "lastSaved": "2025-06-29T05:38:24.766Z"
 }
