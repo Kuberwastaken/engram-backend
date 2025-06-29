@@ -686,19 +686,22 @@
     "Dotnotes_DN_random_variable.pdf",
     "Dotnotes_DN_notes.pdf",
     "Dotnotes_DN_random_variable_and_probability_distribution.pdf",
-    "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf"
+    "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf",
+    "Dotnotes_DN_PSL_Practice_Questions.pdf",
+    "Dotnotes_DN_PSLP_MAY_2025_END_SEM.pdf",
+    "Dotnotes_DN_Mid_Term_Exam_PSLP.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5801,
+    "downloadedFiles": 5851,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 53687765189,
+    "downloadedSize": 54363479654,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:45:19.766Z"
+  "lastSaved": "2025-06-29T04:46:11.762Z"
 }
