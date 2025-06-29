@@ -1771,19 +1771,34 @@
     "StudyX_SX__R18A0506__Discrete_Mathematics.pdf",
     "StudyX_SX_Principle_of_Mathematical_Induction.pdf",
     "StudyX_SX_Relations_.pdf",
-    "StudyX_SX_discrete_unit_1_and_2_notes.pdf"
+    "StudyX_SX_discrete_unit_1_and_2_notes.pdf",
+    "StudyX_Discrete_Mathematics_Third_Edition_by_Seymour_Lipschutz_and_Marc_Lipson.pdf",
+    "StudyX_Discrete_Mathematics_by_Oscar_Levin.pdf",
+    "StudyX_Kolman__Busby_Ross___Discrete_Mathematical_Structures_.pdf",
+    "StudyX_Discrete_Mathematics_and_Its_Applications_-_7th_Edition_by_Kenneth_H_Rosen.pdf",
+    "StudyX_Discrete_Mathematics_Liu_Mohapatra_3rd_edition.pdf",
+    "StudyX_Liu-Discrete_Math.pdf",
+    "StudyX_SX_USICT_End_Term_DM-1.pdf",
+    "StudyX_SX_dm_new_topics.pdf",
+    "StudyX_SX_marked_-_3.pdf",
+    "StudyX_SX_IKS-UNIT-3.pdf",
+    "StudyX_SX_IKS-UNIT-4.pdf",
+    "StudyX_SX_Important_Topics_of_Unit_1_and_Unit_2.pdf",
+    "StudyX_SX_Discrete_mathematics__1_.pdf",
+    "StudyX_SX_UNIT_1.pdf",
+    "StudyX_SX_PHONETICS_IN_SANSKRIT.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 8554,
+    "downloadedFiles": 8596,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 76417636719,
+    "downloadedSize": 77170533351,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:17:51.996Z"
+  "lastSaved": "2025-06-29T05:18:20.680Z"
 }
