@@ -388,19 +388,35 @@
     "Dotnotes_Schaum_s_Outline_of_Statistic.pdf",
     "Dotnotes_DN_Linked_List.pdf",
     "Dotnotes_DN_Sparse_Matrix.pdf",
-    "Dotnotes_Advanced_Engineering_Mathematics__Erwin_Sir_.pdf"
+    "Dotnotes_Advanced_Engineering_Mathematics__Erwin_Sir_.pdf",
+    "Dotnotes_DN_Notes_on_Binary_Tree__BST.pdf",
+    "Dotnotes_DN_Unit_2_DS_-_02.pdf",
+    "Dotnotes_DN_Unit_2_DS_-_01.pdf",
+    "Dotnotes_DN_Unit_3_DS_-_01.pdf",
+    "Dotnotes_DN_Unit_1_DS_-_01.pdf",
+    "Dotnotes_DN_Unit_1_DS_-_02.pdf",
+    "Dotnotes_DN_DS_Full__TopperWorld_.pdf",
+    "Dotnotes_DN_DS_Complete.pdf",
+    "Dotnotes_DN_Unit_4_DS_Graphs.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_2.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_Overview.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_1.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_Algorithms.pdf",
+    "Dotnotes_DN_Unit_4_Graphs_-_0.pdf",
+    "Dotnotes_DN_Unit_I_DS_Shivesh.pdf",
+    "Dotnotes_DN_Unit_II_DS_Shivesh.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 4849,
+    "downloadedFiles": 4903,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 44484678958,
+    "downloadedSize": 45145289873,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:32:24.483Z"
+  "lastSaved": "2025-06-29T04:33:18.067Z"
 }
