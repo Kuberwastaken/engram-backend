@@ -2076,19 +2076,29 @@
     "StudyX_SX_End_Sem_DAA.pdf",
     "StudyX_SX_Unit_4_Computational_Complexity_ada.pdf",
     "StudyX_SX_unit_2_ada.pdf",
-    "StudyX_SX_Unit_1_Hand_Written_Notes.pdf"
+    "StudyX_SX_Unit_1_Hand_Written_Notes.pdf",
+    "StudyX_SX_ADA_unit_1.pdf",
+    "StudyX_SX_Complete_Notes-All_Units.pdf",
+    "StudyX_SX_Unit_1_DAA.pdf",
+    "StudyX_SX_ADA_UNIT_3.pdf",
+    "StudyX_SX_unit_1_ada.pdf",
+    "StudyX_SX_Syllx_Akash_DAA.pdf",
+    "StudyX_SX_ADA_sessional.pdf",
+    "StudyX_Intro_to_Algo.pdf",
+    "StudyX_algorithm_design_and_analysis.pdf",
+    "StudyX_SX_ADA_End_Term_Papers.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9898,
+    "downloadedFiles": 9952,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 92634306551,
+    "downloadedSize": 93281919579,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:30:57.994Z"
+  "lastSaved": "2025-06-29T05:31:25.095Z"
 }
