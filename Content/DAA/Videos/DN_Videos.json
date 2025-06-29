@@ -1,1 +1,37 @@
-<!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv="content-type" content="text/html; charset=utf-8"/><style nonce="VL8i9t--mgn7sV5SdSj3Pg">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:0}.grecaptcha-badge{visibility:hidden}.uc-main{padding-top:50px;text-align:center}#uc-dl-icon{display:inline-block;margin-top:16px;padding-right:1em;vertical-align:top}#uc-text{display:inline-block;max-width:68ex;text-align:left}.uc-error-caption,.uc-warning-caption{color:#222;font-size:16px}#uc-download-link{text-decoration:none}.uc-name-size a{color:#15c;text-decoration:none}.uc-name-size a:visited{color:#61c;text-decoration:none}.uc-name-size a:active{color:#d14836;text-decoration:none}.uc-footer{color:#777;font-size:11px;padding-bottom:5ex;padding-top:5ex;text-align:center}.uc-footer a{color:#15c}.uc-footer a:visited{color:#61c}.uc-footer a:active{color:#d14836}.uc-footer-divider{color:#ccc;width:100%}.goog-inline-block{position:relative;display:-moz-inline-box;display:inline-block}* html .goog-inline-block{display:inline}*:first-child+html .goog-inline-block{display:inline}sentinel{}</style><link rel="icon" href="//ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"/></head><body><div class="uc-main"><div id="uc-text"><p class="uc-error-caption">Sorry, you can&#39;t view or download this file at this time.</p><p class="uc-error-subcaption">Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.</p></div></div><div class="uc-footer"><hr class="uc-footer-divider"></div></body></html>
+[
+    {
+        "title": "DAA Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/GQNT0v5zKhE?si=AHX7BJHX1V5ZtmEf",
+        "playlistUrl": "https://www.youtube.com/watch?v=GQNT0v5zKhE&list=PLmTfHZlm2zKjgmOFB9MuwQHZ2hMZ61_dx",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GQNT0v5zKhE/hqdefault.jpg?"
+    },
+    {
+        "title": "DAA Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/JxmwHAGcuxk?si=jfPm6Po0UENc8EhS",
+        "playlistUrl": "https://www.youtube.com/watch?v=JxmwHAGcuxk&list=PLmTfHZlm2zKi4bzPyHxGGdEkZpb7uKZ4_",
+        "thumbnailUrl": "https://i.ytimg.com/vi/JxmwHAGcuxk/hqdefault.jpg?"
+    },
+    {
+        "title": "DAA Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=bpV6YMs2ZVJf6-5n&amp;list=PLmTfHZlm2zKj-yS5Dzfb8_BrBZWUsILwY",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKj-yS5Dzfb8_BrBZWUsILwY&si=Ra2jTpF-0K8Sv48i",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0BhhiQGDbEA/hqdefault.jpg?"
+    },
+    {
+        "title": "DAA Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=OBk4OqOuTgwivmmZ&amp;list=PLmTfHZlm2zKiLv98Qv5UMhGHo4cQUk6cp",
+        "playlistUrl": "https://youtube.com/playlist?list=PLmTfHZlm2zKiLv98Qv5UMhGHo4cQUk6cp&si=H3f8OMKx1KdHaOxU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/bYE72EDNtNg/hqdefault.jpg?"
+    },
+    {
+        "title": "Complete DAA Design and Analysis of Algorithm in one shot",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/z6DY_YSdyww?si=B3YOIaeWG3hpWI1k",
+        "playlistUrl": "https://www.youtube.com/watch?v=z6DY_YSdyww&list=PLmTfHZlm2zKj2tULznRAo542tLk4xMngs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/z6DY_YSdyww/hqdefault.jpg?"
+    }
+]
