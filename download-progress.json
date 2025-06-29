@@ -749,19 +749,43 @@
     "Dotnotes_DN_DBMS_AIDS___AIML.pdf",
     "Dotnotes_DN_DBMS_Mid_Sem.pdf",
     "Dotnotes_DN_DBMS_Papers.pdf",
-    "Dotnotes_DN_Mid_Term_Exam_DBMS__May_2023-1.pdf"
+    "Dotnotes_DN_Mid_Term_Exam_DBMS__May_2023-1.pdf",
+    "Dotnotes_DN_DBMS_COMPLETE_NOTES.pdf",
+    "Dotnotes_Database_system_concepts_by_Korth.pdf",
+    "Dotnotes_Raghu_Ramakrishnan.pdf",
+    "Dotnotes_DBMS_Akash.pdf",
+    "Dotnotes_DN_DBMS-4.json",
+    "Dotnotes_DN_CD_Full_Syllabus.pdf",
+    "Dotnotes_DN_CD_Unit_-_1.pdf",
+    "Dotnotes_DN_CD_Notes_Shivangi.pdf",
+    "Dotnotes_DN_CD_Unit_1-2.pdf",
+    "Dotnotes_DN_CD_Unit_-_1__II_.pdf",
+    "Dotnotes_DN_IMP_Questions_Unit_-_1_CD.pdf",
+    "Dotnotes_DN_Unit_-_1_CD.pdf",
+    "Dotnotes_DN_CD_Unit_3-4.pdf",
+    "Dotnotes_DN_End_Sem_CD.pdf",
+    "Dotnotes_DN_Akash_CD.pdf",
+    "Dotnotes_DN_CD_Question_Papers.pdf",
+    "Dotnotes_DN_CD_Sessional.pdf",
+    "Dotnotes_DN_Compiler_Design_Jan2024.pdf",
+    "Dotnotes_cd_lab.pdf",
+    "Dotnotes_DN_CD-5.json",
+    "Dotnotes_Modern_Compiler_Design_2e.pdf",
+    "Dotnotes_cd-aakash.pdf",
+    "Dotnotes_DN_OS_Notes_Shivangi.pdf",
+    "Dotnotes_DN_OS_Complete_Notes__Revision_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6001,
+    "downloadedFiles": 6051,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 55749498455,
+    "downloadedSize": 56103156362,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:48:09.071Z"
+  "lastSaved": "2025-06-29T04:48:42.231Z"
 }

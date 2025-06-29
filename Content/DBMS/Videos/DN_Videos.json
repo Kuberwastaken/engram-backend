@@ -1,1 +1,30 @@
-<!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv="content-type" content="text/html; charset=utf-8"/><style nonce="Y2bWCUSJjiIWBnKvDPRC3w">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:0}.grecaptcha-badge{visibility:hidden}.uc-main{padding-top:50px;text-align:center}#uc-dl-icon{display:inline-block;margin-top:16px;padding-right:1em;vertical-align:top}#uc-text{display:inline-block;max-width:68ex;text-align:left}.uc-error-caption,.uc-warning-caption{color:#222;font-size:16px}#uc-download-link{text-decoration:none}.uc-name-size a{color:#15c;text-decoration:none}.uc-name-size a:visited{color:#61c;text-decoration:none}.uc-name-size a:active{color:#d14836;text-decoration:none}.uc-footer{color:#777;font-size:11px;padding-bottom:5ex;padding-top:5ex;text-align:center}.uc-footer a{color:#15c}.uc-footer a:visited{color:#61c}.uc-footer a:active{color:#d14836}.uc-footer-divider{color:#ccc;width:100%}.goog-inline-block{position:relative;display:-moz-inline-box;display:inline-block}* html .goog-inline-block{display:inline}*:first-child+html .goog-inline-block{display:inline}sentinel{}</style><link rel="icon" href="//ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"/></head><body><div class="uc-main"><div id="uc-text"><p class="uc-error-caption">Sorry, you can&#39;t view or download this file at this time.</p><p class="uc-error-subcaption">Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.</p></div></div><div class="uc-footer"><hr class="uc-footer-divider"></div></body></html>
+[
+    {
+        "title": "DBMS Unit-1",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=_JOv94YOlXkw8p7c&amp;list=PLmTfHZlm2zKju4CU1r7AQRxGOSKPfFHYf",
+        "playlistUrl": "https://www.youtube.com/watch?v=c6o1X3AIIb0&list=PLmTfHZlm2zKju4CU1r7AQRxGOSKPfFHYf",
+        "thumbnailUrl": "https://i.ytimg.com/vi/c6o1X3AIIb0/hqdefault.jpg?"
+    },
+    {
+        "title": "DBMS Unit-2",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=xiUkdr40FQ8b9MyJ&amp;list=PLmTfHZlm2zKiZqRZGPbBrzUFi9ze9kCIc",
+        "playlistUrl": "https://www.youtube.com/watch?v=Q45sr5p_NmQ&list=PLmTfHZlm2zKiZqRZGPbBrzUFi9ze9kCIc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Q45sr5p_NmQ/hqdefault.jpg?"
+    },
+    {
+        "title": "DBMS Unit-3",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=EEmgAJ2LdUoHK9zO&amp;list=PLmTfHZlm2zKi7Fw57Q59I6ScyghgsqqpK",
+        "playlistUrl": "https://www.youtube.com/watch?v=t5hsV9lC1rU&list=PLmTfHZlm2zKi7Fw57Q59I6ScyghgsqqpK",
+        "thumbnailUrl": "https://i.ytimg.com/vi/t5hsV9lC1rU/hqdefault.jpg?"
+    },
+    {
+        "title": "DBMS Unit-4",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=YHl0pxNmN_Rhb8CM&amp;list=PLmTfHZlm2zKjEkn6EDwmIAFBBGqVsc_wF",
+        "playlistUrl": "https://www.youtube.com/watch?v=blTkMaz3SYM&list=PLmTfHZlm2zKjEkn6EDwmIAFBBGqVsc_wF",
+        "thumbnailUrl": "https://i.ytimg.com/vi/blTkMaz3SYM/hqdefault.jpg?"
+    }
+]
