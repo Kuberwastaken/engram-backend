@@ -45,19 +45,22 @@
     "Dotnotes_chemistry_viva.pdf",
     "Dotnotes_Applied_Chemistry_Practical.pdf",
     "Dotnotes_chem_aakash_2022.pdf",
-    "Dotnotes_Engineering_Chemistry_by_Jain_and_Jain.pdf"
+    "Dotnotes_Engineering_Chemistry_by_Jain_and_Jain.pdf",
+    "Dotnotes_Engineering_Chemistry_by_Shikha_Aggarwal.pdf",
+    "Dotnotes_DN_APC-1.json",
+    "Dotnotes_DN_Videos.json"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 638,
+    "downloadedFiles": 707,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 5664994091,
+    "downloadedSize": 7496331958,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T03:52:55.204Z"
+  "lastSaved": "2025-06-29T03:53:31.589Z"
 }
