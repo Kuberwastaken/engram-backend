@@ -2181,19 +2181,20 @@
     "StudyX_Automate_the_Boring_Stuff_with_Python-1-168.pdf",
     "StudyX_SX_Architecture_of_WSN.pdf",
     "StudyX_SX_UNIT2.pdf",
-    "StudyX_SX_WSN_Unit_4_handwritten_Notes_____.pdf"
+    "StudyX_SX_WSN_Unit_4_handwritten_Notes_____.pdf",
+    "StudyX_SX_WSN_Unit_3_handwritten_notes_______1_.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10400,
+    "downloadedFiles": 10455,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 96568789473,
+    "downloadedSize": 96872094297,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:35:20.400Z"
+  "lastSaved": "2025-06-29T05:35:46.846Z"
 }
