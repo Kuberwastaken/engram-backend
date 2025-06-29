@@ -2214,19 +2214,27 @@
     "StudyX_SX_unit_1.pdf",
     "StudyX_SX_IoT___Applications_Digital_Notes.pdf",
     "StudyX_SX_complete_notes.pdf",
-    "StudyX_SX_gears.pdf"
+    "StudyX_SX_gears.pdf",
+    "StudyX_SX_full_syllabus_notes.pdf",
+    "StudyX_SX_2019.pdf",
+    "StudyX_SX_2014-2018.pdf",
+    "StudyX_SX_2019_solved_end_term.pdf",
+    "StudyX_RS_KHUMI.pdf",
+    "StudyX_SX_mid_sem.pdf",
+    "StudyX_SX_RLDL_End_Sem.pdf",
+    "StudyX_SX_PRCV_End_Sem.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 10600,
+    "downloadedFiles": 10651,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 98450788371,
+    "downloadedSize": 98856050316,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:37:05.329Z"
+  "lastSaved": "2025-06-29T05:37:31.458Z"
 }
