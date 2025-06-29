@@ -1895,19 +1895,42 @@
     "StudyX_SX_Introduction.pdf",
     "StudyX_SX_Types_of_writing.pdf",
     "StudyX_SX_Unit-1_II.pdf",
-    "StudyX_SX_Unit-1.pdf"
+    "StudyX_SX_Unit-1.pdf",
+    "StudyX_SX_Savitch_Theorem.pdf",
+    "StudyX_SX_Cook_Theorem.pdf",
+    "StudyX_SX_Complex_theory__P_class_and_NP_class.pdf",
+    "StudyX_SX_TOC_Youtube_Playlists.pdf",
+    "StudyX_SX_Ambiguous_grammar__1_.pdf",
+    "StudyX_SX_toc_unit-3_4_.pdf",
+    "StudyX_SX_CFG_INTRODUCTION_PROBLEM.pdf",
+    "StudyX_SX_Chomsky_Normal_Form.pdf",
+    "StudyX_SX_context_free_grammar.pdf",
+    "StudyX_SX_Greibach_normal_form.pdf",
+    "StudyX_SX_LMD__RMD_EXAMPLES.pdf",
+    "StudyX_SX_pumping_lemma.pdf",
+    "StudyX_SX_Simplification_of_grammar.pdf",
+    "StudyX_SX_unit-2_TOC_.pdf",
+    "StudyX_SX_Unit-1_TOC_.pdf",
+    "StudyX_SX_Turing_machine.pdf",
+    "StudyX_SX_Automata_3.pdf",
+    "StudyX_SX_Automata_1.pdf",
+    "StudyX_SX_ToC_Unit-1.pdf",
+    "StudyX_SX_Automata_2.pdf",
+    "StudyX_SX_ToC_Unit-_1___2.pdf",
+    "StudyX_SX_TOC_notes.pdf",
+    "StudyX_SX_toc_unit_2.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9055,
+    "downloadedFiles": 9101,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 83393876335,
+    "downloadedSize": 83530993953,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:22:43.935Z"
+  "lastSaved": "2025-06-29T05:23:10.370Z"
 }
