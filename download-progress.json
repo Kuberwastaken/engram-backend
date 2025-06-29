@@ -2001,19 +2001,32 @@
     "StudyX_SX_Demand.PDF",
     "StudyX_SX_MICRO_N_MACRO.pdf",
     "StudyX_SX_Economics_ICE_2023.pdf",
-    "StudyX_SX_Syllx_Akash_EE.pdf"
+    "StudyX_SX_Syllx_Akash_EE.pdf",
+    "StudyX_SX_CD_unit_1_and_2.pdf",
+    "StudyX_SX_End_Sem_CD.pdf",
+    "StudyX_SX_CD_Full_Syllabus.pdf",
+    "StudyX_SX_CD_unit_3_nd_4.pdf",
+    "StudyX_SX_CD_unit-1_ii_.pdf",
+    "StudyX_SX_CD_Notes_Shivangi.pdf",
+    "StudyX_SX_CD_unit_1.pdf",
+    "StudyX_SX_Syllx_Akash_CD.pdf",
+    "StudyX_SX_CD_sessional.pdf",
+    "StudyX_SX_cd_question_papers.pdf",
+    "StudyX_Modern_Compiler_Design_2e.pdf",
+    "StudyX_cd_lab.pdf",
+    "StudyX_CD-File_-_Yash_Pandey.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9601,
+    "downloadedFiles": 9653,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 90586792675,
+    "downloadedSize": 90988589929,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:28:17.606Z"
+  "lastSaved": "2025-06-29T05:28:46.649Z"
 }
