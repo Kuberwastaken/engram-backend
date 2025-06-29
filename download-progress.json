@@ -162,19 +162,24 @@
     "Dotnotes_bvcoe_file_.pdf",
     "Dotnotes_handwritten_file_.pdf",
     "Dotnotes_Physics_I_Lab_file.pdf",
-    "Dotnotes_sem1phyfile.pdf"
+    "Dotnotes_sem1phyfile.pdf",
+    "Dotnotes_old_akash_.pdf",
+    "Dotnotes_Physics_Akash_new.pdf",
+    "Dotnotes_AP_Book..pdf",
+    "Dotnotes_DN_APP1-1.json",
+    "Dotnotes_Physics_for_Scientists_and_Engineers_by_Raymond_A._Serway_and_John_W._Jewett.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 2352,
+    "downloadedFiles": 2400,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 22234421507,
+    "downloadedSize": 22675792071,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:08:47.275Z"
+  "lastSaved": "2025-06-29T04:09:13.369Z"
 }
