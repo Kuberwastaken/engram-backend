@@ -773,19 +773,48 @@
     "Dotnotes_Modern_Compiler_Design_2e.pdf",
     "Dotnotes_cd-aakash.pdf",
     "Dotnotes_DN_OS_Notes_Shivangi.pdf",
-    "Dotnotes_DN_OS_Complete_Notes__Revision_.pdf"
+    "Dotnotes_DN_OS_Complete_Notes__Revision_.pdf",
+    "Dotnotes_DN_OS_Unit_1.pdf",
+    "Dotnotes_DN_OS_Unit_1_-__A_.pdf",
+    "Dotnotes_DN_OS_Unit_1_-__B_.pdf",
+    "Dotnotes_DN_End_Sem_OS.pdf",
+    "Dotnotes_DN_OS_Unit_1_-__C_.pdf",
+    "Dotnotes_DN_OS_Unit_2__a__Notes.pdf",
+    "Dotnotes_DN_OS_Unit_2_with_assignment.pdf",
+    "Dotnotes_DN_OS_Unit_3_with_assignment.pdf",
+    "Dotnotes_DN_OS_Unit_4_with_assignment.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH11.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH1.pdf",
+    "Dotnotes_DN_OS-Notes-final.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH10.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH12.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH13.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH14.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH17.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH15.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH16.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH18.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH19.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH2.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH3.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH5.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH4.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH6.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH8.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH9.pdf",
+    "Dotnotes_DN_Operating_System_Concepts_-_CH7.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6051,
+    "downloadedFiles": 6104,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 56103156362,
+    "downloadedSize": 56229905555,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:48:42.231Z"
+  "lastSaved": "2025-06-29T04:49:27.192Z"
 }
