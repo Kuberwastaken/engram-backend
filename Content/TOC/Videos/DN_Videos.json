@@ -1,1 +1,37 @@
-<!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv="content-type" content="text/html; charset=utf-8"/><style nonce="be_wV_EsXWQhA2O39X75Vg">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:0}.grecaptcha-badge{visibility:hidden}.uc-main{padding-top:50px;text-align:center}#uc-dl-icon{display:inline-block;margin-top:16px;padding-right:1em;vertical-align:top}#uc-text{display:inline-block;max-width:68ex;text-align:left}.uc-error-caption,.uc-warning-caption{color:#222;font-size:16px}#uc-download-link{text-decoration:none}.uc-name-size a{color:#15c;text-decoration:none}.uc-name-size a:visited{color:#61c;text-decoration:none}.uc-name-size a:active{color:#d14836;text-decoration:none}.uc-footer{color:#777;font-size:11px;padding-bottom:5ex;padding-top:5ex;text-align:center}.uc-footer a{color:#15c}.uc-footer a:visited{color:#61c}.uc-footer a:active{color:#d14836}.uc-footer-divider{color:#ccc;width:100%}.goog-inline-block{position:relative;display:-moz-inline-box;display:inline-block}* html .goog-inline-block{display:inline}*:first-child+html .goog-inline-block{display:inline}sentinel{}</style><link rel="icon" href="//ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"/></head><body><div class="uc-main"><div id="uc-text"><p class="uc-error-caption">Sorry, you can&#39;t view or download this file at this time.</p><p class="uc-error-subcaption">Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.</p></div></div><div class="uc-footer"><hr class="uc-footer-divider"></div></body></html>
+[
+    {
+        "title": "TOC Unit-1 & 2",
+        "author": "Easy Engineering Classes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=yoka6ZARjoKZKTFo&amp;list=PLV8vIYTIdSnZYVUJ6duL_ulTsmVQmmd74",
+        "playlistUrl": "https://www.youtube.com/watch?v=iD6u_2iNnu0&list=PLV8vIYTIdSnZYVUJ6duL_ulTsmVQmmd74",
+        "thumbnailUrl": "https://img.youtube.com/vi/iD6u_2iNnu0/hqdefault.jpg"
+    },
+    {
+        "title": "Toc Turing Machine Unit-3",
+        "author": "yash mittal",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=VQ-NQ7plfJmB0chZ&amp;list=PLuxbVTyacWctxS5dOznDKND1F6nepuhHn",
+        "playlistUrl": "https://www.youtube.com/watch?v=PvLaPKPzq2I&list=PLuxbVTyacWctxS5dOznDKND1F6nepuhHn",
+        "thumbnailUrl": "https://img.youtube.com/vi/PvLaPKPzq2I/hqdefault.jpg"
+    },
+    {
+        "title": "TOC UNIT-4 Complexity Theory",
+        "author": "Dotnotes",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=Ie7vUTrLImZh_gLg&amp;list=PLmTfHZlm2zKhUYkDNFFjgot0k8kvPb6i7",
+        "playlistUrl": "https://www.youtube.com/watch?v=0yHYbz-Hec8&list=PLmTfHZlm2zKhUYkDNFFjgot0k8kvPb6i7",
+        "thumbnailUrl": "https://img.youtube.com/vi/0yHYbz-Hec8/hqdefault.jpg"
+    },
+    {
+        "title": "Complete TOC Theory of Computation in one shot",
+        "author": "KnowledgeGATE by Sanchit Sir",
+        "embedUrl": "https://www.youtube.com/embed/9kuynHcM3UA?si=RQn90DmYwGhFQ1FO",
+        "playlistUrl": "https://www.youtube.com/watch?v=9kuynHcM3UA",
+        "thumbnailUrl": "https://img.youtube.com/vi/9kuynHcM3UA/hqdefault.jpg"
+    },
+    {
+        "title": "TOC(Theory of Computation)",
+        "author": "Gate Smashers",
+        "embedUrl": "https://www.youtube.com/embed/videoseries?si=MnCxHx87abrVj0Hd&amp;list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i",
+        "playlistUrl": "https://www.youtube.com/watch?v=XslI8h7cGDs&list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i",
+        "thumbnailUrl": "https://img.youtube.com/vi/XslI8h7cGDs/hqdefault.jpg"
+    }
+]

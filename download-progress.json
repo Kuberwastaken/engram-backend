@@ -640,19 +640,34 @@
     "Dotnotes_DN_TAFL_lecture_notes_till_the_class_18-04-24.pdf",
     "Dotnotes_DN_TOC_Notes.pdf",
     "Dotnotes_DN_TOC_Notes_Unit1___Unit_2.pdf",
-    "Dotnotes_DN_TAFL_Unit_-2_Notes_23-24.pdf"
+    "Dotnotes_DN_TAFL_Unit_-2_Notes_23-24.pdf",
+    "Dotnotes_DN_ToC_Unit-1.pdf",
+    "Dotnotes_DN_ToC_Unit-_1___2.pdf",
+    "Dotnotes_DN_Turing_machine.pdf",
+    "Dotnotes_DN_TOC_Notes-1.pdf",
+    "Dotnotes_DN_TOC_notes.pdf",
+    "Dotnotes_DN_Theory-of-Computation.pdf",
+    "Dotnotes_DN_Unit-1_TOC_.pdf",
+    "Dotnotes_DN_context_free_grammar.pdf",
+    "Dotnotes_DN_pumping_lemma.pdf",
+    "Dotnotes_DN_toc_unit_2.pdf",
+    "Dotnotes_DN_unit-2_TOC_.pdf",
+    "Dotnotes_DN_toc_unit-3_4_.pdf",
+    "Dotnotes_DN_tocnotes.pdf",
+    "Dotnotes_DN_TOC_Midsem_.pdf",
+    "Dotnotes_DN_TOC-4.json"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5702,
+    "downloadedFiles": 5751,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 52405728734,
+    "downloadedSize": 52853143537,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:44:02.493Z"
+  "lastSaved": "2025-06-29T04:44:41.700Z"
 }
