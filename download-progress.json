@@ -69,19 +69,21 @@
     "Dotnotes_DN_CS_4th_unit.pdf",
     "Dotnotes_DN_Writing_Skills_-_By_Archit_Jain.pdf",
     "Dotnotes_DN_Communication_Skills_Unit_1.pdf",
-    "Dotnotes_DN_Unit_1_notes.pdf"
+    "Dotnotes_DN_Unit_1_notes.pdf",
+    "Dotnotes_DN_End_sem_communication_skill.pdf",
+    "Dotnotes_DN_2nd_mid_sem_2023.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 1054,
+    "downloadedFiles": 1098,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 10984156711,
+    "downloadedSize": 11113851105,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T03:56:47.720Z"
+  "lastSaved": "2025-06-29T03:57:18.641Z"
 }
