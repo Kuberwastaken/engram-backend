@@ -535,19 +535,43 @@
     "Dotnotes_DN_after_Tokens_Unit_1.pdf",
     "Dotnotes_DN_Unit_3_-_Containership.pdf",
     "Dotnotes_DN_Unit_1__2.pdf",
-    "Dotnotes_DN_overloading.pdf"
+    "Dotnotes_DN_overloading.pdf",
+    "Dotnotes_DN_End_Term_April_2016.pdf",
+    "Dotnotes_DN_End_Term_Feb_2023.pdf",
+    "Dotnotes_DN_End_Term_Dec_2016.pdf",
+    "Dotnotes_DN_End_Term_June_2016.pdf",
+    "Dotnotes_DN_End_Term_May_2017.pdf",
+    "Dotnotes_DN_End_Term_May_2018.pdf",
+    "Dotnotes_DN_OOPS_End_Term_2024.pdf",
+    "Dotnotes_DN_End_Term_Dec_2017.pdf",
+    "Dotnotes_DN_Oops_mid_sem_2.pdf",
+    "Dotnotes_DN_oops_mid_sem_1_2023.pdf",
+    "Dotnotes_oops_aakash.pdf",
+    "Dotnotes_DN_OOPS-3.json",
+    "Dotnotes_OOP-Balagurusamy.pdf",
+    "Dotnotes_ObjectOrientedProgramminginC4thEdition.pdf",
+    "Dotnotes_DN_Computer_Organization_and_Architecture.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_2.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_1_-_1.pdf",
+    "Dotnotes_DN_Boolean_Algebra__Logic_gates.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_2_-_0.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_3_-_2.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_4.pdf",
+    "Dotnotes_DN_Encoder_and_Decoder.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_1_-_0.pdf",
+    "Dotnotes_DN_DLCD_-_Unit_3_-_1.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5452,
+    "downloadedFiles": 5501,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 49960465272,
+    "downloadedSize": 50329695507,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:40:03.578Z"
+  "lastSaved": "2025-06-29T04:41:04.714Z"
 }
