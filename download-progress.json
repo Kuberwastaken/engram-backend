@@ -289,19 +289,21 @@
     "Dotnotes_DN_orthogonal_trajectories_.pdf",
     "Dotnotes_DN_projection_of_lines.pdf",
     "Dotnotes_DN_projection_of_point.pdf",
-    "Dotnotes_DN_EG-1.json"
+    "Dotnotes_DN_EG-1.json",
+    "Dotnotes_EGL_I.pdf",
+    "Dotnotes_egl_viva_question.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 4107,
+    "downloadedFiles": 4156,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 38261966380,
+    "downloadedSize": 38274891571,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:24:33.881Z"
+  "lastSaved": "2025-06-29T04:24:59.750Z"
 }
