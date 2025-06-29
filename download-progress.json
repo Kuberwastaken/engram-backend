@@ -572,19 +572,31 @@
     "Dotnotes_DN_DLCD_End_Term_2024.pdf",
     "Dotnotes_DN_DLCD_mid_sem_1_2023.jpeg",
     "Dotnotes_DN_DLCD_mid_sem_2.pdf",
-    "Dotnotes_DN_Mid_Term_PYQs_22.pdf"
+    "Dotnotes_DN_Mid_Term_PYQs_22.pdf",
+    "Dotnotes_Experiment_1.pdf",
+    "Dotnotes_Experiment_2.pdf",
+    "Dotnotes_DLCD_Viva.pdf",
+    "Dotnotes_Experiment_3.pdf",
+    "Dotnotes_Experiment_4.pdf",
+    "Dotnotes_Experiment_5.pdf",
+    "Dotnotes_Experiment_6.pdf",
+    "Dotnotes_Experiment_7.pdf",
+    "Dotnotes_Experiment_8.pdf",
+    "Dotnotes_Experiment_9.pdf",
+    "Dotnotes_DN_DLCD-3.json",
+    "Dotnotes_DLCD_IPU_complete.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5556,
+    "downloadedFiles": 5597,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 50977446639,
+    "downloadedSize": 50999533644,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:41:50.687Z"
+  "lastSaved": "2025-06-29T04:42:29.528Z"
 }
