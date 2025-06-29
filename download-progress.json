@@ -199,19 +199,25 @@
     "Dotnotes_DN_vectors_2.pdf",
     "Dotnotes_DN_population_Dynamics.pdf",
     "Dotnotes_DN_vectors_1.pdf",
-    "Dotnotes_DN_skshm_full_Maths_Notes_combined_as_on_14_february_2023.pdf"
+    "Dotnotes_DN_skshm_full_Maths_Notes_combined_as_on_14_february_2023.pdf",
+    "Dotnotes_DN_MAL_I_End_sem.pdf",
+    "Dotnotes_DN_pyq.pdf",
+    "Dotnotes_DN_maths_2nd_mid_sem_2023.pdf",
+    "Dotnotes_DN_MidTerm_exam_paper_with_Solutions.pdf",
+    "Dotnotes_Maths_aakash_old.pdf",
+    "Dotnotes_Maths_Akash_s_new_2022.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 2652,
+    "downloadedFiles": 2702,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 25432942119,
+    "downloadedSize": 25739686475,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:11:31.390Z"
+  "lastSaved": "2025-06-29T04:11:58.287Z"
 }
