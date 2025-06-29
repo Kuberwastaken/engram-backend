@@ -689,19 +689,42 @@
     "Dotnotes_DN_Unit_3_-_Sampling_Theory___Hypothesis_Testing.pdf",
     "Dotnotes_DN_PSL_Practice_Questions.pdf",
     "Dotnotes_DN_PSLP_MAY_2025_END_SEM.pdf",
-    "Dotnotes_DN_Mid_Term_Exam_PSLP.pdf"
+    "Dotnotes_DN_Mid_Term_Exam_PSLP.pdf",
+    "Dotnotes_AKASH_PSLP.pdf",
+    "Dotnotes_PSL_FILE_4TH_SEM.pdf",
+    "Dotnotes_DN_PSLP-4.json",
+    "Dotnotes_DN_JAVA_Notes_UNIT-1.pdf",
+    "Dotnotes_DN_JAVA_NOTES_TILL_THREADING.pdf",
+    "Dotnotes_DN_JAVA_PROGRAMMING.pdf",
+    "Dotnotes_DN_Java_Complete_Notes_Typed.pdf",
+    "Dotnotes_DN_Java_All_Unit.pdf",
+    "Dotnotes_DN_Java_Applet.pdf",
+    "Dotnotes_DN_Java_File_Handling.pdf",
+    "Dotnotes_DN_Complete_Notes_-_All_Units_Handwritten.pdf",
+    "Dotnotes_DN_Java_Classes_and_Objects.pdf",
+    "Dotnotes_DN_Java_Multi_Threading.pdf",
+    "Dotnotes_DN_JAVA_Notes_UNIT-2.pdf",
+    "Dotnotes_DN_Java_Sockets.pdf",
+    "Dotnotes_DN_PIJ_UNIT_1_NOTES.pdf",
+    "Dotnotes_DN_Java_Notes.pdf",
+    "Dotnotes_DN_java_unit_1_and_3.pdf",
+    "Dotnotes_DN_unit_3_java.pdf",
+    "Dotnotes_DN_Unit_4_java.pdf",
+    "Dotnotes_DN_Unit1_N.pdf",
+    "Dotnotes_DN_Java_Unit-_4.pdf",
+    "Dotnotes_DN_Java_Unit_1-3.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 5851,
+    "downloadedFiles": 5901,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 54363479654,
+    "downloadedSize": 55049725222,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:46:11.762Z"
+  "lastSaved": "2025-06-29T04:46:45.508Z"
 }
