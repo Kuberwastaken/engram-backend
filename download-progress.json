@@ -881,19 +881,41 @@
     "Dotnotes_DN_Abhishek_Jha_CN_Notes.pdf",
     "Dotnotes_DN_CN_Unit_-_2_Data_Link_Layer.pdf",
     "Dotnotes_DN_Datalink_Layer.pdf",
-    "Dotnotes_DN_HDLC_PPP.pdf"
+    "Dotnotes_DN_HDLC_PPP.pdf",
+    "Dotnotes_DN_IEEE_standard_802.3__802.11.pdf",
+    "Dotnotes_DN_CN_Lecture_Notes.pdf",
+    "Dotnotes_DN_End_Sem_CN.pdf",
+    "Dotnotes_DN_Switching_Theory.pdf",
+    "Dotnotes_DN_Token_ring_bus_and_FDDI.pdf",
+    "Dotnotes_DN_Unit_-_3_Network_Layer.pdf",
+    "Dotnotes_DN_Unit_-_4_Transport_Layer.pdf",
+    "Dotnotes_DN_cn_notes_part_2.pdf",
+    "Dotnotes_DN_cn-1.pdf",
+    "Dotnotes_DN_error_detection_and_correction_codes.pdf",
+    "Dotnotes_DN_data_link_layer_protocols.pdf",
+    "Dotnotes_DN_medium_access_sublayer.pdf",
+    "Dotnotes_DN_network_devices.pdf",
+    "Dotnotes_DN_msg_switching___unit_2_part_1.pdf",
+    "Dotnotes_DN_network_layer.pdf",
+    "Dotnotes_DN_networking_devices.pdf",
+    "Dotnotes_DN_transport_layer.pdf",
+    "Dotnotes_DN_computer-network-notes__1_.pdf",
+    "Dotnotes_DN_switching.pdf",
+    "Dotnotes_DN_unit_1_part_3.pdf",
+    "Dotnotes_DN_unit2.pdf",
+    "Dotnotes_DN_unit_2_part_1.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 6304,
+    "downloadedFiles": 6354,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 57642789110,
+    "downloadedSize": 57854899474,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T04:51:38.492Z"
+  "lastSaved": "2025-06-29T04:52:18.607Z"
 }
