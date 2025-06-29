@@ -1920,19 +1920,35 @@
     "StudyX_SX_TOC_notes.pdf",
     "StudyX_SX_toc_unit_2.pdf",
     "StudyX_SX_TOC_Notes-1.pdf",
-    "StudyX_SX_tocnotes.pdf"
+    "StudyX_SX_tocnotes.pdf",
+    "StudyX_SX_CNS_Youtube_Playlists.pdf",
+    "StudyX_SX_TOC_Akash.pdf",
+    "StudyX_SX_C_S_Notes.pdf",
+    "StudyX_SX_Laplace_part_1.pdf",
+    "StudyX_SX_circuits_and_systems.pdf",
+    "StudyX_SX_classical_or_transient_method.pdf",
+    "StudyX_SX_CS_Important_Topics.pdf",
+    "StudyX_SX_C_S_Chp4_8.pdf",
+    "StudyX_SX_Lr_3_C_S.pdf",
+    "StudyX_SX_C_S_Chp9.pdf",
+    "StudyX_SX_C_S_Unit_3_4.pdf",
+    "StudyX_SX_laplace_part_2.pdf",
+    "StudyX_SX_C_S_Chp10.pdf",
+    "StudyX_SX_LR_10__11_C_S.pdf",
+    "StudyX_SX_LR_2_C_S.pdf",
+    "StudyX_SX_Lec_1_C_S.pdf"
   ],
   "stats": {
     "totalFiles": 10780,
-    "downloadedFiles": 9149,
+    "downloadedFiles": 9200,
     "skippedFiles": 0,
     "errorFiles": 1,
     "pausedForErrors": 0,
     "startTime": "2025-06-29T03:47:04.198Z",
-    "downloadedSize": 83995794104,
+    "downloadedSize": 84890650346,
     "errors": [
       "FFT_PYQ: Request failed with status code 404"
     ]
   },
-  "lastSaved": "2025-06-29T05:23:36.597Z"
+  "lastSaved": "2025-06-29T05:24:13.343Z"
 }
